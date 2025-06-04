@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="mixed__signal__source__pydoc__template_8h" kind="file" language="C++">
+    <compoundname>mixed_signal_source_pydoc_template.h</compoundname>
+    <includes refid="pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>mixed_signal_source_pydoc_template.h</label>
+        <link refid="mixed__signal__source__pydoc__template_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="mixed__signal__source__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,m2k, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" line="10" column="10" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="mixed__signal__source__pydoc__template_8h_1a480069cba5814851cc1fa14cd09eeac1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_mixed_signal_source</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_mixed_signal_source</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" line="19" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mixed__signal__source__pydoc__template_8h_1aa755ffb810b889db9b1106b55dcf8b2b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_mixed_signal_source_mixed_signal_source_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_mixed_signal_source_mixed_signal_source_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" line="22" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mixed__signal__source__pydoc__template_8h_1a0e57550f44f69774d70539af7f41a072" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_mixed_signal_source_mixed_signal_source_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_mixed_signal_source_mixed_signal_source_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" line="25" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mixed__signal__source__pydoc__template_8h_1a5551b2f86cf2e09921cd749a4d3e0e5c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_mixed_signal_source_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_mixed_signal_source_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" line="28" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mixed__signal__source__pydoc__template_8h_1a83b1df1e8e6e818b919594149ee661e0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_mixed_signal_source_make_from</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_mixed_signal_source_make_from</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" line="31" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mixed__signal__source__pydoc__template_8h_1a8de1799d332b08ad5d54abe9f9e37cac" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_mixed_signal_source_set_timeout_ms</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_mixed_signal_source_set_timeout_ms</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" line="34" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mixed__signal__source__pydoc__template_8h_1ac93b3b28f288f4328440f405922f5c09" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_mixed_signal_source_set_data_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_mixed_signal_source_set_data_rate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" line="37" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mixed__signal__source__pydoc__template_8h_1a942799a16960d047209552309a32608f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_mixed_signal_source_set_buffer_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_mixed_signal_source_set_buffer_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" line="40" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/mixed_signal_source_pydoc_template.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1scopy_1_1trapezoidal__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::scopy::trapezoidal_impl</compoundname>
+    <basecompoundref refid="classgr_1_1scopy_1_1trapezoidal" prot="public" virt="non-virtual">gr::scopy::trapezoidal</basecompoundref>
+    <includes refid="trapezoidal__impl_8h" local="no">trapezoidal_impl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1scopy_1_1trapezoidal__impl_1ab052cb25f340c2d8469d6833968c4dd2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::scopy::trapezoidal_impl::d_sampling_freq</definition>
+        <argsstring></argsstring>
+        <name>d_sampling_freq</name>
+        <qualifiedname>gr::scopy::trapezoidal_impl::d_sampling_freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" line="38" column="7" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1scopy_1_1trapezoidal__impl_1abaf21857fcf0923a9b456d6c0344bb22" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::scopy::trapezoidal_impl::d_frequency</definition>
+        <argsstring></argsstring>
+        <name>d_frequency</name>
+        <qualifiedname>gr::scopy::trapezoidal_impl::d_frequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" line="39" column="7" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1scopy_1_1trapezoidal__impl_1a41e9b7f01177d2cb6fd7744dca89b9cd" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::scopy::trapezoidal_impl::d_ampl</definition>
+        <argsstring></argsstring>
+        <name>d_ampl</name>
+        <qualifiedname>gr::scopy::trapezoidal_impl::d_ampl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" line="40" column="8" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1scopy_1_1trapezoidal__impl_1aad90a1b1261db2402b2e832395ab13f3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::scopy::trapezoidal_impl::d_offset</definition>
+        <argsstring></argsstring>
+        <name>d_offset</name>
+        <qualifiedname>gr::scopy::trapezoidal_impl::d_offset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" line="41" column="8" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1scopy_1_1trapezoidal__impl_1a1d55b7181e47bd44a30fba048313a956" prot="public" static="no" mutable="no">
+        <type>gr::fxpt_nco</type>
+        <definition>gr::fxpt_nco gr::scopy::trapezoidal_impl::d_nco</definition>
+        <argsstring></argsstring>
+        <name>d_nco</name>
+        <qualifiedname>gr::scopy::trapezoidal_impl::d_nco</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" line="42" column="14" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1scopy_1_1trapezoidal__impl_1a87f2e987d53aeca18b8402f9ace7756b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::scopy::trapezoidal_impl::d_phase</definition>
+        <argsstring></argsstring>
+        <name>d_phase</name>
+        <qualifiedname>gr::scopy::trapezoidal_impl::d_phase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" line="43" column="8" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1scopy_1_1trapezoidal__impl_1a466bcabc5c06f35bba9686558448b90f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::scopy::trapezoidal_impl::d_rise</definition>
+        <argsstring></argsstring>
+        <name>d_rise</name>
+        <qualifiedname>gr::scopy::trapezoidal_impl::d_rise</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" line="44" column="8" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1scopy_1_1trapezoidal__impl_1a6e9de7fa7e1047547c9a8b2e77fd5b97" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::scopy::trapezoidal_impl::d_fall</definition>
+        <argsstring></argsstring>
+        <name>d_fall</name>
+        <qualifiedname>gr::scopy::trapezoidal_impl::d_fall</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" line="45" column="8" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1scopy_1_1trapezoidal__impl_1ac860a8c4c290b1a2e8ce129806354585" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::scopy::trapezoidal_impl::d_holdhigh</definition>
+        <argsstring></argsstring>
+        <name>d_holdhigh</name>
+        <qualifiedname>gr::scopy::trapezoidal_impl::d_holdhigh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" line="46" column="8" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1scopy_1_1trapezoidal__impl_1acdd89d7a05ef2fff311ed3dccdee73aa" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::scopy::trapezoidal_impl::d_holdlow</definition>
+        <argsstring></argsstring>
+        <name>d_holdlow</name>
+        <qualifiedname>gr::scopy::trapezoidal_impl::d_holdlow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" line="47" column="8" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1scopy_1_1trapezoidal__impl_1a3a456a3eecf1b022385399d893ef3056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::scopy::trapezoidal_impl::trapezoidal_impl</definition>
+        <argsstring>(double sampling_freq, double wave_freq, double ampl, double rise, double holdhigh, double fall, double holdlow, float offset, double phase)</argsstring>
+        <name>trapezoidal_impl</name>
+        <qualifiedname>gr::scopy::trapezoidal_impl::trapezoidal_impl</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>sampling_freq</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>wave_freq</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ampl</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rise</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>holdhigh</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fall</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>holdlow</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>phase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" line="35" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1scopy_1_1trapezoidal__impl_1aa958ba3be680949b0046a0b8683da189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::scopy::trapezoidal_impl::~trapezoidal_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~trapezoidal_impl</name>
+        <qualifiedname>gr::scopy::trapezoidal_impl::~trapezoidal_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" line="36" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1scopy_1_1trapezoidal__impl_1a3f270bdd5ac1cc9d4726672167f0492c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::scopy::trapezoidal_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::scopy::trapezoidal_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" line="51" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::scopy::trapezoidal</label>
+        <link refid="classgr_1_1scopy_1_1trapezoidal"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::scopy::trapezoidal_impl</label>
+        <link refid="classgr_1_1scopy_1_1trapezoidal__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::scopy::trapezoidal</label>
+        <link refid="classgr_1_1scopy_1_1trapezoidal"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::scopy::trapezoidal_impl</label>
+        <link refid="classgr_1_1scopy_1_1trapezoidal__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" line="29" column="5" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/trapezoidal_impl.h" bodystart="30" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1a41e9b7f01177d2cb6fd7744dca89b9cd" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>d_ampl</name></member>
+      <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1a6e9de7fa7e1047547c9a8b2e77fd5b97" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>d_fall</name></member>
+      <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1abaf21857fcf0923a9b456d6c0344bb22" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>d_frequency</name></member>
+      <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1ac860a8c4c290b1a2e8ce129806354585" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>d_holdhigh</name></member>
+      <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1acdd89d7a05ef2fff311ed3dccdee73aa" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>d_holdlow</name></member>
+      <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1a1d55b7181e47bd44a30fba048313a956" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>d_nco</name></member>
+      <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1aad90a1b1261db2402b2e832395ab13f3" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>d_offset</name></member>
+      <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1a87f2e987d53aeca18b8402f9ace7756b" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>d_phase</name></member>
+      <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1a466bcabc5c06f35bba9686558448b90f" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>d_rise</name></member>
+      <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1ab052cb25f340c2d8469d6833968c4dd2" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>d_sampling_freq</name></member>
+      <member refid="classgr_1_1scopy_1_1trapezoidal_1ac361e395b1a54249c431e27672395cb8" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1scopy_1_1trapezoidal_1a6f109def888022f98c1e9a574c15b8c0" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1a3a456a3eecf1b022385399d893ef3056" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>trapezoidal_impl</name></member>
+      <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1a3f270bdd5ac1cc9d4726672167f0492c" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1aa958ba3be680949b0046a0b8683da189" prot="public" virt="non-virtual"><scope>gr::scopy::trapezoidal_impl</scope><name>~trapezoidal_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

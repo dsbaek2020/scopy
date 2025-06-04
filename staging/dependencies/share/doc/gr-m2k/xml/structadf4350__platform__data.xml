@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structadf4350__platform__data" kind="struct" language="C++" prot="public">
+    <compoundname>adf4350_platform_data</compoundname>
+    <includes refid="adf4350_8h" local="no">adf4350.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structadf4350__platform__data_1aebaf0b913a88b3248d9e012c099b2c3c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t adf4350_platform_data::clkin</definition>
+        <argsstring></argsstring>
+        <name>clkin</name>
+        <qualifiedname>adf4350_platform_data::clkin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="133" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structadf4350__platform__data_1a40c1e9abb91d1bc12a6315f751f93786" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t adf4350_platform_data::channel_spacing</definition>
+        <argsstring></argsstring>
+        <name>channel_spacing</name>
+        <qualifiedname>adf4350_platform_data::channel_spacing</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="134" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structadf4350__platform__data_1a2f187beedeae94f468481f8f44ca6441" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t adf4350_platform_data::power_up_frequency</definition>
+        <argsstring></argsstring>
+        <name>power_up_frequency</name>
+        <qualifiedname>adf4350_platform_data::power_up_frequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="135" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structadf4350__platform__data_1a29706b933ac0520c92cf8a9ffa070393" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t adf4350_platform_data::ref_div_factor</definition>
+        <argsstring></argsstring>
+        <name>ref_div_factor</name>
+        <qualifiedname>adf4350_platform_data::ref_div_factor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="137" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structadf4350__platform__data_1a9c19b73adfda85beefb59f0c2ffca788" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t adf4350_platform_data::ref_doubler_en</definition>
+        <argsstring></argsstring>
+        <name>ref_doubler_en</name>
+        <qualifiedname>adf4350_platform_data::ref_doubler_en</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="138" column="12" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structadf4350__platform__data_1aed6ad8fe5a2473b095f355e4d9c30adf" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t adf4350_platform_data::ref_div2_en</definition>
+        <argsstring></argsstring>
+        <name>ref_div2_en</name>
+        <qualifiedname>adf4350_platform_data::ref_div2_en</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="139" column="12" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structadf4350__platform__data_1a0790fe3f0929ca48401cbf0285dd5005" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t adf4350_platform_data::r2_user_settings</definition>
+        <argsstring></argsstring>
+        <name>r2_user_settings</name>
+        <qualifiedname>adf4350_platform_data::r2_user_settings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="141" column="13" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structadf4350__platform__data_1a0d1184ffe39a998c95cca109680ebf44" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t adf4350_platform_data::r3_user_settings</definition>
+        <argsstring></argsstring>
+        <name>r3_user_settings</name>
+        <qualifiedname>adf4350_platform_data::r3_user_settings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="142" column="13" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structadf4350__platform__data_1a44975489fd577a97bc73d878a57d36cf" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t adf4350_platform_data::r4_user_settings</definition>
+        <argsstring></argsstring>
+        <name>r4_user_settings</name>
+        <qualifiedname>adf4350_platform_data::r4_user_settings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="143" column="13" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structadf4350__platform__data_1af1ddc509235d12db895c25c47c66f1f3" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t adf4350_platform_data::gpio_lock_detect</definition>
+        <argsstring></argsstring>
+        <name>gpio_lock_detect</name>
+        <qualifiedname>adf4350_platform_data::gpio_lock_detect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="144" column="12" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="132" column="1" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="132" bodyend="145"/>
+    <listofallmembers>
+      <member refid="structadf4350__platform__data_1a40c1e9abb91d1bc12a6315f751f93786" prot="public" virt="non-virtual"><scope>adf4350_platform_data</scope><name>channel_spacing</name></member>
+      <member refid="structadf4350__platform__data_1aebaf0b913a88b3248d9e012c099b2c3c" prot="public" virt="non-virtual"><scope>adf4350_platform_data</scope><name>clkin</name></member>
+      <member refid="structadf4350__platform__data_1af1ddc509235d12db895c25c47c66f1f3" prot="public" virt="non-virtual"><scope>adf4350_platform_data</scope><name>gpio_lock_detect</name></member>
+      <member refid="structadf4350__platform__data_1a2f187beedeae94f468481f8f44ca6441" prot="public" virt="non-virtual"><scope>adf4350_platform_data</scope><name>power_up_frequency</name></member>
+      <member refid="structadf4350__platform__data_1a0790fe3f0929ca48401cbf0285dd5005" prot="public" virt="non-virtual"><scope>adf4350_platform_data</scope><name>r2_user_settings</name></member>
+      <member refid="structadf4350__platform__data_1a0d1184ffe39a998c95cca109680ebf44" prot="public" virt="non-virtual"><scope>adf4350_platform_data</scope><name>r3_user_settings</name></member>
+      <member refid="structadf4350__platform__data_1a44975489fd577a97bc73d878a57d36cf" prot="public" virt="non-virtual"><scope>adf4350_platform_data</scope><name>r4_user_settings</name></member>
+      <member refid="structadf4350__platform__data_1aed6ad8fe5a2473b095f355e4d9c30adf" prot="public" virt="non-virtual"><scope>adf4350_platform_data</scope><name>ref_div2_en</name></member>
+      <member refid="structadf4350__platform__data_1a29706b933ac0520c92cf8a9ffa070393" prot="public" virt="non-virtual"><scope>adf4350_platform_data</scope><name>ref_div_factor</name></member>
+      <member refid="structadf4350__platform__data_1a9c19b73adfda85beefb59f0c2ffca788" prot="public" virt="non-virtual"><scope>adf4350_platform_data</scope><name>ref_doubler_en</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

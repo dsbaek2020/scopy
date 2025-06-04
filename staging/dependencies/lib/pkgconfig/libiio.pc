@@ -1,0 +1,12 @@
+prefix=/Users/baegdaeseong/scopy/staging/dependencies
+exec_prefix=${prefix}
+libdir=/Users/baegdaeseong/scopy/staging/dependencies/lib
+includedir=/Users/baegdaeseong/scopy/staging/dependencies/include
+
+Name: libiio
+Description: Library for interfacing IIO devices
+Version: 0.24
+
+Requires:
+Libs: -L${libdir} -liio
+Cflags: -I${includedir}

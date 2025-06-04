@@ -1,0 +1,853 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="adf4350_8h" kind="file" language="C++">
+    <compoundname>adf4350.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes refid="spi_8h" local="yes">spi.h</includes>
+    <includedby refid="adf4350__sink__impl_8h" local="yes">adf4350_sink_impl.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>adf4350.h</label>
+        <link refid="adf4350_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>spi.h</label>
+        <link refid="spi_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>libm2k/tools/spi.hpp</label>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>adf4350_sink_impl.h</label>
+        <link refid="adf4350__sink__impl_8h"/>
+      </node>
+      <node id="1">
+        <label>adf4350.h</label>
+        <link refid="adf4350_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structadf4350__platform__data" prot="public">adf4350_platform_data</innerclass>
+    <innerclass refid="structadf4350__init__param" prot="public">adf4350_init_param</innerclass>
+    <innerclass refid="structadf4350__dev" prot="public">adf4350_dev</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="adf4350_8h_1a1ee0fdd15430d72af3e1b9e9f6cb6567" prot="public" static="no">
+        <name>ADF4350_RX_CHANNEL</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="54" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a7cfa99841b4d4765ec9a4bd77c5459d5" prot="public" static="no">
+        <name>ADF4350_TX_CHANNEL</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="55" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a508dbc0da8ee385d6e74b68d05feb926" prot="public" static="no">
+        <name>ADF4350_REG0</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="58" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1ab006e8347e69b44599174f5ffffd6080" prot="public" static="no">
+        <name>ADF4350_REG1</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="59" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1abc22d3a3f19513fdd3ac1364a6a0ca29" prot="public" static="no">
+        <name>ADF4350_REG2</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="60" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1ab06b1d74fcd1d3f10167b9e6a7431e92" prot="public" static="no">
+        <name>ADF4350_REG3</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="61" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a5aa6b46058bd31bedb9ff47370cbcc65" prot="public" static="no">
+        <name>ADF4350_REG4</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="62" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a4864fc6ba3607b648c7b37e9c9b6c599" prot="public" static="no">
+        <name>ADF4350_REG5</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="63" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a569c0743a251cc87ae2009d5f794875e" prot="public" static="no">
+        <name>ADF4350_REG0_FRACT</name>
+        <param><defname>x</defname></param>
+        <initializer>(((x) &amp; 0xFFF) &lt;&lt; 3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="66" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1af20e6f7a84cade971260ab8b244a1b4f" prot="public" static="no">
+        <name>ADF4350_REG0_INT</name>
+        <param><defname>x</defname></param>
+        <initializer>(((x) &amp; 0xFFFF) &lt;&lt; 15)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="67" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a03f072298cfc57e20edc76147f60380a" prot="public" static="no">
+        <name>ADF4350_REG1_MOD</name>
+        <param><defname>x</defname></param>
+        <initializer>(((x) &amp; 0xFFF) &lt;&lt; 3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="70" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a8e4fea629bed8f21043347719d2173f6" prot="public" static="no">
+        <name>ADF4350_REG1_PHASE</name>
+        <param><defname>x</defname></param>
+        <initializer>(((x) &amp; 0xFFF) &lt;&lt; 15)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="71" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a84febe1218c228098095878c0355f518" prot="public" static="no">
+        <name>ADF4350_REG1_PRESCALER</name>
+        <initializer>(1 &lt;&lt; 27)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="72" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a49b3ff0315d9160d205d3012c096801d" prot="public" static="no">
+        <name>ADF4350_REG2_COUNTER_RESET_EN</name>
+        <initializer>(1 &lt;&lt; 3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="75" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a54259c130ddc07b95db4bc2e09e10c5d" prot="public" static="no">
+        <name>ADF4350_REG2_CP_THREESTATE_EN</name>
+        <initializer>(1 &lt;&lt; 4)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="76" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a175fe3c08216203003dcc646a86b91e4" prot="public" static="no">
+        <name>ADF4350_REG2_POWER_DOWN_EN</name>
+        <initializer>(1 &lt;&lt; 5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="77" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1adecb93529beda02dba89fb947835ef9e" prot="public" static="no">
+        <name>ADF4350_REG2_PD_POLARITY_POS</name>
+        <initializer>(1 &lt;&lt; 6)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="78" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1add51434fa2902aaf5b56ce0a2aae3883" prot="public" static="no">
+        <name>ADF4350_REG2_LDP_6ns</name>
+        <initializer>(1 &lt;&lt; 7)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="79" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1aafd954267d1f9c52bb1311c608561b37" prot="public" static="no">
+        <name>ADF4350_REG2_LDP_10ns</name>
+        <initializer>(0 &lt;&lt; 7)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="80" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a2d9bd3d4ceebd4040cd7322bb87d0ea2" prot="public" static="no">
+        <name>ADF4350_REG2_LDF_FRACT_N</name>
+        <initializer>(0 &lt;&lt; 8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="81" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1ab51bc705859232eb3ba2ec6af2458404" prot="public" static="no">
+        <name>ADF4350_REG2_LDF_INT_N</name>
+        <initializer>(1 &lt;&lt; 8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="82" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a8419addbe5cfc954eb3e9ba5e7899bef" prot="public" static="no">
+        <name>ADF4350_REG2_CHARGE_PUMP_CURR_uA</name>
+        <param><defname>x</defname></param>
+        <initializer>(((((x)-312) / 312) &amp; 0xF) &lt;&lt; 9)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="83" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1afdde428e0b4b34d06371ffdfdd22b999" prot="public" static="no">
+        <name>ADF4350_REG2_DOUBLE_BUFF_EN</name>
+        <initializer>(1 &lt;&lt; 13)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="84" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a804618ce847dd4b2d89406b4ee5f8d31" prot="public" static="no">
+        <name>ADF4350_REG2_10BIT_R_CNT</name>
+        <param><defname>x</defname></param>
+        <initializer>((x) &lt;&lt; 14)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="85" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1ade3c90c433bae0b658eb0f294e26e3d0" prot="public" static="no">
+        <name>ADF4350_REG2_RDIV2_EN</name>
+        <initializer>(1 &lt;&lt; 24)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="86" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1ae31bf15005674cc9e80b0f916fdeb626" prot="public" static="no">
+        <name>ADF4350_REG2_RMULT2_EN</name>
+        <initializer>(1 &lt;&lt; 25)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="87" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a50e0313741c60c5e95ea57d17816fdb2" prot="public" static="no">
+        <name>ADF4350_REG2_MUXOUT</name>
+        <param><defname>x</defname></param>
+        <initializer>((x) &lt;&lt; 26)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="88" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1adbc45bfa98c29ea9f9c62c5c30668f00" prot="public" static="no">
+        <name>ADF4350_REG2_NOISE_MODE</name>
+        <param><defname>x</defname></param>
+        <initializer>(((x) &amp; 0x3) &lt;&lt; 29)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="89" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a60dc9dcc2832cb4961131e2bb10738a1" prot="public" static="no">
+        <name>ADF4350_REG3_12BIT_CLKDIV</name>
+        <param><defname>x</defname></param>
+        <initializer>((x) &lt;&lt; 3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="92" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1aaea8368714850f554d6a04cbd44c1228" prot="public" static="no">
+        <name>ADF4350_REG3_12BIT_CLKDIV_MODE</name>
+        <param><defname>x</defname></param>
+        <initializer>((x) &lt;&lt; 16)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="93" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a4cb7e32b3e56f7b506fa482246063fbe" prot="public" static="no">
+        <name>ADF4350_REG3_12BIT_CSR_EN</name>
+        <initializer>(1 &lt;&lt; 18)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="94" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a7a2179d166369fefa317028614009230" prot="public" static="no">
+        <name>ADF4351_REG3_CHARGE_CANCELLATION_EN</name>
+        <initializer>(1 &lt;&lt; 21)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="95" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a3ae6f4a94733140d87662ec040c45fda" prot="public" static="no">
+        <name>ADF4351_REG3_ANTI_BACKLASH_3ns_EN</name>
+        <initializer>(1 &lt;&lt; 22)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="96" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1af25f0a2debc71c398a52f26776e63a9d" prot="public" static="no">
+        <name>ADF4351_REG3_BAND_SEL_CLOCK_MODE_HIGH</name>
+        <initializer>(1 &lt;&lt; 23)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="97" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a2a5588b06538ae9e1a043c51074feb79" prot="public" static="no">
+        <name>ADF4350_REG4_OUTPUT_PWR</name>
+        <param><defname>x</defname></param>
+        <initializer>((x) &lt;&lt; 3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="100" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1ae6962be411013278abbc40c658a6da38" prot="public" static="no">
+        <name>ADF4350_REG4_RF_OUT_EN</name>
+        <initializer>(1 &lt;&lt; 5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="101" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1aed9a93b2d67d1dd5796535e7adc59783" prot="public" static="no">
+        <name>ADF4350_REG4_AUX_OUTPUT_PWR</name>
+        <param><defname>x</defname></param>
+        <initializer>((x) &lt;&lt; 6)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="102" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a4193d36e7667d1dcf827451b8c5fd8d7" prot="public" static="no">
+        <name>ADF4350_REG4_AUX_OUTPUT_EN</name>
+        <initializer>(1 &lt;&lt; 8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="103" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1af3494f4dc1b1fbbca482f140754d67e1" prot="public" static="no">
+        <name>ADF4350_REG4_AUX_OUTPUT_FUND</name>
+        <initializer>(1 &lt;&lt; 9)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="104" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a99f972a7b71ab5f04f6c9152c90375a8" prot="public" static="no">
+        <name>ADF4350_REG4_AUX_OUTPUT_DIV</name>
+        <initializer>(0 &lt;&lt; 9)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="105" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a76081f8499e177acf5dda36e604b4b7a" prot="public" static="no">
+        <name>ADF4350_REG4_MUTE_TILL_LOCK_EN</name>
+        <initializer>(1 &lt;&lt; 10)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="106" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a2f34766e1a4920522c15483318ecb498" prot="public" static="no">
+        <name>ADF4350_REG4_VCO_PWRDOWN_EN</name>
+        <initializer>(1 &lt;&lt; 11)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="107" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a98f05c5cc0797b8fb447f465bb11563d" prot="public" static="no">
+        <name>ADF4350_REG4_8BIT_BAND_SEL_CLKDIV</name>
+        <param><defname>x</defname></param>
+        <initializer>((x) &lt;&lt; 12)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="108" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a0b5aa6dacfa9ed3dd6de3fceee2c134e" prot="public" static="no">
+        <name>ADF4350_REG4_RF_DIV_SEL</name>
+        <param><defname>x</defname></param>
+        <initializer>((x) &lt;&lt; 20)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="109" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a2486ddad9538f6a034fd883f753534a5" prot="public" static="no">
+        <name>ADF4350_REG4_FEEDBACK_DIVIDED</name>
+        <initializer>(0 &lt;&lt; 23)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="110" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1acf04354688dbd1b79058343fe0def534" prot="public" static="no">
+        <name>ADF4350_REG4_FEEDBACK_FUND</name>
+        <initializer>(1 &lt;&lt; 23)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="111" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a23737b0f0bcfb33746b68615fb154df8" prot="public" static="no">
+        <name>ADF4350_REG5_LD_PIN_MODE_LOW</name>
+        <initializer>(0 &lt;&lt; 22)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="114" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a1760d24acb187aa1ad80ac4f6f4c6c82" prot="public" static="no">
+        <name>ADF4350_REG5_LD_PIN_MODE_DIGITAL</name>
+        <initializer>(1 &lt;&lt; 22)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="115" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1aaac65289edcbb506c1751bd44eac451f" prot="public" static="no">
+        <name>ADF4350_REG5_LD_PIN_MODE_HIGH</name>
+        <initializer>(3 &lt;&lt; 22)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="116" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a1c14fa9424490c6504f0487102e3a92f" prot="public" static="no">
+        <name>ADF4350_MAX_OUT_FREQ</name>
+        <initializer>4400000000ULL /* Hz */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="119" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1ab3e5cdcdb3086278052fdb1668bc3875" prot="public" static="no">
+        <name>ADF4350_MIN_OUT_FREQ</name>
+        <initializer>34375000 /* Hz */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="120" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a413bdc13eddc01f4666605e638289939" prot="public" static="no">
+        <name>ADF4350_MIN_VCO_FREQ</name>
+        <initializer>2200000000ULL /* Hz */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="121" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1ae8a25c4b228817058e39b83e44d07fc8" prot="public" static="no">
+        <name>ADF4350_MAX_FREQ_45_PRESC</name>
+        <initializer>3000000000ULL /* Hz */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="122" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a90a1babd916510518aef07ec7b5451a0" prot="public" static="no">
+        <name>ADF4350_MAX_FREQ_PFD</name>
+        <initializer>32000000 /* Hz */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="123" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a89792d7ae8e91c725ee7faa5ea66aca1" prot="public" static="no">
+        <name>ADF4350_MAX_BANDSEL_CLK</name>
+        <initializer>125000 /* Hz */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="124" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1ae8ca998a0e141c5eea026d43bee045a6" prot="public" static="no">
+        <name>ADF4350_MAX_FREQ_REFIN</name>
+        <initializer>250000000 /* Hz */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="125" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a1b368b9c3b8361e5d9b1ef373bb82f31" prot="public" static="no">
+        <name>ADF4350_MAX_MODULUS</name>
+        <initializer>4095</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="126" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="adf4350_8h_1a07a41b1e473f6984ba0695c8ad0c69d9" prot="public" static="no">
+        <name>ADF4350_MAX_R_CNT</name>
+        <initializer>1023</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="127" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="adf4350_8h_1a734d328a485aa08ca8dfd42241997f51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t adf4350_setup</definition>
+        <argsstring>(adf4350_dev **device, adf4350_init_param init_param)</argsstring>
+        <name>adf4350_setup</name>
+        <param>
+          <type><ref refid="structadf4350__dev" kindref="compound">adf4350_dev</ref> **</type>
+          <declname>device</declname>
+        </param>
+        <param>
+          <type><ref refid="structadf4350__init__param" kindref="compound">adf4350_init_param</ref></type>
+          <declname>init_param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes the ADF4350. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="203" column="9" declfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" declline="203" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="adf4350_8h_1abc8243a27c640dbebd2fa73ab7eabe2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t adf4350_write</definition>
+        <argsstring>(adf4350_dev *dev, uint32_t data)</argsstring>
+        <name>adf4350_write</name>
+        <param>
+          <type><ref refid="structadf4350__dev" kindref="compound">adf4350_dev</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes 4 bytes of data to ADF4350. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="206" column="9" declfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" declline="206" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="adf4350_8h_1a8c919c6b19796b92b775d6727856ef46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t adf4350_out_altvoltage0_frequency</definition>
+        <argsstring>(adf4350_dev *dev, int64_t Hz)</argsstring>
+        <name>adf4350_out_altvoltage0_frequency</name>
+        <param>
+          <type><ref refid="structadf4350__dev" kindref="compound">adf4350_dev</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int64_t</type>
+          <declname>Hz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores PLL 0 frequency in Hz. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="209" column="9" declfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" declline="209" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="adf4350_8h_1afa2f05108be7deec8c0365d4669521d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t adf4350_out_altvoltage0_frequency_resolution</definition>
+        <argsstring>(adf4350_dev *dev, int32_t Hz)</argsstring>
+        <name>adf4350_out_altvoltage0_frequency_resolution</name>
+        <param>
+          <type><ref refid="structadf4350__dev" kindref="compound">adf4350_dev</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>Hz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores PLL 0 frequency resolution/channel spacing in Hz. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="212" column="9" declfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" declline="212" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="adf4350_8h_1a5b6bfaa6164b0be92dd1403a25e4111d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t adf4350_out_altvoltage0_refin_frequency</definition>
+        <argsstring>(adf4350_dev *dev, int64_t Hz)</argsstring>
+        <name>adf4350_out_altvoltage0_refin_frequency</name>
+        <param>
+          <type><ref refid="structadf4350__dev" kindref="compound">adf4350_dev</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int64_t</type>
+          <declname>Hz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets PLL 0 REFin frequency in Hz. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="215" column="9" declfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" declline="215" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="adf4350_8h_1a271f1050395c7b02bf8dd6624895ea58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t adf4350_out_altvoltage0_powerdown</definition>
+        <argsstring>(adf4350_dev *dev, int32_t pwd)</argsstring>
+        <name>adf4350_out_altvoltage0_powerdown</name>
+        <param>
+          <type><ref refid="structadf4350__dev" kindref="compound">adf4350_dev</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>pwd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Powers down the PLL. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" line="218" column="9" declfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h" declline="218" declcolumn="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Header file of ADF4350 Driver. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>DBogdan (<ulink url="mailto:dragos.bogdan@analog.com">dragos.bogdan@analog.com</ulink>)</para>
+</simplesect>
+Copyright 2012-2015(c) Analog Devices, Inc.</para>
+<para>All rights reserved.</para>
+<para>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:<itemizedlist>
+<listitem><para>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</para>
+</listitem><listitem><para>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</para>
+</listitem><listitem><para>Neither the name of Analog Devices, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.</para>
+</listitem><listitem><para>The use of this software may or may not infringe the patent rights of one or more patent holders. This license does not release you from the requirement that you obtain separate licenses from these patent holders to use this software.</para>
+</listitem><listitem><para>Use of the software either in source or binary form, must be run on or directly connected to an Analog Devices Inc. component.</para>
+</listitem></itemizedlist>
+</para>
+<para>THIS SOFTWARE IS PROVIDED BY ANALOG DEVICES &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ANALOG DEVICES BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, INTELLECTUAL PROPERTY RIGHTS, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </para>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/adf4350.h"/>
+  </compounddef>
+</doxygen>

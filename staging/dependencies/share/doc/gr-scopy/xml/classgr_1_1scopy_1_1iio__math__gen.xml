@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1scopy_1_1iio__math__gen" kind="class" language="C++" prot="public">
+    <compoundname>gr::scopy::iio_math_gen</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::hier_block2</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1scopy_1_1iio__math__gen__impl" prot="public" virt="non-virtual">gr::scopy::iio_math_gen_impl</derivedcompoundref>
+    <includes refid="math_8h" local="no">math.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1scopy_1_1iio__math__gen_1aeb5889273ee2faa41ad38da085cd4257" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1scopy_1_1iio__math__gen" kindref="compound">iio_math_gen</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;iio_math_gen&gt; gr::scopy::iio_math_gen::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::scopy::iio_math_gen::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/math.h" line="43" column="25" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/math.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1scopy_1_1iio__math__gen_1a928aacbbbf68c942cc05a40fa105f8ea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1scopy_1_1iio__math__gen_1aeb5889273ee2faa41ad38da085cd4257" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::scopy::iio_math_gen::make</definition>
+        <argsstring>(double sampling_freq, const std::string &amp;function, uint64_t period_in_samples=0)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::scopy::iio_math_gen::make</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>sampling_freq</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>period_in_samples</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/math.h" line="45" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::hier_block2</label>
+      </node>
+      <node id="1">
+        <label>gr::scopy::iio_math_gen</label>
+        <link refid="classgr_1_1scopy_1_1iio__math__gen"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::scopy::iio_math_gen_impl</label>
+        <link refid="classgr_1_1scopy_1_1iio__math__gen__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::hier_block2</label>
+      </node>
+      <node id="1">
+        <label>gr::scopy::iio_math_gen</label>
+        <link refid="classgr_1_1scopy_1_1iio__math__gen"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/math.h" line="40" column="1" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/math.h" bodystart="41" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classgr_1_1scopy_1_1iio__math__gen_1a928aacbbbf68c942cc05a40fa105f8ea" prot="public" virt="non-virtual"><scope>gr::scopy::iio_math_gen</scope><name>make</name></member>
+      <member refid="classgr_1_1scopy_1_1iio__math__gen_1aeb5889273ee2faa41ad38da085cd4257" prot="public" virt="non-virtual"><scope>gr::scopy::iio_math_gen</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

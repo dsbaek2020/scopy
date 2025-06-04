@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1m2k_1_1analog__out__converter__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::m2k::analog_out_converter_impl</compoundname>
+    <basecompoundref refid="classgr_1_1m2k_1_1analog__out__converter" prot="public" virt="non-virtual">gr::m2k::analog_out_converter</basecompoundref>
+    <includes refid="analog__out__converter__impl_8h" local="no">analog_out_converter_impl.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__out__converter__impl_1afc6ca32efffa61c83dcae6f23cea8ff4" prot="private" static="no" mutable="no">
+        <type>libm2k::analog::M2kAnalogOut *</type>
+        <definition>libm2k::analog::M2kAnalogOut* gr::m2k::analog_out_converter_impl::d_analog_out</definition>
+        <argsstring></argsstring>
+        <name>d_analog_out</name>
+        <qualifiedname>gr::m2k::analog_out_converter_impl::d_analog_out</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_converter_impl.h" line="22" column="34" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_converter_impl.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__out__converter__impl_1a57fd257d2328ab917a67b9f5248061d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::m2k::analog_out_converter_impl::analog_out_converter_impl</definition>
+        <argsstring>(libm2k::context::M2k *context)</argsstring>
+        <name>analog_out_converter_impl</name>
+        <qualifiedname>gr::m2k::analog_out_converter_impl::analog_out_converter_impl</qualifiedname>
+        <param>
+          <type>libm2k::context::M2k *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_converter_impl.h" line="25" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__out__converter__impl_1af8fc702fe528842deaf4f378cfbf2d11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::m2k::analog_out_converter_impl::~analog_out_converter_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~analog_out_converter_impl</name>
+        <qualifiedname>gr::m2k::analog_out_converter_impl::~analog_out_converter_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_converter_impl.h" line="27" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__out__converter__impl_1acc7d1dadaeb825584c0518ef8b858217" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::m2k::analog_out_converter_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::m2k::analog_out_converter_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_converter_impl.h" line="29" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::m2k::analog_out_converter</label>
+        <link refid="classgr_1_1m2k_1_1analog__out__converter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::m2k::analog_out_converter_impl</label>
+        <link refid="classgr_1_1m2k_1_1analog__out__converter__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::m2k::analog_out_converter</label>
+        <link refid="classgr_1_1m2k_1_1analog__out__converter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::m2k::analog_out_converter_impl</label>
+        <link refid="classgr_1_1m2k_1_1analog__out__converter__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_converter_impl.h" line="19" column="5" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_converter_impl.h" bodystart="20" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classgr_1_1m2k_1_1analog__out__converter__impl_1a57fd257d2328ab917a67b9f5248061d8" prot="public" virt="non-virtual"><scope>gr::m2k::analog_out_converter_impl</scope><name>analog_out_converter_impl</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__converter__impl_1afc6ca32efffa61c83dcae6f23cea8ff4" prot="private" virt="non-virtual"><scope>gr::m2k::analog_out_converter_impl</scope><name>d_analog_out</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__converter_1a9007f52d718ae171616bd25336f36a63" prot="public" virt="non-virtual"><scope>gr::m2k::analog_out_converter_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__converter_1a845f3cb9fd961a3503ad2bac90b7006c" prot="public" virt="non-virtual"><scope>gr::m2k::analog_out_converter_impl</scope><name>make_from</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__converter_1a40b184a76a13bb0765f4b28b44e81d46" prot="public" virt="non-virtual"><scope>gr::m2k::analog_out_converter_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__converter__impl_1acc7d1dadaeb825584c0518ef8b858217" prot="public" virt="non-virtual"><scope>gr::m2k::analog_out_converter_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__converter__impl_1af8fc702fe528842deaf4f378cfbf2d11" prot="public" virt="non-virtual"><scope>gr::m2k::analog_out_converter_impl</scope><name>~analog_out_converter_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

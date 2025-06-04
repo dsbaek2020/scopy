@@ -1,0 +1,12 @@
+QT.KDDockWidgets.VERSION = 2.1.1
+QT.KDDockWidgets.MAJOR_VERSION = 2
+QT.KDDockWidgets.MINOR_VERSION = 1
+QT.KDDockWidgets.PATCH_VERSION = 1
+QT.KDDockWidgets.name = kddockwidgets-qt6
+QT.KDDockWidgets.module = kddockwidgets-qt6
+QT.KDDockWidgets.defines = 
+QT.KDDockWidgets.includes =  $$PWD/../../include
+QT.KDDockWidgets.private_includes =
+QT.KDDockWidgets.libs = $$PWD/../../lib
+QT.KDDockWidgets.depends = widgets quick quickcontrols2
+QT.KDDockWidgets.module_config = 

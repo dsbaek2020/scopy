@@ -1,0 +1,4 @@
+QWidget[qss_properties_widget_overlayMenu=true] {
+	background-color: &background_primary&;
+	border-radius: 4px;
+}

@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/translations">
+        
+<file>/Users/baegdaeseong/scopy/translations/ar.qm</file>
+<file>/Users/baegdaeseong/scopy/translations/cn.qm</file>
+<file>/Users/baegdaeseong/scopy/translations/de.qm</file>
+<file>/Users/baegdaeseong/scopy/translations/en.qm</file>
+<file>/Users/baegdaeseong/scopy/translations/es.qm</file>
+<file>/Users/baegdaeseong/scopy/translations/fr.qm</file>
+<file>/Users/baegdaeseong/scopy/translations/it.qm</file>
+<file>/Users/baegdaeseong/scopy/translations/jp.qm</file>
+<file>/Users/baegdaeseong/scopy/translations/kr.qm</file>
+<file>/Users/baegdaeseong/scopy/translations/ro.qm</file>
+<file>/Users/baegdaeseong/scopy/translations/th.qm</file>
+<file>/Users/baegdaeseong/scopy/translations/tw.qm</file>
+    </qresource>
+</RCC>

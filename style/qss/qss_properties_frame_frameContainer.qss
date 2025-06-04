@@ -1,0 +1,8 @@
+*[qss_properties_frame_frameContainer="selected"] {
+	background-color: &interactive_subtle_disabled&;
+	border-radius: 4px;
+}
+
+*[qss_properties_frame_frameContainer="idle"] {
+	background-color: transparent;
+}

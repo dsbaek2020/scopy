@@ -1,0 +1,24 @@
+QPushButton[qss_properties_button_squareIconBrowserButton=true] {
+	width: &unit_2&px;
+	height: &unit_2&px;
+	border-style: outset;
+	border-radius: &radius_1&;
+	background-color: &interactive_primary_idle&;
+	qproperty-iconSize: &unit_4&px;
+}
+
+QPushButton[qss_properties_button_squareIconBrowserButton=true]:checked {
+	background-color:&interactive_primary_hover&;
+}
+
+QPushButton[qss_properties_button_squareIconBrowserButton=true]:pressed {
+	background-color:&interactive_primary_hover&;
+}
+
+QPushButton[qss_properties_button_squareIconBrowserButton=true]:hover {
+	background-color:&interactive_primary_hover&;
+}
+
+QPushButton[qss_properties_button_squareIconBrowserButton=true]:disabled {
+	background-color:&interactive_primary_disabled&;
+}

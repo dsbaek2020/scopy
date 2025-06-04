@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1scopy_1_1power__ff__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::scopy::power_ff_impl</compoundname>
+    <basecompoundref refid="classgr_1_1scopy_1_1power__ff" prot="public" virt="non-virtual">gr::scopy::power_ff</basecompoundref>
+    <basecompoundref refid="classgr_1_1scopy_1_1power__ff" prot="public" virt="non-virtual">gr::scopy::power_ff</basecompoundref>
+    <includes refid="iio__power__ff__impl_8h" local="no">iio_power_ff_impl.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1scopy_1_1power__ff__impl_1a50d3d8ff002339d2b747712f8367adf5" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::scopy::power_ff_impl::d_vlen</definition>
+        <argsstring></argsstring>
+        <name>d_vlen</name>
+        <qualifiedname>gr::scopy::power_ff_impl::d_vlen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/iio_power_ff_impl.h" line="33" column="8" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/iio_power_ff_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1scopy_1_1power__ff__impl_1ab789b3edf0b3417ac9b25d77b3422ceb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::scopy::power_ff_impl::power_ff_impl</definition>
+        <argsstring>(size_t vlen)</argsstring>
+        <name>power_ff_impl</name>
+        <qualifiedname>gr::scopy::power_ff_impl::power_ff_impl</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>vlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/iio_power_ff_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1scopy_1_1power__ff__impl_1a4a26f6de6135aacee66e2556ba72d8a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::scopy::power_ff_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::scopy::power_ff_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/iio_power_ff_impl.h" line="38" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1scopy_1_1power__ff__impl_1ab789b3edf0b3417ac9b25d77b3422ceb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::scopy::power_ff_impl::power_ff_impl</definition>
+        <argsstring>(size_t vlen)</argsstring>
+        <name>power_ff_impl</name>
+        <qualifiedname>gr::scopy::power_ff_impl::power_ff_impl</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>vlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/power_ff_impl.h" line="22" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1scopy_1_1power__ff__impl_1aef7dec8a2f7ef432d8aa252b6afe76f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::scopy::power_ff_impl::~power_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~power_ff_impl</name>
+        <qualifiedname>gr::scopy::power_ff_impl::~power_ff_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/power_ff_impl.h" line="23" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1scopy_1_1power__ff__impl_1a4a26f6de6135aacee66e2556ba72d8a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::scopy::power_ff_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::scopy::power_ff_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/power_ff_impl.h" line="26" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::scopy::power_ff</label>
+        <link refid="classgr_1_1scopy_1_1power__ff"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::scopy::power_ff_impl</label>
+        <link refid="classgr_1_1scopy_1_1power__ff__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::scopy::power_ff</label>
+        <link refid="classgr_1_1scopy_1_1power__ff"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::scopy::power_ff_impl</label>
+        <link refid="classgr_1_1scopy_1_1power__ff__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/iio_power_ff_impl.h" line="31" column="1" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/iio_power_ff_impl.h" bodystart="32" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classgr_1_1scopy_1_1power__ff__impl_1a50d3d8ff002339d2b747712f8367adf5" prot="private" virt="non-virtual"><scope>gr::scopy::power_ff_impl</scope><name>d_vlen</name></member>
+      <member refid="classgr_1_1scopy_1_1power__ff_1a340cba863687106cb68d5fee37cc546d" prot="public" virt="non-virtual"><scope>gr::scopy::power_ff_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1scopy_1_1power__ff__impl_1ab789b3edf0b3417ac9b25d77b3422ceb" prot="public" virt="non-virtual"><scope>gr::scopy::power_ff_impl</scope><name>power_ff_impl</name></member>
+      <member refid="classgr_1_1scopy_1_1power__ff__impl_1ab789b3edf0b3417ac9b25d77b3422ceb" prot="public" virt="non-virtual"><scope>gr::scopy::power_ff_impl</scope><name>power_ff_impl</name></member>
+      <member refid="classgr_1_1scopy_1_1power__ff_1a8f630b2aa3f033c5dd7f9ffb5ebeb369" prot="public" virt="non-virtual"><scope>gr::scopy::power_ff_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1scopy_1_1power__ff__impl_1a4a26f6de6135aacee66e2556ba72d8a1" prot="public" virt="non-virtual"><scope>gr::scopy::power_ff_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1scopy_1_1power__ff__impl_1a4a26f6de6135aacee66e2556ba72d8a1" prot="public" virt="non-virtual"><scope>gr::scopy::power_ff_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1scopy_1_1power__ff__impl_1aef7dec8a2f7ef432d8aa252b6afe76f1" prot="public" virt="non-virtual"><scope>gr::scopy::power_ff_impl</scope><name>~power_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

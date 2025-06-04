@@ -1,0 +1,6 @@
+*[qss_properties_widget_notInteractive=true]::hover {
+background-color: transparent;
+}
+*[qss_properties_widget_notInteractive=true]::pressed {
+background-color: transparent;
+}

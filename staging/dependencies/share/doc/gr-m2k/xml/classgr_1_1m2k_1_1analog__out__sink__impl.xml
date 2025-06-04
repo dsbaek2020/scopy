@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1m2k_1_1analog__out__sink__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::m2k::analog_out_sink_impl</compoundname>
+    <basecompoundref refid="classgr_1_1m2k_1_1analog__out__sink" prot="public" virt="non-virtual">gr::m2k::analog_out_sink</basecompoundref>
+    <includes refid="analog__out__sink__impl_8h" local="no">analog_out_sink_impl.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__out__sink__impl_1a124e6aedf66fb0758dc175f6ed475724" prot="private" static="no" mutable="no">
+        <type>libm2k::analog::M2kAnalogOut *</type>
+        <definition>libm2k::analog::M2kAnalogOut* gr::m2k::analog_out_sink_impl::d_analog_out</definition>
+        <argsstring></argsstring>
+        <name>d_analog_out</name>
+        <qualifiedname>gr::m2k::analog_out_sink_impl::d_analog_out</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" line="20" column="34" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__out__sink__impl_1a3d6b1b9048d163c7d099457f2a9cbbfe" prot="private" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string gr::m2k::analog_out_sink_impl::d_uri</definition>
+        <argsstring></argsstring>
+        <name>d_uri</name>
+        <qualifiedname>gr::m2k::analog_out_sink_impl::d_uri</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" line="21" column="23" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__out__sink__impl_1a679100bd278b0835ba096b1046d42119" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::m2k::analog_out_sink_impl::d_buffer_size</definition>
+        <argsstring></argsstring>
+        <name>d_buffer_size</name>
+        <qualifiedname>gr::m2k::analog_out_sink_impl::d_buffer_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" line="22" column="15" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__out__sink__impl_1a94a04153184c36fef76a9454d0f95af6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::m2k::analog_out_sink_impl::d_stream_voltage_values</definition>
+        <argsstring></argsstring>
+        <name>d_stream_voltage_values</name>
+        <qualifiedname>gr::m2k::analog_out_sink_impl::d_stream_voltage_values</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" line="23" column="10" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__out__sink__impl_1a463c0319b34e283f2b1db2a266ed8008" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; gr::m2k::analog_out_sink_impl::d_cyclic_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_cyclic_buffer</name>
+        <qualifiedname>gr::m2k::analog_out_sink_impl::d_cyclic_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" line="24" column="17" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__out__sink__impl_1a250a227479cf868392d05cc5e71cec01" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::m2k::analog_out_sink_impl::d_first_iteration</definition>
+        <argsstring></argsstring>
+        <name>d_first_iteration</name>
+        <qualifiedname>gr::m2k::analog_out_sink_impl::d_first_iteration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" line="25" column="10" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__out__sink__impl_1ae93ffebc93645be0024fbd0971e01a10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::m2k::analog_out_sink_impl::analog_out_sink_impl</definition>
+        <argsstring>(const std::string &amp;uri, const int buffer_size, std::vector&lt; double &gt; sampling_frequency, std::vector&lt; int &gt; oversampling_ratio, const std::vector&lt; int &gt; &amp;kernel_buffers, const std::vector&lt; int &gt; &amp;cyclic, bool calibrate_DAC, bool input_voltage)</argsstring>
+        <name>analog_out_sink_impl</name>
+        <qualifiedname>gr::m2k::analog_out_sink_impl::analog_out_sink_impl</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>uri</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>buffer_size</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>sampling_frequency</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>oversampling_ratio</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>kernel_buffers</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>cyclic</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>calibrate_DAC</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>input_voltage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" line="28" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__out__sink__impl_1a1c0f1afa34aae39fe31eba2acc2389cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::m2k::analog_out_sink_impl::~analog_out_sink_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~analog_out_sink_impl</name>
+        <qualifiedname>gr::m2k::analog_out_sink_impl::~analog_out_sink_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" line="37" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__out__sink__impl_1ac9fcabe1a9d2a5dec1a15c96c2ba1d8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::m2k::analog_out_sink_impl::set_params</definition>
+        <argsstring>(std::vector&lt; double &gt; sampling_frequency, std::vector&lt; int &gt; oversampling_ratio)</argsstring>
+        <name>set_params</name>
+        <qualifiedname>gr::m2k::analog_out_sink_impl::set_params</qualifiedname>
+        <reimplements refid="classgr_1_1m2k_1_1analog__out__sink_1a37f3b7c8cda884d70d8df210c01bfa4e">set_params</reimplements>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>sampling_frequency</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>oversampling_ratio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" line="39" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__out__sink__impl_1a53bd3221aaac4714dcf03573765c800a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::m2k::analog_out_sink_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::m2k::analog_out_sink_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" line="42" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__out__sink__impl_1a2c0ea5a175e0d1352537abbfc6524265" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::m2k::analog_out_sink_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <qualifiedname>gr::m2k::analog_out_sink_impl::forecast</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" line="46" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::m2k::analog_out_sink</label>
+        <link refid="classgr_1_1m2k_1_1analog__out__sink"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::m2k::analog_out_sink_impl</label>
+        <link refid="classgr_1_1m2k_1_1analog__out__sink__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::m2k::analog_out_sink</label>
+        <link refid="classgr_1_1m2k_1_1analog__out__sink"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::m2k::analog_out_sink_impl</label>
+        <link refid="classgr_1_1m2k_1_1analog__out__sink__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" line="17" column="5" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_out_sink_impl.h" bodystart="18" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1ae93ffebc93645be0024fbd0971e01a10" prot="public" virt="non-virtual"><scope>gr::m2k::analog_out_sink_impl</scope><name>analog_out_sink_impl</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a124e6aedf66fb0758dc175f6ed475724" prot="private" virt="non-virtual"><scope>gr::m2k::analog_out_sink_impl</scope><name>d_analog_out</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a679100bd278b0835ba096b1046d42119" prot="private" virt="non-virtual"><scope>gr::m2k::analog_out_sink_impl</scope><name>d_buffer_size</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a463c0319b34e283f2b1db2a266ed8008" prot="private" virt="non-virtual"><scope>gr::m2k::analog_out_sink_impl</scope><name>d_cyclic_buffer</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a250a227479cf868392d05cc5e71cec01" prot="private" virt="non-virtual"><scope>gr::m2k::analog_out_sink_impl</scope><name>d_first_iteration</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a94a04153184c36fef76a9454d0f95af6" prot="private" virt="non-virtual"><scope>gr::m2k::analog_out_sink_impl</scope><name>d_stream_voltage_values</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a3d6b1b9048d163c7d099457f2a9cbbfe" prot="private" virt="non-virtual"><scope>gr::m2k::analog_out_sink_impl</scope><name>d_uri</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a2c0ea5a175e0d1352537abbfc6524265" prot="public" virt="non-virtual"><scope>gr::m2k::analog_out_sink_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__sink_1ab0f8620d28ddcc88d44c71b7686bc7c6" prot="public" virt="non-virtual"><scope>gr::m2k::analog_out_sink_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1ac9fcabe1a9d2a5dec1a15c96c2ba1d8b" prot="public" virt="virtual"><scope>gr::m2k::analog_out_sink_impl</scope><name>set_params</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__sink_1aa35007b087f9146053066d164fc2e8bf" prot="public" virt="non-virtual"><scope>gr::m2k::analog_out_sink_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a53bd3221aaac4714dcf03573765c800a" prot="public" virt="non-virtual"><scope>gr::m2k::analog_out_sink_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a1c0f1afa34aae39fe31eba2acc2389cc" prot="public" virt="non-virtual"><scope>gr::m2k::analog_out_sink_impl</scope><name>~analog_out_sink_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

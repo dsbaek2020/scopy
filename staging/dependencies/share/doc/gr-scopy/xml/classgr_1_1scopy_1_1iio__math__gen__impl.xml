@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1scopy_1_1iio__math__gen__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::scopy::iio_math_gen_impl</compoundname>
+    <basecompoundref refid="classgr_1_1scopy_1_1iio__math__impl" prot="public" virt="non-virtual">gr::scopy::iio_math_impl</basecompoundref>
+    <basecompoundref refid="classgr_1_1scopy_1_1iio__math__gen" prot="public" virt="non-virtual">gr::scopy::iio_math_gen</basecompoundref>
+    <includes refid="iio__math__impl_8h" local="no">iio_math_impl.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1scopy_1_1iio__math__gen__impl_1a425b0a6f27aae524a0f6659be853eff5" prot="private" static="no" mutable="no">
+        <type>gr::basic_block_sptr</type>
+        <definition>gr::basic_block_sptr gr::scopy::iio_math_gen_impl::src_block</definition>
+        <argsstring></argsstring>
+        <name>src_block</name>
+        <qualifiedname>gr::scopy::iio_math_gen_impl::src_block</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/iio_math_impl.h" line="78" column="22" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/iio_math_impl.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1scopy_1_1iio__math__gen__impl_1a58374a618b0dfa8e6d5ba8481133a279" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::scopy::iio_math_gen_impl::iio_math_gen_impl</definition>
+        <argsstring>(double sampling_freq, const std::string &amp;function, uint64_t period_in_samples=0)</argsstring>
+        <name>iio_math_gen_impl</name>
+        <qualifiedname>gr::scopy::iio_math_gen_impl::iio_math_gen_impl</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>sampling_freq</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>period_in_samples</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/iio_math_impl.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1scopy_1_1iio__math__gen__impl_1a6342b4286fa524c30158de7e57472922" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>gr::basic_block_sptr</type>
+        <definition>virtual gr::basic_block_sptr gr::scopy::iio_math_gen_impl::get_src_block</definition>
+        <argsstring>()</argsstring>
+        <name>get_src_block</name>
+        <qualifiedname>gr::scopy::iio_math_gen_impl::get_src_block</qualifiedname>
+        <reimplements refid="classgr_1_1scopy_1_1iio__math__impl_1aba65481feb67853b7fd7814b597ca13e">get_src_block</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/iio_math_impl.h" line="74" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1scopy_1_1iio__math__gen__impl_1afe5eea3c690f3097b34a877c2147daa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::scopy::iio_math_gen_impl::connect_to_output</definition>
+        <argsstring>(gr::basic_block_sptr block, unsigned int port=0)</argsstring>
+        <name>connect_to_output</name>
+        <qualifiedname>gr::scopy::iio_math_gen_impl::connect_to_output</qualifiedname>
+        <reimplements refid="classgr_1_1scopy_1_1iio__math__impl_1a7cf0659ea5dad9a343a12266ec71510e">connect_to_output</reimplements>
+        <param>
+          <type>gr::basic_block_sptr</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>port</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/iio_math_impl.h" line="75" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>gr::hier_block2</label>
+      </node>
+      <node id="3">
+        <label>gr::scopy::iio_math</label>
+        <link refid="classgr_1_1scopy_1_1iio__math"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gr::scopy::iio_math_gen</label>
+        <link refid="classgr_1_1scopy_1_1iio__math__gen"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::scopy::iio_math_gen_impl</label>
+        <link refid="classgr_1_1scopy_1_1iio__math__gen__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::scopy::iio_math_impl</label>
+        <link refid="classgr_1_1scopy_1_1iio__math__impl"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>gr::hier_block2</label>
+      </node>
+      <node id="3">
+        <label>gr::scopy::iio_math</label>
+        <link refid="classgr_1_1scopy_1_1iio__math"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gr::scopy::iio_math_gen</label>
+        <link refid="classgr_1_1scopy_1_1iio__math__gen"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::scopy::iio_math_gen_impl</label>
+        <link refid="classgr_1_1scopy_1_1iio__math__gen__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::scopy::iio_math_impl</label>
+        <link refid="classgr_1_1scopy_1_1iio__math__impl"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/iio_math_impl.h" line="66" column="1" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/lib/iio_math_impl.h" bodystart="68" bodyend="79"/>
+    <listofallmembers>
+      <member refid="classgr_1_1scopy_1_1iio__math__impl_1a90f96941f29c19b9c21e7ca7af2aa284" prot="protected" virt="non-virtual"><scope>gr::scopy::iio_math_gen_impl</scope><name>cleanup</name></member>
+      <member refid="classgr_1_1scopy_1_1iio__math__gen__impl_1afe5eea3c690f3097b34a877c2147daa6" prot="public" virt="virtual"><scope>gr::scopy::iio_math_gen_impl</scope><name>connect_to_output</name></member>
+      <member refid="classgr_1_1scopy_1_1iio__math__gen__impl_1a6342b4286fa524c30158de7e57472922" prot="public" virt="virtual"><scope>gr::scopy::iio_math_gen_impl</scope><name>get_src_block</name></member>
+      <member refid="classgr_1_1scopy_1_1iio__math__gen__impl_1a58374a618b0dfa8e6d5ba8481133a279" prot="public" virt="non-virtual"><scope>gr::scopy::iio_math_gen_impl</scope><name>iio_math_gen_impl</name></member>
+      <member refid="classgr_1_1scopy_1_1iio__math__impl_1a09959e879777e1b42c8ea163255206c9" prot="public" virt="non-virtual"><scope>gr::scopy::iio_math_gen_impl</scope><name>iio_math_impl</name></member>
+      <member refid="classgr_1_1scopy_1_1iio__math__impl_1a55c912645f209a610c7d5bbe361016cb" prot="protected" virt="non-virtual"><scope>gr::scopy::iio_math_gen_impl</scope><name>iio_math_impl</name></member>
+      <member refid="classgr_1_1scopy_1_1iio__math_1a75a0db21a66bd51d55d5a0a7188eb509" prot="public" virt="non-virtual" ambiguityscope="gr::"><scope>gr::scopy::iio_math_gen_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1scopy_1_1iio__math__gen_1a928aacbbbf68c942cc05a40fa105f8ea" prot="public" virt="non-virtual" ambiguityscope="gr::scopy::iio_math_gen::"><scope>gr::scopy::iio_math_gen_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1scopy_1_1iio__math__impl_1a053110832f7ba4eb020244c2c954c450" prot="public" virt="non-virtual"><scope>gr::scopy::iio_math_gen_impl</scope><name>register_block</name></member>
+      <member refid="classgr_1_1scopy_1_1iio__math__impl_1a3ffe2a49fd70489901ef806526971e53" prot="public" virt="non-virtual"><scope>gr::scopy::iio_math_gen_impl</scope><name>set_port_used</name></member>
+      <member refid="classgr_1_1scopy_1_1iio__math_1abaa9e28f39ed9dcaf580a57e96d35f89" prot="public" virt="non-virtual" ambiguityscope="gr::"><scope>gr::scopy::iio_math_gen_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1scopy_1_1iio__math__gen_1aeb5889273ee2faa41ad38da085cd4257" prot="public" virt="non-virtual" ambiguityscope="gr::scopy::iio_math_gen::"><scope>gr::scopy::iio_math_gen_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1scopy_1_1iio__math__gen__impl_1a425b0a6f27aae524a0f6659be853eff5" prot="private" virt="non-virtual"><scope>gr::scopy::iio_math_gen_impl</scope><name>src_block</name></member>
+      <member refid="classgr_1_1scopy_1_1iio__math__impl_1a42f1c3690e3f9247acf00457476c2947" prot="public" virt="non-virtual"><scope>gr::scopy::iio_math_gen_impl</scope><name>~iio_math_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

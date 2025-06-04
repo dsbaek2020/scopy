@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1m2k_1_1analog__in__converter" kind="class" language="C++" prot="public">
+    <compoundname>gr::m2k::analog_in_converter</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1m2k_1_1analog__in__converter__impl" prot="public" virt="non-virtual">gr::m2k::analog_in_converter_impl</derivedcompoundref>
+    <includes refid="analog__in__converter_8h" local="no">analog_in_converter.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1m2k_1_1analog__in__converter_1abbc0c022026159df0217c0d43c162b3b" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1m2k_1_1analog__in__converter" kindref="compound">analog_in_converter</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;analog_in_converter&gt; gr::m2k::analog_in_converter::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::m2k::analog_in_converter::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/analog_in_converter.h" line="28" column="28" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/analog_in_converter.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__converter_1a69704f8dd19875d1604fa02ab4cbf381" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1m2k_1_1analog__in__converter_1abbc0c022026159df0217c0d43c162b3b" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::m2k::analog_in_converter::make</definition>
+        <argsstring>(const std::string &amp;uri)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::m2k::analog_in_converter::make</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>uri</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1m2k_1_1analog__in__converter" kindref="compound">m2k::analog_in_converter</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uri</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String of the context uri </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/analog_in_converter.h" line="35" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__converter_1a1194ff04eb3d4d4962fd5abae54349dc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1m2k_1_1analog__in__converter_1abbc0c022026159df0217c0d43c162b3b" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::m2k::analog_in_converter::make_from</definition>
+        <argsstring>(libm2k::context::M2k *context)</argsstring>
+        <name>make_from</name>
+        <qualifiedname>gr::m2k::analog_in_converter::make_from</qualifiedname>
+        <param>
+          <type>libm2k::context::M2k *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/analog_in_converter.h" line="37" column="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Raw ADC samples converter. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This block converts raw samples of ADALM2000&apos;s ADC into voltage </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::m2k::analog_in_converter</label>
+        <link refid="classgr_1_1m2k_1_1analog__in__converter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::m2k::analog_in_converter_impl</label>
+        <link refid="classgr_1_1m2k_1_1analog__in__converter__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::m2k::analog_in_converter</label>
+        <link refid="classgr_1_1m2k_1_1analog__in__converter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/analog_in_converter.h" line="26" column="3" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/analog_in_converter.h" bodystart="26" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classgr_1_1m2k_1_1analog__in__converter_1a69704f8dd19875d1604fa02ab4cbf381" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_converter</scope><name>make</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__converter_1a1194ff04eb3d4d4962fd5abae54349dc" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_converter</scope><name>make_from</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__converter_1abbc0c022026159df0217c0d43c162b3b" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_converter</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1m2k_1_1adf4350__sink" kind="class" language="C++" prot="public">
+    <compoundname>gr::m2k::adf4350_sink</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1m2k_1_1adf4350__sink__impl" prot="public" virt="non-virtual">gr::m2k::adf4350_sink_impl</derivedcompoundref>
+    <includes refid="adf4350__sink_8h" local="no">adf4350_sink.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1m2k_1_1adf4350__sink_1a0bc007388c1e7ab6b2a1935b5b3d50c4" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1m2k_1_1adf4350__sink" kindref="compound">adf4350_sink</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;adf4350_sink&gt; gr::m2k::adf4350_sink::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::m2k::adf4350_sink::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/adf4350_sink.h" line="26" column="28" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/adf4350_sink.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1m2k_1_1adf4350__sink_1a37cb999dfa5e73c93cc9336b959a4fad" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1m2k_1_1adf4350__sink_1a0bc007388c1e7ab6b2a1935b5b3d50c4" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::m2k::adf4350_sink::make</definition>
+        <argsstring>(const std::string &amp;uri, uint8_t clock, uint8_t mosi, uint8_t miso, uint8_t chip_select, uint32_t clkin, uint32_t channel_spacing, uint32_t power_up_frequency, uint32_t reference_div_factor, uint8_t reference_doubler_enable, uint8_t reference_div2_enable, uint8_t phase_detector_polarity_positive_enable, uint8_t lock_detect_precision_6ns_enable, uint8_t lock_detect_function_integer_n_enable, uint32_t charge_pump_current, uint32_t muxout_select, uint8_t low_spur_mode_enable, uint8_t cycle_slip_reduction_enable, uint8_t charge_cancellation_enable, uint8_t anti_backlash_3ns_enable, uint8_t band_select_clock_mode_high_enable, uint32_t clk_divider_12bit, uint32_t clk_divider_mode, uint8_t aux_output_enable, uint8_t aux_output_fundamental_enable, uint8_t mute_till_lock_enable, uint32_t output_power, uint32_t aux_output_power)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::m2k::adf4350_sink::make</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>uri</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>clock</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>mosi</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>miso</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>chip_select</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>clkin</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>channel_spacing</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>power_up_frequency</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>reference_div_factor</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>reference_doubler_enable</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>reference_div2_enable</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>phase_detector_polarity_positive_enable</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>lock_detect_precision_6ns_enable</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>lock_detect_function_integer_n_enable</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>charge_pump_current</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>muxout_select</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>low_spur_mode_enable</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>cycle_slip_reduction_enable</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>charge_cancellation_enable</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>anti_backlash_3ns_enable</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>band_select_clock_mode_high_enable</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>clk_divider_12bit</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>clk_divider_mode</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>aux_output_enable</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>aux_output_fundamental_enable</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>mute_till_lock_enable</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>output_power</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>aux_output_power</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1m2k_1_1adf4350__sink" kindref="compound">m2k::adf4350_sink</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uri</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String of the context uri </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of any digital pin </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mosi</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of any digital pin </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>miso</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of any digital pin </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chip_select</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of any digital pin </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clkin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Integer - clock in </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>channel_spacing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Spacing of the channel </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>power_up_frequency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Power up frequency </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reference_div_factor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference division factor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reference_doubler_enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable doubler reference </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reference_div2_enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable div2 reference </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>phase_detector_polarity_positive_enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable positive polarity of phase detector </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lock_detect_precision_6ns_enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable precision 6ns </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lock_detect_function_integer_n_enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable function integer n </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>charge_pump_current</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Charge pump current </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>muxout_select</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Select muxout </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>low_spur_mode_enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable low spur mode </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cycle_slip_reduction_enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable cyclic slip reduction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>charge_cancellation_enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable charge cancellation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>anti_backlash_3ns_enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable anti backlash </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>band_select_clock_mode_high_enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable clock mode high </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clk_divider_12bit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Clock divider 12 bits </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clk_divider_mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Clock divider mode </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aux_output_enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable aux output </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aux_output_fundamental_enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable aux fundamental output </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mute_till_lock_enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable mute until lock </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>output_power</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Output power </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aux_output_power</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Aux output power </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/adf4350_sink.h" line="60" column="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Sink for ADF4350. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This block allows the communication between ADALM2000 and ADF4350 </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::m2k::adf4350_sink</label>
+        <link refid="classgr_1_1m2k_1_1adf4350__sink"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::m2k::adf4350_sink_impl</label>
+        <link refid="classgr_1_1m2k_1_1adf4350__sink__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::m2k::adf4350_sink</label>
+        <link refid="classgr_1_1m2k_1_1adf4350__sink"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/adf4350_sink.h" line="24" column="3" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/adf4350_sink.h" bodystart="24" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classgr_1_1m2k_1_1adf4350__sink_1a37cb999dfa5e73c93cc9336b959a4fad" prot="public" virt="non-virtual"><scope>gr::m2k::adf4350_sink</scope><name>make</name></member>
+      <member refid="classgr_1_1m2k_1_1adf4350__sink_1a0bc007388c1e7ab6b2a1935b5b3d50c4" prot="public" virt="non-virtual"><scope>gr::m2k::adf4350_sink</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

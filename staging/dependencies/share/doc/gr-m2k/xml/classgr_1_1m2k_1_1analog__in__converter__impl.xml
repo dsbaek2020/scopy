@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1m2k_1_1analog__in__converter__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::m2k::analog_in_converter_impl</compoundname>
+    <basecompoundref refid="classgr_1_1m2k_1_1analog__in__converter" prot="public" virt="non-virtual">gr::m2k::analog_in_converter</basecompoundref>
+    <includes refid="analog__in__converter__impl_8h" local="no">analog_in_converter_impl.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__converter__impl_1ac1c372b2240dbddd295a36c3cbc95011" prot="private" static="no" mutable="no">
+        <type>libm2k::analog::M2kAnalogIn *</type>
+        <definition>libm2k::analog::M2kAnalogIn* gr::m2k::analog_in_converter_impl::d_analog_in</definition>
+        <argsstring></argsstring>
+        <name>d_analog_in</name>
+        <qualifiedname>gr::m2k::analog_in_converter_impl::d_analog_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_converter_impl.h" line="21" column="33" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_converter_impl.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__converter__impl_1a6c927d90dd909a9483a48d3ad55a1291" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::m2k::analog_in_converter_impl::analog_in_converter_impl</definition>
+        <argsstring>(libm2k::context::M2k *context)</argsstring>
+        <name>analog_in_converter_impl</name>
+        <qualifiedname>gr::m2k::analog_in_converter_impl::analog_in_converter_impl</qualifiedname>
+        <param>
+          <type>libm2k::context::M2k *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_converter_impl.h" line="24" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__converter__impl_1a2d342ceab3551bfe6ac87bfc17857f6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::m2k::analog_in_converter_impl::~analog_in_converter_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~analog_in_converter_impl</name>
+        <qualifiedname>gr::m2k::analog_in_converter_impl::~analog_in_converter_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_converter_impl.h" line="26" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__converter__impl_1a1fd0e3ac7c589cd909b2abc34bb4a88c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::m2k::analog_in_converter_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::m2k::analog_in_converter_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_converter_impl.h" line="28" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::m2k::analog_in_converter</label>
+        <link refid="classgr_1_1m2k_1_1analog__in__converter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::m2k::analog_in_converter_impl</label>
+        <link refid="classgr_1_1m2k_1_1analog__in__converter__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::m2k::analog_in_converter</label>
+        <link refid="classgr_1_1m2k_1_1analog__in__converter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::m2k::analog_in_converter_impl</label>
+        <link refid="classgr_1_1m2k_1_1analog__in__converter__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_converter_impl.h" line="18" column="5" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_converter_impl.h" bodystart="19" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classgr_1_1m2k_1_1analog__in__converter__impl_1a6c927d90dd909a9483a48d3ad55a1291" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_converter_impl</scope><name>analog_in_converter_impl</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__converter__impl_1ac1c372b2240dbddd295a36c3cbc95011" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_converter_impl</scope><name>d_analog_in</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__converter_1a69704f8dd19875d1604fa02ab4cbf381" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_converter_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__converter_1a1194ff04eb3d4d4962fd5abae54349dc" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_converter_impl</scope><name>make_from</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__converter_1abbc0c022026159df0217c0d43c162b3b" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_converter_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__converter__impl_1a1fd0e3ac7c589cd909b2abc34bb4a88c" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_converter_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__converter__impl_1a2d342ceab3551bfe6ac87bfc17857f6e" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_converter_impl</scope><name>~analog_in_converter_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_0ee369652c20aa79534077b1fb2b6a40" kind="dir">
+    <compoundname>scopy</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="goertzel__scopy_8h">goertzel_scopy.h</innerfile>
+    <innerfile refid="goertzel__scopy__fc_8h">goertzel_scopy_fc.h</innerfile>
+    <innerfile refid="math_8h">math.h</innerfile>
+    <innerfile refid="modulo__const__ff_8h">modulo_const_ff.h</innerfile>
+    <innerfile refid="modulo__ff_8h">modulo_ff.h</innerfile>
+    <innerfile refid="power__ff_8h">power_ff.h</innerfile>
+    <innerfile refid="t__source_8h">t_source.h</innerfile>
+    <innerfile refid="trapezoidal_8h">trapezoidal.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/"/>
+  </compounddef>
+</doxygen>

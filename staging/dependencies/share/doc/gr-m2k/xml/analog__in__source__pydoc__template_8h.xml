@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="analog__in__source__pydoc__template_8h" kind="file" language="C++">
+    <compoundname>analog_in_source_pydoc_template.h</compoundname>
+    <includes refid="pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>analog_in_source_pydoc_template.h</label>
+        <link refid="analog__in__source__pydoc__template_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="analog__in__source__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,m2k, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" line="10" column="10" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="analog__in__source__pydoc__template_8h_1a1dce647c509abfb9731ed317cf6ba825" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_analog_in_source</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_analog_in_source</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" line="19" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="analog__in__source__pydoc__template_8h_1a782d5634ba64769619cce8cce4f609f5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_analog_in_source_analog_in_source_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_analog_in_source_analog_in_source_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" line="22" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="analog__in__source__pydoc__template_8h_1a696d13195944ed0689fc4d9504749576" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_analog_in_source_analog_in_source_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_analog_in_source_analog_in_source_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" line="25" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="analog__in__source__pydoc__template_8h_1a6c51cc68e3aedef687b77ebac302a167" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_analog_in_source_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_analog_in_source_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" line="28" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="analog__in__source__pydoc__template_8h_1aeb05f7cc9b2144e206bc3710bef06cc9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_analog_in_source_make_from</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_analog_in_source_make_from</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" line="31" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="analog__in__source__pydoc__template_8h_1a0eb23d2402e8022894363b22e13c58f0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_analog_in_source_set_params</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_analog_in_source_set_params</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" line="34" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="analog__in__source__pydoc__template_8h_1aa00297df184128461b60bd652d73ad8a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_analog_in_source_set_data_rate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_analog_in_source_set_data_rate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" line="37" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="analog__in__source__pydoc__template_8h_1a4620a42d2a6dd8d64cf4fada9c5a7039" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_analog_in_source_set_trigger</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_analog_in_source_set_trigger</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" line="40" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="analog__in__source__pydoc__template_8h_1adf317e4e9b2d7254ddb82eae1fccb424" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_analog_in_source_set_timeout_ms</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_analog_in_source_set_timeout_ms</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" line="43" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="analog__in__source__pydoc__template_8h_1abce26d40ff817628c1ff7fff2d26f056" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_analog_in_source_set_buffer_size</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_analog_in_source_set_buffer_size</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" line="46" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/analog_in_source_pydoc_template.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+QPushButton[qss_properties_button_subtleButton=true] {
+    border-radius: &radius_1&;
+    background-color: &background_primary&;
+    color: &content_default&;
+}
+QPushButton[qss_properties_button_subtleButton=true]:hover {
+    background-color: &interactive_primary_idle&;
+    color: &content_inverse&;
+}
+
+QPushButton[qss_properties_button_subtleButton=true]:pressed {
+    background-color: &interactive_primary_idle&;
+    color: &content_inverse&;
+}
+
+QPushButton[qss_properties_button_subtleButton=true]:checked {
+    background-color: &interactive_primary_idle&;
+    color: &content_inverse&;
+}

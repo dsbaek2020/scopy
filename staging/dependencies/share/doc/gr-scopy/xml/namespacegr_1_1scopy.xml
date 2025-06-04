@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1scopy" kind="namespace" language="C++">
+    <compoundname>gr::scopy</compoundname>
+    <innerclass refid="classgr_1_1scopy_1_1goertzel__scopy" prot="public">gr::scopy::goertzel_scopy</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1goertzel__scopy__fc" prot="public">gr::scopy::goertzel_scopy_fc</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl" prot="public">gr::scopy::goertzel_scopy_fc_impl</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1iio__math" prot="public">gr::scopy::iio_math</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1iio__math__gen" prot="public">gr::scopy::iio_math_gen</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1iio__math__gen__impl" prot="public">gr::scopy::iio_math_gen_impl</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1iio__math__impl" prot="public">gr::scopy::iio_math_impl</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1modulo__const__ff" prot="public">gr::scopy::modulo_const_ff</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1modulo__const__ff__impl" prot="public">gr::scopy::modulo_const_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1modulo__ff" prot="public">gr::scopy::modulo_ff</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1modulo__ff__impl" prot="public">gr::scopy::modulo_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1power__ff" prot="public">gr::scopy::power_ff</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1power__ff__impl" prot="public">gr::scopy::power_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1t__source" prot="public">gr::scopy::t_source</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1t__source__impl" prot="public">gr::scopy::t_source_impl</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1trapezoidal" prot="public">gr::scopy::trapezoidal</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1trapezoidal__impl" prot="public">gr::scopy::trapezoidal_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/goertzel_scopy.h" line="8" column="3"/>
+  </compounddef>
+</doxygen>

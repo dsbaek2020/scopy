@@ -1,0 +1,9 @@
+QWidget[qss_properties_widget_ledBorder=false] {
+	border-left: &border_width_2& solid transparent;
+	border-radius: 0;
+}
+
+QWidget[qss_properties_widget_ledBorder=true] {
+	border-left: &border_width_2& solid &led_success&;
+	border-radius: 0;
+}

@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.14.0" xml:lang="en-US">
+  <compound refid="classgr_1_1scopy_1_1goertzel__scopy" kind="class"><name>gr::scopy::goertzel_scopy</name>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy_1a5a2e6661ce1f8046cf2000b739520eb8" kind="variable"><name>d_d1</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy_1a2a03a1dec656936e54042b0315052447" kind="variable"><name>d_d2</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy_1a9d367ee5c8acd0074e983fbdf1789a87" kind="variable"><name>d_wr</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy_1ab12cbaa39dd4d11b69ec196550d99a1c" kind="variable"><name>d_wi</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy_1a11380b765611513f68d44e7c1765b0f5" kind="variable"><name>d_len</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy_1af22b537a48723fc64da3ca8688c94635" kind="variable"><name>d_processed</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy_1a8b415a9275cd059b38b09703001b6718" kind="function"><name>goertzel_scopy</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy_1a452e9ab3a54e9bea3586bb7666ca5f46" kind="function"><name>set_params</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy_1af5e6360c83c1d12d2fcd5f03c7f0ecdb" kind="function"><name>batch</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy_1a31b044201c7cdaf419727517d7c960eb" kind="function"><name>input</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy_1abd4af6fbbabec262de4b95e034cde9ed" kind="function"><name>output</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy_1ab2bc1a1130c2f9018bc8880ad6105530" kind="function"><name>ready</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1goertzel__scopy__fc" kind="class"><name>gr::scopy::goertzel_scopy_fc</name>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1af10728666a232eb5e331c0bd654af14a" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1aa074b9109933d7e7b159c52108eab131" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1ac46c9d6b8cfaa292a8801ac1aa116f96" kind="function"><name>set_freq</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1af820f8511261648b1a170c4c1956f2fa" kind="function"><name>set_rate</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a999063267d511604d35e649818244f2f" kind="function"><name>set_len</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a9d76aadcf02db88256509f1b34d025cb" kind="function"><name>freq</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a6a9e4936c2100abd1e34d98752cb090d" kind="function"><name>rate</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a7f16f3a79a2af0feaf0c9ab0e23629fd" kind="function"><name>len</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl" kind="class"><name>gr::scopy::goertzel_scopy_fc_impl</name>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1a86401f65a55f21a1f8f15024c4ef3c75" kind="variable"><name>d_goertzel</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1a3ba3436d6c8ead1d4d703ff686b1865e" kind="variable"><name>d_len</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1a192e80829a3420c9afbd8e030065b27d" kind="variable"><name>d_freq</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1a61e62c6f898b47ac8bf455c0b4b82657" kind="variable"><name>d_rate</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1a34919f272f0368371731a358fb66739d" kind="function"><name>goertzel_scopy_fc_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1a7452b2b178da6df8c0bc63649bcf781a" kind="function"><name>~goertzel_scopy_fc_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1a96cdf0541d42791bc241a928471b9976" kind="function"><name>set_freq</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1ab61ab66d43303f1f78b54731f8f6be6b" kind="function"><name>set_rate</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1aaaf778aee887ead858501208dfdeb7a9" kind="function"><name>set_len</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1a1e01edc0c127d295da26868de9765038" kind="function"><name>freq</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1ac5b2ab7abf06b12a4d40ac401ba8f480" kind="function"><name>rate</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1a3a1410232d3c71ee40c485e036675317" kind="function"><name>len</name></member>
+    <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1a43f53eff2a14ec5bfebd57cdb6850eb5" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1iio__math" kind="class"><name>gr::scopy::iio_math</name>
+    <member refid="classgr_1_1scopy_1_1iio__math_1abaa9e28f39ed9dcaf580a57e96d35f89" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math_1a75a0db21a66bd51d55d5a0a7188eb509" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1iio__math__gen" kind="class"><name>gr::scopy::iio_math_gen</name>
+    <member refid="classgr_1_1scopy_1_1iio__math__gen_1aeb5889273ee2faa41ad38da085cd4257" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math__gen_1a928aacbbbf68c942cc05a40fa105f8ea" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1iio__math__gen__impl" kind="class"><name>gr::scopy::iio_math_gen_impl</name>
+    <member refid="classgr_1_1scopy_1_1iio__math__gen__impl_1a425b0a6f27aae524a0f6659be853eff5" kind="variable"><name>src_block</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math__gen__impl_1a58374a618b0dfa8e6d5ba8481133a279" kind="function"><name>iio_math_gen_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math__gen__impl_1a6342b4286fa524c30158de7e57472922" kind="function"><name>get_src_block</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math__gen__impl_1afe5eea3c690f3097b34a877c2147daa6" kind="function"><name>connect_to_output</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1iio__math__impl" kind="class"><name>gr::scopy::iio_math_impl</name>
+    <member refid="classgr_1_1scopy_1_1iio__math__impl_1a0e09c5aa1b59d341102ed4cf836654a7" kind="variable"><name>blocks</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math__impl_1af03f1135cc5c813730afcb41aa00c867" kind="variable"><name>connected_ports</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math__impl_1a09959e879777e1b42c8ea163255206c9" kind="function"><name>iio_math_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math__impl_1a42f1c3690e3f9247acf00457476c2947" kind="function"><name>~iio_math_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math__impl_1a053110832f7ba4eb020244c2c954c450" kind="function"><name>register_block</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math__impl_1a3ffe2a49fd70489901ef806526971e53" kind="function"><name>set_port_used</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math__impl_1aba65481feb67853b7fd7814b597ca13e" kind="function"><name>get_src_block</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math__impl_1a7cf0659ea5dad9a343a12266ec71510e" kind="function"><name>connect_to_output</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math__impl_1a3eba9c113ffa9bb5aa61273b2bc8986b" kind="function"><name>connect_null_sinks</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math__impl_1a55c912645f209a610c7d5bbe361016cb" kind="function"><name>iio_math_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1iio__math__impl_1a90f96941f29c19b9c21e7ca7af2aa284" kind="function"><name>cleanup</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1modulo__const__ff" kind="class"><name>gr::scopy::modulo_const_ff</name>
+    <member refid="classgr_1_1scopy_1_1modulo__const__ff_1a81533b1d150f1ee40767d4358770989e" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1scopy_1_1modulo__const__ff_1a801628594ff06c651ae40c505971cd7b" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1modulo__const__ff__impl" kind="class"><name>gr::scopy::modulo_const_ff_impl</name>
+    <member refid="classgr_1_1scopy_1_1modulo__const__ff__impl_1a6bb64cb7d13ebefa5e521de29a06268d" kind="variable"><name>d_modulo</name></member>
+    <member refid="classgr_1_1scopy_1_1modulo__const__ff__impl_1a9fdc512269b26ee4d0eb1b719e8df219" kind="variable"><name>d_vlen</name></member>
+    <member refid="classgr_1_1scopy_1_1modulo__const__ff__impl_1a2bae4e053aa89e07afad92ce89c10913" kind="function"><name>modulo_const_ff_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1modulo__const__ff__impl_1a72cf6bedc6cf16fbe889eb8aba2bffd8" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1scopy_1_1modulo__const__ff__impl_1a2bae4e053aa89e07afad92ce89c10913" kind="function"><name>modulo_const_ff_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1modulo__const__ff__impl_1a2cc63be9cc6ea266a1e9e624b861b080" kind="function"><name>~modulo_const_ff_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1modulo__const__ff__impl_1a72cf6bedc6cf16fbe889eb8aba2bffd8" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1modulo__ff" kind="class"><name>gr::scopy::modulo_ff</name>
+    <member refid="classgr_1_1scopy_1_1modulo__ff_1a2e99c911a5c22ba3c33b5f606a9f9514" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1scopy_1_1modulo__ff_1a065126afd6d848d00d4aa7009621d0ae" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1modulo__ff__impl" kind="class"><name>gr::scopy::modulo_ff_impl</name>
+    <member refid="classgr_1_1scopy_1_1modulo__ff__impl_1a467754f3249049b898cefa6136ad515d" kind="variable"><name>d_vlen</name></member>
+    <member refid="classgr_1_1scopy_1_1modulo__ff__impl_1a1cceb740a10208d274ddba8cf46e0bc9" kind="function"><name>modulo_ff_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1modulo__ff__impl_1aa84a8eea30e00a6c6ec45dfb2b2a8003" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1scopy_1_1modulo__ff__impl_1a1cceb740a10208d274ddba8cf46e0bc9" kind="function"><name>modulo_ff_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1modulo__ff__impl_1a7cbb31a7538cfa08419ebcffe95d6373" kind="function"><name>~modulo_ff_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1modulo__ff__impl_1aa84a8eea30e00a6c6ec45dfb2b2a8003" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1power__ff" kind="class"><name>gr::scopy::power_ff</name>
+    <member refid="classgr_1_1scopy_1_1power__ff_1a8f630b2aa3f033c5dd7f9ffb5ebeb369" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1scopy_1_1power__ff_1a340cba863687106cb68d5fee37cc546d" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1power__ff__impl" kind="class"><name>gr::scopy::power_ff_impl</name>
+    <member refid="classgr_1_1scopy_1_1power__ff__impl_1a50d3d8ff002339d2b747712f8367adf5" kind="variable"><name>d_vlen</name></member>
+    <member refid="classgr_1_1scopy_1_1power__ff__impl_1ab789b3edf0b3417ac9b25d77b3422ceb" kind="function"><name>power_ff_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1power__ff__impl_1a4a26f6de6135aacee66e2556ba72d8a1" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1scopy_1_1power__ff__impl_1ab789b3edf0b3417ac9b25d77b3422ceb" kind="function"><name>power_ff_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1power__ff__impl_1aef7dec8a2f7ef432d8aa252b6afe76f1" kind="function"><name>~power_ff_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1power__ff__impl_1a4a26f6de6135aacee66e2556ba72d8a1" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1t__source" kind="class"><name>gr::scopy::t_source</name>
+    <member refid="classgr_1_1scopy_1_1t__source_1a9e8ea27e782428b0196605a9480347bb" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1scopy_1_1t__source_1a4e041e9706a2c5b84543dce6f5e686fe" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1t__source__impl" kind="class"><name>gr::scopy::t_source_impl</name>
+    <member refid="classgr_1_1scopy_1_1t__source__impl_1ac61fdcadecefdbb6ca56b839e756a77e" kind="variable"><name>samp_rate</name></member>
+    <member refid="classgr_1_1scopy_1_1t__source__impl_1a0903fa3e0a6f5ba30d3fd22b80fc1d78" kind="variable"><name>step</name></member>
+    <member refid="classgr_1_1scopy_1_1t__source__impl_1acbe6e35565056d26bbe6efdc05761d93" kind="variable"><name>period</name></member>
+    <member refid="classgr_1_1scopy_1_1t__source__impl_1a41c4cbbe49334283d9a629096b1c30e5" kind="function"><name>t_source_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1t__source__impl_1aa6687bb37774857ef0e8cf898e3bde9f" kind="function"><name>~t_source_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1t__source__impl_1af6a64c6eccdfd1bd1053b78958f12c0a" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1trapezoidal" kind="class"><name>gr::scopy::trapezoidal</name>
+    <member refid="classgr_1_1scopy_1_1trapezoidal_1a6f109def888022f98c1e9a574c15b8c0" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1scopy_1_1trapezoidal_1ac361e395b1a54249c431e27672395cb8" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1scopy_1_1trapezoidal__impl" kind="class"><name>gr::scopy::trapezoidal_impl</name>
+    <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1ab052cb25f340c2d8469d6833968c4dd2" kind="variable"><name>d_sampling_freq</name></member>
+    <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1abaf21857fcf0923a9b456d6c0344bb22" kind="variable"><name>d_frequency</name></member>
+    <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1a41e9b7f01177d2cb6fd7744dca89b9cd" kind="variable"><name>d_ampl</name></member>
+    <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1aad90a1b1261db2402b2e832395ab13f3" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1a1d55b7181e47bd44a30fba048313a956" kind="variable"><name>d_nco</name></member>
+    <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1a87f2e987d53aeca18b8402f9ace7756b" kind="variable"><name>d_phase</name></member>
+    <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1a466bcabc5c06f35bba9686558448b90f" kind="variable"><name>d_rise</name></member>
+    <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1a6e9de7fa7e1047547c9a8b2e77fd5b97" kind="variable"><name>d_fall</name></member>
+    <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1ac860a8c4c290b1a2e8ce129806354585" kind="variable"><name>d_holdhigh</name></member>
+    <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1acdd89d7a05ef2fff311ed3dccdee73aa" kind="variable"><name>d_holdlow</name></member>
+    <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1a3a456a3eecf1b022385399d893ef3056" kind="function"><name>trapezoidal_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1aa958ba3be680949b0046a0b8683da189" kind="function"><name>~trapezoidal_impl</name></member>
+    <member refid="classgr_1_1scopy_1_1trapezoidal__impl_1a3f270bdd5ac1cc9d4726672167f0492c" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1scopy" kind="namespace"><name>gr::scopy</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="pydoc__macros_8h" kind="file"><name>pydoc_macros.h</name>
+    <member refid="pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kind="define"><name>__EXPAND</name></member>
+    <member refid="pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" kind="define"><name>__COUNT</name></member>
+    <member refid="pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" kind="define"><name>__VA_SIZE</name></member>
+    <member refid="pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" kind="define"><name>__CAT1</name></member>
+    <member refid="pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" kind="define"><name>__CAT2</name></member>
+    <member refid="pydoc__macros_8h_1a43c147206df4346db5e9d6445aab28ae" kind="define"><name>__DOC1</name></member>
+    <member refid="pydoc__macros_8h_1a53738db606593bc1554371d718695fed" kind="define"><name>__DOC2</name></member>
+    <member refid="pydoc__macros_8h_1a21baf08c04d32485764f227c32b5bf5d" kind="define"><name>__DOC3</name></member>
+    <member refid="pydoc__macros_8h_1a9463ba0ad86bcb4c59b5aecf8a37174c" kind="define"><name>__DOC4</name></member>
+    <member refid="pydoc__macros_8h_1a942579d548421ddb2906af7094e5789c" kind="define"><name>__DOC5</name></member>
+    <member refid="pydoc__macros_8h_1a31ea356761360e78d16525aa69d2dae6" kind="define"><name>__DOC6</name></member>
+    <member refid="pydoc__macros_8h_1a6f1e731f1c6d2893ff1bf98582a7de6e" kind="define"><name>__DOC7</name></member>
+    <member refid="pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kind="define"><name>DOC</name></member>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a1a3eda3b84dd98fb90d234f633eee46e" kind="define"><name>SCOPY_API</name></member>
+  </compound>
+  <compound refid="goertzel__scopy_8h" kind="file"><name>goertzel_scopy.h</name>
+  </compound>
+  <compound refid="goertzel__scopy__fc_8h" kind="file"><name>goertzel_scopy_fc.h</name>
+  </compound>
+  <compound refid="math_8h" kind="file"><name>math.h</name>
+  </compound>
+  <compound refid="modulo__const__ff_8h" kind="file"><name>modulo_const_ff.h</name>
+  </compound>
+  <compound refid="modulo__ff_8h" kind="file"><name>modulo_ff.h</name>
+  </compound>
+  <compound refid="power__ff_8h" kind="file"><name>power_ff.h</name>
+  </compound>
+  <compound refid="t__source_8h" kind="file"><name>t_source.h</name>
+  </compound>
+  <compound refid="trapezoidal_8h" kind="file"><name>trapezoidal.h</name>
+  </compound>
+  <compound refid="goertzel__scopy__fc__impl_8h" kind="file"><name>goertzel_scopy_fc_impl.h</name>
+  </compound>
+  <compound refid="iio__math__impl_8h" kind="file"><name>iio_math_impl.h</name>
+    <member refid="iio__math__impl_8h_1a8c4a0f46482b2f4bd82673cf9ed1f3d2" kind="function"><name>yy_scan_string</name></member>
+    <member refid="iio__math__impl_8h_1a6598fbd8f8df85a04c3da16387c46f30" kind="function"><name>yy_delete_buffer</name></member>
+  </compound>
+  <compound refid="iio__modulo__const__ff__impl_8h" kind="file"><name>iio_modulo_const_ff_impl.h</name>
+  </compound>
+  <compound refid="iio__modulo__ff__impl_8h" kind="file"><name>iio_modulo_ff_impl.h</name>
+  </compound>
+  <compound refid="iio__power__ff__impl_8h" kind="file"><name>iio_power_ff_impl.h</name>
+  </compound>
+  <compound refid="modulo__const__ff__impl_8h" kind="file"><name>modulo_const_ff_impl.h</name>
+  </compound>
+  <compound refid="modulo__ff__impl_8h" kind="file"><name>modulo_ff_impl.h</name>
+  </compound>
+  <compound refid="power__ff__impl_8h" kind="file"><name>power_ff_impl.h</name>
+  </compound>
+  <compound refid="t__source__impl_8h" kind="file"><name>t_source_impl.h</name>
+  </compound>
+  <compound refid="trapezoidal__impl_8h" kind="file"><name>trapezoidal_impl.h</name>
+  </compound>
+  <compound refid="goertzel__scopy__fc__pydoc__template_8h" kind="file"><name>goertzel_scopy_fc_pydoc_template.h</name>
+    <member refid="goertzel__scopy__fc__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="goertzel__scopy__fc__pydoc__template_8h_1a939f3ffd71e66f5549f480fc15c599b1" kind="variable"><name>__doc_gr_scopy_goertzel_scopy_fc</name></member>
+    <member refid="goertzel__scopy__fc__pydoc__template_8h_1a0bc33e359342b800f757c8c4dd90b243" kind="variable"><name>__doc_gr_scopy_goertzel_scopy_fc_goertzel_scopy_fc</name></member>
+    <member refid="goertzel__scopy__fc__pydoc__template_8h_1a4ba79529bc8aeee551c2b8e96d5eb762" kind="variable"><name>__doc_gr_scopy_goertzel_scopy_fc_make</name></member>
+  </compound>
+  <compound refid="modulo__const__ff__pydoc__template_8h" kind="file"><name>modulo_const_ff_pydoc_template.h</name>
+    <member refid="modulo__const__ff__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="modulo__const__ff__pydoc__template_8h_1af433beb55dcf7263cb4484dace440803" kind="variable"><name>__doc_gr_scopy_modulo_const_ff</name></member>
+    <member refid="modulo__const__ff__pydoc__template_8h_1af91a665ed429e33a65f735c47a0651aa" kind="variable"><name>__doc_gr_scopy_modulo_const_ff_modulo_const_ff</name></member>
+    <member refid="modulo__const__ff__pydoc__template_8h_1a1765c1c8a6731eb8511e355a3546cbae" kind="variable"><name>__doc_gr_scopy_modulo_const_ff_make</name></member>
+  </compound>
+  <compound refid="modulo__ff__pydoc__template_8h" kind="file"><name>modulo_ff_pydoc_template.h</name>
+    <member refid="modulo__ff__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="modulo__ff__pydoc__template_8h_1af8882fc72029fa8e73fdf07c3e71f138" kind="variable"><name>__doc_gr_scopy_modulo_ff</name></member>
+    <member refid="modulo__ff__pydoc__template_8h_1ab011317fd0ddea5ee44f67b3645e128a" kind="variable"><name>__doc_gr_scopy_modulo_ff_modulo_ff</name></member>
+    <member refid="modulo__ff__pydoc__template_8h_1aa849ea130037632c9a063c5d583705be" kind="variable"><name>__doc_gr_scopy_modulo_ff_make</name></member>
+  </compound>
+  <compound refid="power__ff__pydoc__template_8h" kind="file"><name>power_ff_pydoc_template.h</name>
+    <member refid="power__ff__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="power__ff__pydoc__template_8h_1a1be9fb88cdc2a7fd6be8eb687d7d473c" kind="variable"><name>__doc_gr_scopy_power_ff</name></member>
+    <member refid="power__ff__pydoc__template_8h_1a2f5b4d35268492490ec51441b14e19b6" kind="variable"><name>__doc_gr_scopy_power_ff_power_ff</name></member>
+    <member refid="power__ff__pydoc__template_8h_1a37235c7102deb98fe83aa2d731277c5e" kind="variable"><name>__doc_gr_scopy_power_ff_make</name></member>
+  </compound>
+  <compound refid="t__source__pydoc__template_8h" kind="file"><name>t_source_pydoc_template.h</name>
+    <member refid="t__source__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="t__source__pydoc__template_8h_1aab5e7401f63ed465479625e392d6c725" kind="variable"><name>__doc_gr_scopy_t_source</name></member>
+    <member refid="t__source__pydoc__template_8h_1a180a1379d2de5282d0e91a6d676eec19" kind="variable"><name>__doc_gr_scopy_t_source_t_source</name></member>
+    <member refid="t__source__pydoc__template_8h_1a3fba8d55e4016324c095b1d806d15d7c" kind="variable"><name>__doc_gr_scopy_t_source_make</name></member>
+  </compound>
+  <compound refid="trapezoidal__pydoc__template_8h" kind="file"><name>trapezoidal_pydoc_template.h</name>
+    <member refid="trapezoidal__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="trapezoidal__pydoc__template_8h_1a8402492c4a69870ebb85e3c3578a87c9" kind="variable"><name>__doc_gr_scopy_trapezoidal</name></member>
+    <member refid="trapezoidal__pydoc__template_8h_1ab70b396568c0749664c7108478285bb1" kind="variable"><name>__doc_gr_scopy_trapezoidal_trapezoidal</name></member>
+    <member refid="trapezoidal__pydoc__template_8h_1a08d2b32a7f6aaa34807e98a1a7da96b7" kind="variable"><name>__doc_gr_scopy_trapezoidal_make</name></member>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_a7aa5da5df183ca63dfe1300b580d6fc" kind="dir"><name>bindings</name>
+  </compound>
+  <compound refid="dir_49e56c817e5e54854c35e136979f97ca" kind="dir"><name>docs</name>
+  </compound>
+  <compound refid="dir_4716929ded6ae52f61e429100fa68988" kind="dir"><name>docstrings</name>
+  </compound>
+  <compound refid="dir_359d2bec989c9a8deeeb9aee335c1c76" kind="dir"><name>doxygen</name>
+  </compound>
+  <compound refid="dir_902d6fe55786be073ae6681293cdb979" kind="dir"><name>gnuradio</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_f2cd86917185299abf5a1f0679072f3c" kind="dir"><name>other</name>
+  </compound>
+  <compound refid="dir_7837fde3ab9c1fb2fc5be7b717af8d79" kind="dir"><name>python</name>
+  </compound>
+  <compound refid="dir_0ee369652c20aa79534077b1fb2b6a40" kind="dir"><name>scopy</name>
+  </compound>
+  <compound refid="dir_6b001a31fd6d31cfa051b42457baf31e" kind="dir"><name>scopy</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

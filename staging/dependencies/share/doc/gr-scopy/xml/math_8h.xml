@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="math_8h" kind="file" language="C++">
+    <compoundname>math.h</compoundname>
+    <includes refid="api_8h" local="no">gnuradio/scopy/api.h</includes>
+    <includes local="no">gnuradio/hier_block2.h</includes>
+    <includedby refid="iio__math__impl_8h" local="no">iio_math_impl.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>gnuradio/scopy/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>math.h</label>
+        <link refid="math_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="4">
+        <label>gnuradio/hier_block2.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>math.h</label>
+        <link refid="math_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>iio_math_impl.h</label>
+        <link refid="iio__math__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1scopy_1_1iio__math" prot="public">gr::scopy::iio_math</innerclass>
+    <innerclass refid="classgr_1_1scopy_1_1iio__math__gen" prot="public">gr::scopy::iio_math_gen</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1scopy">gr::scopy</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/math.h"/>
+  </compounddef>
+</doxygen>

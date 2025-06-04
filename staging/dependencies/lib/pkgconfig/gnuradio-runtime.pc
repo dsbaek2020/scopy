@@ -1,0 +1,11 @@
+prefix=/Users/baegdaeseong/scopy/staging/dependencies
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gnuradio-runtime
+Description: GNU Radio core runtime infrastructure
+Requires:
+Version: 3.10.12git
+Libs: -L${libdir} -lgnuradio-runtime -lgnuradio-pmt
+Cflags: -I${includedir} -I/opt/homebrew/Cellar/gmp/6.3.0/include

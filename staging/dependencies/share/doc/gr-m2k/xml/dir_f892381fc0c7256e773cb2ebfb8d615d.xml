@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_f892381fc0c7256e773cb2ebfb8d615d" kind="dir">
+    <compoundname>m2k</compoundname>
+    <innerdir refid="dir_405d7366043b451e48b95acbc34d5ed6">bindings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/"/>
+  </compounddef>
+</doxygen>

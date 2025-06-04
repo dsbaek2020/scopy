@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_cd591287db04f63f6ee07ed29ac044ca" kind="dir">
+    <compoundname>m2k</compoundname>
+    <innerfile refid="adf4350__sink_8h">adf4350_sink.h</innerfile>
+    <innerfile refid="analog__in__converter_8h">analog_in_converter.h</innerfile>
+    <innerfile refid="analog__in__source_8h">analog_in_source.h</innerfile>
+    <innerfile refid="analog__out__converter_8h">analog_out_converter.h</innerfile>
+    <innerfile refid="analog__out__sink_8h">analog_out_sink.h</innerfile>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="digital__in__source_8h">digital_in_source.h</innerfile>
+    <innerfile refid="mixed__signal__source_8h">mixed_signal_source.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/"/>
+  </compounddef>
+</doxygen>

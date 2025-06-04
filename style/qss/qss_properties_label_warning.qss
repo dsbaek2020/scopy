@@ -1,0 +1,3 @@
+QLabel[qss_properties_label_warning=true] {
+	color: &content_busy&;
+}

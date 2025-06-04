@@ -8,6 +8,7 @@ STAGINGDIR=$STAGING_AREA/dependencies
 WORKDIR=$STAGING_AREA
 
 export PYTHON3=python3
+QMAKE="/Users/baegdaeseong/Qt/6.9.0/macos/bin/qmake"  # ✅ 여기에 명시 추가
 
 __cmake() {
 	local args="$1"

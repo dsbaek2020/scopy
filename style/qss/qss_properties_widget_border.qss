@@ -1,0 +1,4 @@
+*[qss_properties_widget_border=true] {
+border: &border_width& solid &interactive_subtle_disabled&; 
+border-radius: &radius_1&;
+}

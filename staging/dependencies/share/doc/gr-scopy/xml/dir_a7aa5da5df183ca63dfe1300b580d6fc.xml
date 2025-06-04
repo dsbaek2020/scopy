@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_a7aa5da5df183ca63dfe1300b580d6fc" kind="dir">
+    <compoundname>bindings</compoundname>
+    <innerdir refid="dir_4716929ded6ae52f61e429100fa68988">docstrings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/python/scopy/bindings/"/>
+  </compounddef>
+</doxygen>

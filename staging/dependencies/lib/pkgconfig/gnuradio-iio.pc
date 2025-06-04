@@ -1,0 +1,11 @@
+prefix=/Users/baegdaeseong/scopy/staging/dependencies
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gnuradio-iio
+Description: GNU Radio blocks for IIO devices
+Requires: gnuradio-runtime gnuradio-blocks
+Version: 3.10.12git
+Libs: -L${libdir} -lgnuradio-iio -lgnuradio-blocks
+Cflags: -I${includedir}

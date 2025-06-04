@@ -1,0 +1,516 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1m2k_1_1digital__in__source__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::m2k::digital_in_source_impl</compoundname>
+    <basecompoundref refid="classgr_1_1m2k_1_1digital__in__source" prot="public" virt="non-virtual">gr::m2k::digital_in_source</basecompoundref>
+    <includes refid="digital__in__source__impl_8h" local="no">digital_in_source_impl.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1afe85ba7d15cd5d621fe3f95886e80dac" prot="private" static="no" mutable="no">
+        <type>libm2k::digital::M2kDigital *</type>
+        <definition>libm2k::digital::M2kDigital* gr::m2k::digital_in_source_impl::d_digital</definition>
+        <argsstring></argsstring>
+        <name>d_digital</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_digital</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="23" column="33" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1a9af28c059776d047bf4f212e63052916" prot="private" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string gr::m2k::digital_in_source_impl::d_uri</definition>
+        <argsstring></argsstring>
+        <name>d_uri</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_uri</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="24" column="23" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1a937342099ef8b290f4fe736013391694" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::m2k::digital_in_source_impl::d_channel</definition>
+        <argsstring></argsstring>
+        <name>d_channel</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_channel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="25" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1a028cfdd3e1a5025a277870ce09a4dc87" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::m2k::digital_in_source_impl::d_timeout</definition>
+        <argsstring></argsstring>
+        <name>d_timeout</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_timeout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="27" column="18" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1a32adde3596adb7e5fd76b553f6c4f015" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::m2k::digital_in_source_impl::d_deinit</definition>
+        <argsstring></argsstring>
+        <name>d_deinit</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_deinit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="28" column="10" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1afa0e2abb2389fcfb405535fc9d9a5e01" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::m2k::digital_in_source_impl::d_buffer_size</definition>
+        <argsstring></argsstring>
+        <name>d_buffer_size</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_buffer_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="30" column="18" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1abd178f73dc02f68f2384e310ea55117f" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::m2k::digital_in_source_impl::d_sample_index</definition>
+        <argsstring></argsstring>
+        <name>d_sample_index</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_sample_index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="31" column="18" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1a99c9af3496ce7586541fa6af883c63af" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long gr::m2k::digital_in_source_impl::d_items_in_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_items_in_buffer</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_items_in_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="32" column="19" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1af29aaff60b3a0820aff41ed5cda53068" prot="private" static="no" mutable="no">
+        <type>const unsigned short *</type>
+        <definition>const unsigned short* gr::m2k::digital_in_source_impl::d_raw_samples</definition>
+        <argsstring></argsstring>
+        <name>d_raw_samples</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_raw_samples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="33" column="26" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1a1f1604952fdde46784ad804ed042da8a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::m2k::digital_in_source_impl::d_data_rate</definition>
+        <argsstring></argsstring>
+        <name>d_data_rate</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_data_rate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="34" column="12" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1a22a8ad542c631c610015220e63aa87f5" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::m2k::digital_in_source_impl::d_port_id</definition>
+        <argsstring></argsstring>
+        <name>d_port_id</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_port_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="36" column="16" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1a315ed87f18c886702eb93f3e4cf583d5" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex gr::m2k::digital_in_source_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_mutex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="38" column="16" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1ab29012ced73ffb6ef7cdf6600c1a7a8d" prot="private" static="no" mutable="no">
+        <type>std::condition_variable</type>
+        <definition>std::condition_variable gr::m2k::digital_in_source_impl::d_cond_wait</definition>
+        <argsstring></argsstring>
+        <name>d_cond_wait</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_cond_wait</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="39" column="29" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1a27165a3ecedce8a70674413252c9768e" prot="private" static="no" mutable="no">
+        <type>std::thread</type>
+        <definition>std::thread gr::m2k::digital_in_source_impl::d_refill_thread</definition>
+        <argsstring></argsstring>
+        <name>d_refill_thread</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_refill_thread</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="40" column="17" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1aee59815a5232d350993a2c90e341b372" prot="private" static="no" mutable="no">
+        <type>volatile bool</type>
+        <definition>volatile bool gr::m2k::digital_in_source_impl::d_empty_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_empty_buffer</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_empty_buffer</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="41" column="19" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1digital__in__source__impl_1a77a8b376ff2e7db9042c229fd7e53ed0" prot="private" static="no" mutable="no">
+        <type>volatile bool</type>
+        <definition>volatile bool gr::m2k::digital_in_source_impl::d_thread_stopped</definition>
+        <argsstring></argsstring>
+        <name>d_thread_stopped</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::d_thread_stopped</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="41" column="34" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source__impl_1af92670edc7bd3b3cce42ee65b270526c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::m2k::digital_in_source_impl::digital_in_source_impl</definition>
+        <argsstring>(libm2k::context::M2k *context, int buffer_size, const int channel, double sampling_frequency, int kernel_buffers, bool streaming, bool deinit, double data_rate)</argsstring>
+        <name>digital_in_source_impl</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::digital_in_source_impl</qualifiedname>
+        <param>
+          <type>libm2k::context::M2k *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buffer_size</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>channel</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sampling_frequency</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kernel_buffers</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>streaming</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>deinit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>data_rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="44" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source__impl_1a9b9bf0e4753131624416afca66a7aa93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::m2k::digital_in_source_impl::~digital_in_source_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~digital_in_source_impl</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::~digital_in_source_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="53" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source__impl_1af24c066e584a482f054cb1c8971ac9b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::m2k::digital_in_source_impl::refill_buffer</definition>
+        <argsstring>()</argsstring>
+        <name>refill_buffer</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::refill_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="55" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source__impl_1a81ccf253c34a4d8576737bc9217216d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::m2k::digital_in_source_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="57" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source__impl_1a6c635e933fce1ee7d3ba9ebbfd68242f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::m2k::digital_in_source_impl::start</definition>
+        <argsstring>() override</argsstring>
+        <name>start</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="61" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source__impl_1a5b07cfbaceecc96126351c446f90df4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::m2k::digital_in_source_impl::stop</definition>
+        <argsstring>() override</argsstring>
+        <name>stop</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::stop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="62" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source__impl_1a2524176dc33511ca65f1b798bc088541" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::m2k::digital_in_source_impl::set_params</definition>
+        <argsstring>(double sampling_frequency, bool streaming) override</argsstring>
+        <name>set_params</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::set_params</qualifiedname>
+        <reimplements refid="classgr_1_1m2k_1_1digital__in__source_1a05f606a3b6869176158779f4cad6ce7e">set_params</reimplements>
+        <param>
+          <type>double</type>
+          <declname>sampling_frequency</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>streaming</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="64" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source__impl_1a750afcec22e920ba3b1dd257598948f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::m2k::digital_in_source_impl::set_data_rate</definition>
+        <argsstring>(double data) override</argsstring>
+        <name>set_data_rate</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::set_data_rate</qualifiedname>
+        <reimplements refid="classgr_1_1m2k_1_1digital__in__source_1a8ee05bb0a036d432ac23072ff1376698">set_data_rate</reimplements>
+        <param>
+          <type>double</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="66" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source__impl_1ac707588b3d78536341f864a92ae20321" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::m2k::digital_in_source_impl::set_timeout_ms</definition>
+        <argsstring>(unsigned int timeout) override</argsstring>
+        <name>set_timeout_ms</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::set_timeout_ms</qualifiedname>
+        <reimplements refid="classgr_1_1m2k_1_1digital__in__source_1a82e42c411431c43d24bc841173f69a48">set_timeout_ms</reimplements>
+        <param>
+          <type>unsigned int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="68" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source__impl_1a31ede129cfc3aa24c932e96ae6cf4bcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::m2k::digital_in_source_impl::set_buffer_size</definition>
+        <argsstring>(int buffer_size)</argsstring>
+        <name>set_buffer_size</name>
+        <qualifiedname>gr::m2k::digital_in_source_impl::set_buffer_size</qualifiedname>
+        <reimplements refid="classgr_1_1m2k_1_1digital__in__source_1a05d8edc8dc840e1262df8161eaf65903">set_buffer_size</reimplements>
+        <param>
+          <type>int</type>
+          <declname>buffer_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="70" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::m2k::digital_in_source</label>
+        <link refid="classgr_1_1m2k_1_1digital__in__source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::m2k::digital_in_source_impl</label>
+        <link refid="classgr_1_1m2k_1_1digital__in__source__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::m2k::digital_in_source</label>
+        <link refid="classgr_1_1m2k_1_1digital__in__source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::m2k::digital_in_source_impl</label>
+        <link refid="classgr_1_1m2k_1_1digital__in__source__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" line="20" column="5" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/digital_in_source_impl.h" bodystart="21" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1afa0e2abb2389fcfb405535fc9d9a5e01" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_buffer_size</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a937342099ef8b290f4fe736013391694" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_channel</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1ab29012ced73ffb6ef7cdf6600c1a7a8d" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_cond_wait</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a1f1604952fdde46784ad804ed042da8a" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_data_rate</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a32adde3596adb7e5fd76b553f6c4f015" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_deinit</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1afe85ba7d15cd5d621fe3f95886e80dac" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_digital</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1aee59815a5232d350993a2c90e341b372" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_empty_buffer</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a99c9af3496ce7586541fa6af883c63af" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_items_in_buffer</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a315ed87f18c886702eb93f3e4cf583d5" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a22a8ad542c631c610015220e63aa87f5" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_port_id</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1af29aaff60b3a0820aff41ed5cda53068" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_raw_samples</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a27165a3ecedce8a70674413252c9768e" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_refill_thread</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1abd178f73dc02f68f2384e310ea55117f" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_sample_index</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a77a8b376ff2e7db9042c229fd7e53ed0" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_thread_stopped</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a028cfdd3e1a5025a277870ce09a4dc87" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_timeout</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a9af28c059776d047bf4f212e63052916" prot="private" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>d_uri</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1af92670edc7bd3b3cce42ee65b270526c" prot="public" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>digital_in_source_impl</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source_1a6bf0ab7c6455c19ce57260da728ca822" prot="public" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source_1ae5f8033bb18159474352877c049f4bd0" prot="public" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>make_from</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1af24c066e584a482f054cb1c8971ac9b2" prot="public" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>refill_buffer</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a31ede129cfc3aa24c932e96ae6cf4bcc" prot="public" virt="virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>set_buffer_size</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a750afcec22e920ba3b1dd257598948f6" prot="public" virt="virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>set_data_rate</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a2524176dc33511ca65f1b798bc088541" prot="public" virt="virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>set_params</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1ac707588b3d78536341f864a92ae20321" prot="public" virt="virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>set_timeout_ms</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source_1a383908577344208ecf0ea95785567e65" prot="public" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a6c635e933fce1ee7d3ba9ebbfd68242f" prot="public" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>start</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a5b07cfbaceecc96126351c446f90df4f" prot="public" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>stop</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a81ccf253c34a4d8576737bc9217216d7" prot="public" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a9b9bf0e4753131624416afca66a7aa93" prot="public" virt="non-virtual"><scope>gr::m2k::digital_in_source_impl</scope><name>~digital_in_source_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

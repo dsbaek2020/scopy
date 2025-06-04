@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1m2k_1_1digital__in__source" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::m2k::digital_in_source</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1m2k_1_1digital__in__source__impl" prot="public" virt="non-virtual">gr::m2k::digital_in_source_impl</derivedcompoundref>
+    <includes refid="digital__in__source_8h" local="no">digital_in_source.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1m2k_1_1digital__in__source_1a383908577344208ecf0ea95785567e65" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1m2k_1_1digital__in__source" kindref="compound">digital_in_source</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;digital_in_source&gt; gr::m2k::digital_in_source::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::m2k::digital_in_source::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/digital_in_source.h" line="27" column="28" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/digital_in_source.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source_1a6bf0ab7c6455c19ce57260da728ca822" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1m2k_1_1digital__in__source_1a383908577344208ecf0ea95785567e65" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::m2k::digital_in_source::make</definition>
+        <argsstring>(const std::string &amp;uri, int buffer_size, int channel, double sampling_frequency, int kernel_buffers, bool streaming, bool deinit=true, double data_rate=0)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::m2k::digital_in_source::make</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>uri</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buffer_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channel</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sampling_frequency</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kernel_buffers</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>streaming</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>deinit</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>data_rate</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1m2k_1_1digital__in__source" kindref="compound">m2k::digital_in_source</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/digital_in_source.h" line="32" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source_1ae5f8033bb18159474352877c049f4bd0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1m2k_1_1digital__in__source_1a383908577344208ecf0ea95785567e65" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::m2k::digital_in_source::make_from</definition>
+        <argsstring>(libm2k::context::M2k *context, int buffer_size, int channel, double sampling_frequency, int kernel_buffers, bool streaming, bool deinit=true, double data_rate=0)</argsstring>
+        <name>make_from</name>
+        <qualifiedname>gr::m2k::digital_in_source::make_from</qualifiedname>
+        <param>
+          <type>libm2k::context::M2k *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buffer_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channel</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sampling_frequency</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kernel_buffers</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>streaming</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>deinit</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>data_rate</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/digital_in_source.h" line="41" column="15"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source_1a05f606a3b6869176158779f4cad6ce7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::m2k::digital_in_source::set_params</definition>
+        <argsstring>(double sampling_frequency, bool streaming)=0</argsstring>
+        <name>set_params</name>
+        <qualifiedname>gr::m2k::digital_in_source::set_params</qualifiedname>
+        <reimplementedby refid="classgr_1_1m2k_1_1digital__in__source__impl_1a2524176dc33511ca65f1b798bc088541">set_params</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>sampling_frequency</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>streaming</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/digital_in_source.h" line="50" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source_1a8ee05bb0a036d432ac23072ff1376698" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::m2k::digital_in_source::set_data_rate</definition>
+        <argsstring>(double rate)=0</argsstring>
+        <name>set_data_rate</name>
+        <qualifiedname>gr::m2k::digital_in_source::set_data_rate</qualifiedname>
+        <reimplementedby refid="classgr_1_1m2k_1_1digital__in__source__impl_1a750afcec22e920ba3b1dd257598948f6">set_data_rate</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/digital_in_source.h" line="52" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source_1a82e42c411431c43d24bc841173f69a48" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::m2k::digital_in_source::set_timeout_ms</definition>
+        <argsstring>(unsigned int timeout)=0</argsstring>
+        <name>set_timeout_ms</name>
+        <qualifiedname>gr::m2k::digital_in_source::set_timeout_ms</qualifiedname>
+        <reimplementedby refid="classgr_1_1m2k_1_1digital__in__source__impl_1ac707588b3d78536341f864a92ae20321">set_timeout_ms</reimplementedby>
+        <param>
+          <type>unsigned int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/digital_in_source.h" line="54" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1digital__in__source_1a05d8edc8dc840e1262df8161eaf65903" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::m2k::digital_in_source::set_buffer_size</definition>
+        <argsstring>(int buffer_size)=0</argsstring>
+        <name>set_buffer_size</name>
+        <qualifiedname>gr::m2k::digital_in_source::set_buffer_size</qualifiedname>
+        <reimplementedby refid="classgr_1_1m2k_1_1digital__in__source__impl_1a31ede129cfc3aa24c932e96ae6cf4bcc">set_buffer_size</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>buffer_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/digital_in_source.h" line="56" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Source for ADALM2000 with buffered output channels. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This block allows for streaming digital data from ADALM2000 </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::m2k::digital_in_source</label>
+        <link refid="classgr_1_1m2k_1_1digital__in__source"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::m2k::digital_in_source_impl</label>
+        <link refid="classgr_1_1m2k_1_1digital__in__source__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::m2k::digital_in_source</label>
+        <link refid="classgr_1_1m2k_1_1digital__in__source"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/digital_in_source.h" line="25" column="3" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/digital_in_source.h" bodystart="25" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classgr_1_1m2k_1_1digital__in__source_1a6bf0ab7c6455c19ce57260da728ca822" prot="public" virt="non-virtual"><scope>gr::m2k::digital_in_source</scope><name>make</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source_1ae5f8033bb18159474352877c049f4bd0" prot="public" virt="non-virtual"><scope>gr::m2k::digital_in_source</scope><name>make_from</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source_1a05d8edc8dc840e1262df8161eaf65903" prot="public" virt="pure-virtual"><scope>gr::m2k::digital_in_source</scope><name>set_buffer_size</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source_1a8ee05bb0a036d432ac23072ff1376698" prot="public" virt="pure-virtual"><scope>gr::m2k::digital_in_source</scope><name>set_data_rate</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source_1a05f606a3b6869176158779f4cad6ce7e" prot="public" virt="pure-virtual"><scope>gr::m2k::digital_in_source</scope><name>set_params</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source_1a82e42c411431c43d24bc841173f69a48" prot="public" virt="pure-virtual"><scope>gr::m2k::digital_in_source</scope><name>set_timeout_ms</name></member>
+      <member refid="classgr_1_1m2k_1_1digital__in__source_1a383908577344208ecf0ea95785567e65" prot="public" virt="non-virtual"><scope>gr::m2k::digital_in_source</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

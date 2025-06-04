@@ -1,0 +1,17 @@
+QPushButton[qss_properties_button_clear=true] {
+	width: 82px;
+	height: 32px;
+	border-radius: &radius_1&;
+	text-align: center;
+	padding: &padding_1&;
+	color: &content_inverse&;
+        background-color:&content_error&;
+}
+
+QPushButton[qss_properties_button_clear=true]:hover {
+    background-color: &interactive_accent_pressed&;
+    color: &content_inverse&;
+}
+QPushButton[qss_properties_button_clear=true]:disabled {
+        background-color: &interactive_subtle_disabled&;
+}

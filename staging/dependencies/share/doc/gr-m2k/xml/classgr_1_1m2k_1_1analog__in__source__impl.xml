@@ -1,0 +1,670 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1m2k_1_1analog__in__source__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::m2k::analog_in_source_impl</compoundname>
+    <basecompoundref refid="classgr_1_1m2k_1_1analog__in__source" prot="public" virt="non-virtual">gr::m2k::analog_in_source</basecompoundref>
+    <includes refid="analog__in__source__impl_8h" local="no">analog_in_source_impl.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a4a343c9e80779dbf4764bc49e90cdfcd" prot="private" static="no" mutable="no">
+        <type>libm2k::analog::M2kAnalogIn *</type>
+        <definition>libm2k::analog::M2kAnalogIn* gr::m2k::analog_in_source_impl::d_analog_in</definition>
+        <argsstring></argsstring>
+        <name>d_analog_in</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_analog_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="28" column="33" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a2a62ed9f15890a86229a878a6c3172fe" prot="private" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string gr::m2k::analog_in_source_impl::d_uri</definition>
+        <argsstring></argsstring>
+        <name>d_uri</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_uri</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="29" column="23" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a712c95d707e456d0c1179808f3851548" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::m2k::analog_in_source_impl::d_channels</definition>
+        <argsstring></argsstring>
+        <name>d_channels</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_channels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="30" column="17" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a86938328ee44a27c0710a84884a0d142" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::m2k::analog_in_source_impl::d_timeout</definition>
+        <argsstring></argsstring>
+        <name>d_timeout</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_timeout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="32" column="18" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a1ccb00fab1afcefd81d171e1dfcb5ca0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::m2k::analog_in_source_impl::d_deinit</definition>
+        <argsstring></argsstring>
+        <name>d_deinit</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_deinit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="33" column="10" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a5cdce3169b59f170861c1d533b4c74d0" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::m2k::analog_in_source_impl::d_buffer_size</definition>
+        <argsstring></argsstring>
+        <name>d_buffer_size</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_buffer_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="35" column="18" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a0d6383cc9c6348e1549c6ae01ed63ee0" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::m2k::analog_in_source_impl::d_sample_index</definition>
+        <argsstring></argsstring>
+        <name>d_sample_index</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_sample_index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="36" column="18" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a2f0d0180840a20bf9231a29782a2bffe" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long gr::m2k::analog_in_source_impl::d_items_in_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_items_in_buffer</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_items_in_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="37" column="19" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a35ac2501df5e1c78724716b7c043b72a" prot="private" static="no" mutable="no">
+        <type>const short *</type>
+        <definition>const short* gr::m2k::analog_in_source_impl::d_raw_samples</definition>
+        <argsstring></argsstring>
+        <name>d_raw_samples</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_raw_samples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="38" column="17" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a02b70a0b45d7a35c1a6e03e57984654e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::m2k::analog_in_source_impl::d_stream_voltage_values</definition>
+        <argsstring></argsstring>
+        <name>d_stream_voltage_values</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_stream_voltage_values</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="39" column="10" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a3e8b1c5ad69ac58c4e8fe3782fcf2221" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::m2k::analog_in_source_impl::d_data_rate</definition>
+        <argsstring></argsstring>
+        <name>d_data_rate</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_data_rate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="40" column="12" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a18dd69cb363413a69946da9ee13c13ee" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::m2k::analog_in_source_impl::d_port_id</definition>
+        <argsstring></argsstring>
+        <name>d_port_id</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_port_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="42" column="16" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1afc4937a6eaecff749be1d573b2073490" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex gr::m2k::analog_in_source_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_mutex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="44" column="16" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a40640229782d341a1e63f5f6552daee9" prot="private" static="no" mutable="no">
+        <type>std::condition_variable</type>
+        <definition>std::condition_variable gr::m2k::analog_in_source_impl::d_cond_wait</definition>
+        <argsstring></argsstring>
+        <name>d_cond_wait</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_cond_wait</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="45" column="29" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a64f288f90909bd33a7c9190daf60e558" prot="private" static="no" mutable="no">
+        <type>std::thread</type>
+        <definition>std::thread gr::m2k::analog_in_source_impl::d_refill_thread</definition>
+        <argsstring></argsstring>
+        <name>d_refill_thread</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_refill_thread</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="46" column="17" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1a41d50e87652cb6e38c261a3660c1dc22" prot="private" static="no" mutable="no">
+        <type>volatile bool</type>
+        <definition>volatile bool gr::m2k::analog_in_source_impl::d_empty_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_empty_buffer</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_empty_buffer</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="47" column="19" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1analog__in__source__impl_1ab78fc3f95a6ccbace3614661fc05fd19" prot="private" static="no" mutable="no">
+        <type>volatile bool</type>
+        <definition>volatile bool gr::m2k::analog_in_source_impl::d_thread_stopped</definition>
+        <argsstring></argsstring>
+        <name>d_thread_stopped</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::d_thread_stopped</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="47" column="34" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__source__impl_1a8e35cd33993a8f55da4fda0c0a2e9012" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::m2k::analog_in_source_impl::analog_in_source_impl</definition>
+        <argsstring>(libm2k::context::M2k *context, int buffer_size, const std::vector&lt; int &gt; &amp;channels, std::vector&lt; int &gt; ranges, double sampling_frequency, int oversampling_ratio, int kernel_buffers, bool calibrate_ADC, bool stream_voltage_values, std::vector&lt; int &gt; trigger_condition, std::vector&lt; int &gt; trigger_mode, int trigger_source, int trigger_delay, std::vector&lt; double &gt; trigger_level, bool streaming, bool deinit, double data_rate)</argsstring>
+        <name>analog_in_source_impl</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::analog_in_source_impl</qualifiedname>
+        <param>
+          <type>libm2k::context::M2k *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buffer_size</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>channels</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>ranges</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sampling_frequency</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>oversampling_ratio</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kernel_buffers</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>calibrate_ADC</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>stream_voltage_values</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>trigger_condition</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>trigger_mode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>trigger_source</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>trigger_delay</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>trigger_level</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>streaming</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>deinit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>data_rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="50" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__source__impl_1ad7fee6359bc511dd898b31f5e2529873" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::m2k::analog_in_source_impl::~analog_in_source_impl</definition>
+        <argsstring>() override</argsstring>
+        <name>~analog_in_source_impl</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::~analog_in_source_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="68" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__source__impl_1af254419f7c046bdb2b80a81c3f8696b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::m2k::analog_in_source_impl::refill_buffer</definition>
+        <argsstring>()</argsstring>
+        <name>refill_buffer</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::refill_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="70" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__source__impl_1a3660d3ed631357512f2512303b2e1d34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::m2k::analog_in_source_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items) override</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="72" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__source__impl_1acda2afbc6472ef6da371e12fe7758f25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::m2k::analog_in_source_impl::start</definition>
+        <argsstring>() override</argsstring>
+        <name>start</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="76" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__source__impl_1a6f69742964856f884fff18ca80668994" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::m2k::analog_in_source_impl::stop</definition>
+        <argsstring>() override</argsstring>
+        <name>stop</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::stop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="77" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__source__impl_1ac22cea6dc12ac62100cbbd9700ef3528" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::m2k::analog_in_source_impl::set_params</definition>
+        <argsstring>(std::vector&lt; int &gt; ranges, double sampling_frequency, int oversampling_ratio) override</argsstring>
+        <name>set_params</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::set_params</qualifiedname>
+        <reimplements refid="classgr_1_1m2k_1_1analog__in__source_1a37a63f41f4c154a31152932e4ae634ef">set_params</reimplements>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>ranges</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sampling_frequency</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>oversampling_ratio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="79" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__source__impl_1ad4323cbbd61010c855d50ef8b960cf2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::m2k::analog_in_source_impl::set_trigger</definition>
+        <argsstring>(std::vector&lt; int &gt; trigger_condition, std::vector&lt; int &gt; trigger_mode, int trigger_source, int trigger_delay, std::vector&lt; double &gt; trigger_level, bool streaming) override</argsstring>
+        <name>set_trigger</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::set_trigger</qualifiedname>
+        <reimplements refid="classgr_1_1m2k_1_1analog__in__source_1a9ab00b0577cb1624b0e32cee1863551a">set_trigger</reimplements>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>trigger_condition</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>trigger_mode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>trigger_source</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>trigger_delay</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>trigger_level</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>streaming</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="83" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__source__impl_1a7e316cbb13ec23f72b8380fbb04a578a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::m2k::analog_in_source_impl::set_timeout_ms</definition>
+        <argsstring>(unsigned int timeout) override</argsstring>
+        <name>set_timeout_ms</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::set_timeout_ms</qualifiedname>
+        <reimplements refid="classgr_1_1m2k_1_1analog__in__source_1a6979332b9553673068468900e03e50d1">set_timeout_ms</reimplements>
+        <param>
+          <type>unsigned int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="90" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__source__impl_1a3a2f65ac16d3a83d6bb25d68cec0ce91" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::m2k::analog_in_source_impl::set_data_rate</definition>
+        <argsstring>(double rate) override</argsstring>
+        <name>set_data_rate</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::set_data_rate</qualifiedname>
+        <reimplements refid="classgr_1_1m2k_1_1analog__in__source_1aa74d54e4c53e6081a1d2f7787f54c074">set_data_rate</reimplements>
+        <param>
+          <type>double</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="92" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__source__impl_1a73a2ac2ebf93c00cdf944c4c22b9a203" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::m2k::analog_in_source_impl::set_buffer_size</definition>
+        <argsstring>(int buffer_size) override</argsstring>
+        <name>set_buffer_size</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::set_buffer_size</qualifiedname>
+        <reimplements refid="classgr_1_1m2k_1_1analog__in__source_1a5329ba72cf990d3b058879c5a941aa65">set_buffer_size</reimplements>
+        <param>
+          <type>int</type>
+          <declname>buffer_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="100" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__source__impl_1a873a6b0be3aba4cd44313217a7fc6516" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>libm2k::context::M2k *</type>
+        <definition>static libm2k::context::M2k * gr::m2k::analog_in_source_impl::get_context</definition>
+        <argsstring>(const std::string &amp;uri)</argsstring>
+        <name>get_context</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::get_context</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>uri</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="94" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__source__impl_1a7220bc7d27e7dec41480d6ac62dcf944" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void gr::m2k::analog_in_source_impl::add_context</definition>
+        <argsstring>(libm2k::context::M2k *context)</argsstring>
+        <name>add_context</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::add_context</qualifiedname>
+        <param>
+          <type>libm2k::context::M2k *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="96" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1analog__in__source__impl_1a1a3b54ef16087b20b483f47461d4667d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void gr::m2k::analog_in_source_impl::remove_contexts</definition>
+        <argsstring>(const std::string &amp;uri)</argsstring>
+        <name>remove_contexts</name>
+        <qualifiedname>gr::m2k::analog_in_source_impl::remove_contexts</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>uri</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="98" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::m2k::analog_in_source</label>
+        <link refid="classgr_1_1m2k_1_1analog__in__source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::m2k::analog_in_source_impl</label>
+        <link refid="classgr_1_1m2k_1_1analog__in__source__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::m2k::analog_in_source</label>
+        <link refid="classgr_1_1m2k_1_1analog__in__source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::m2k::analog_in_source_impl</label>
+        <link refid="classgr_1_1m2k_1_1analog__in__source__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="25" column="5" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="26" bodyend="101"/>
+    <listofallmembers>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a7220bc7d27e7dec41480d6ac62dcf944" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>add_context</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a8e35cd33993a8f55da4fda0c0a2e9012" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>analog_in_source_impl</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a4a343c9e80779dbf4764bc49e90cdfcd" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_analog_in</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a5cdce3169b59f170861c1d533b4c74d0" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_buffer_size</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a712c95d707e456d0c1179808f3851548" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_channels</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a40640229782d341a1e63f5f6552daee9" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_cond_wait</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a3e8b1c5ad69ac58c4e8fe3782fcf2221" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_data_rate</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a1ccb00fab1afcefd81d171e1dfcb5ca0" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_deinit</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a41d50e87652cb6e38c261a3660c1dc22" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_empty_buffer</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a2f0d0180840a20bf9231a29782a2bffe" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_items_in_buffer</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1afc4937a6eaecff749be1d573b2073490" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a18dd69cb363413a69946da9ee13c13ee" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_port_id</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a35ac2501df5e1c78724716b7c043b72a" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_raw_samples</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a64f288f90909bd33a7c9190daf60e558" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_refill_thread</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a0d6383cc9c6348e1549c6ae01ed63ee0" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_sample_index</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a02b70a0b45d7a35c1a6e03e57984654e" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_stream_voltage_values</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1ab78fc3f95a6ccbace3614661fc05fd19" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_thread_stopped</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a86938328ee44a27c0710a84884a0d142" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_timeout</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a2a62ed9f15890a86229a878a6c3172fe" prot="private" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>d_uri</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a873a6b0be3aba4cd44313217a7fc6516" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>get_context</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source_1a41058e92220068d7224e01c5bb5e62ba" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source_1a52c2fff64bdcc01e814bb2c87065fe48" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>make_from</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1af254419f7c046bdb2b80a81c3f8696b2" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>refill_buffer</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a1a3b54ef16087b20b483f47461d4667d" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>remove_contexts</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a73a2ac2ebf93c00cdf944c4c22b9a203" prot="public" virt="virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>set_buffer_size</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a3a2f65ac16d3a83d6bb25d68cec0ce91" prot="public" virt="virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>set_data_rate</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1ac22cea6dc12ac62100cbbd9700ef3528" prot="public" virt="virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>set_params</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a7e316cbb13ec23f72b8380fbb04a578a" prot="public" virt="virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>set_timeout_ms</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1ad4323cbbd61010c855d50ef8b960cf2f" prot="public" virt="virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>set_trigger</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source_1acf1ebaaa0fa421fbb29a69b06c66c092" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1acda2afbc6472ef6da371e12fe7758f25" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>start</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a6f69742964856f884fff18ca80668994" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>stop</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a3660d3ed631357512f2512303b2e1d34" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1ad7fee6359bc511dd898b31f5e2529873" prot="public" virt="non-virtual"><scope>gr::m2k::analog_in_source_impl</scope><name>~analog_in_source_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

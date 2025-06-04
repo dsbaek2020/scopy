@@ -1,0 +1,27 @@
+QPushButton[qss_properties_button_whatsNewButton=true] {
+    height: &radius_1&;
+    width: &radius_1&;
+    border-radius: &radius_1&;
+    background-color: &content_silent&;
+    color: &content_inverse&;
+    font-weight: 700;
+    /* qproperty-iconSize: &unit_4&px; */
+}
+QPushButton[qss_properties_button_whatsNewButton=true]:hover {
+    background-color: &content_default&;
+    color: &content_inverse&;
+}
+
+QPushButton[qss_properties_button_whatsNewButton=true]:pressed {
+    background-color: &content_silent&;
+    color: &content_inverse&;
+}
+
+QPushButton[qss_properties_button_whatsNewButton=true]:disabled {
+    background-color: &interactive_subtle_disabled&;
+}
+
+QPushButton[qss_properties_button_whatsNewButton=true]:checked {
+    background-color: &content_default&;
+    color: &content_inverse&;
+}

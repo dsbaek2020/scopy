@@ -1,0 +1,25 @@
+QPushButton[qss_properties_button_toolButton=true] {
+	text-align:left;
+	height: &unit_2&;
+	background-color: transparent;
+	color: &content_default&;
+	border:none;
+	text-align:center;
+}
+QPushButton[qss_properties_button_toolButton=true]:hover {
+	background-color: &content_silent&;
+	color: &content_default&;
+}
+QPushButton[qss_properties_button_toolButton=true]:pressed {
+	background-color: &content_silent&;
+	color: &content_default&;
+}
+QPushButton[qss_properties_button_toolButton=true]:checked {
+	background-color: &interactive_subtle_disabled&;
+	color: &content_default&;
+}
+QPushButton[qss_properties_button_toolButton=true]:disabled {
+	background-color: transparent;
+	color: &content_silent&;
+}
+

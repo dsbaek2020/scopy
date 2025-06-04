@@ -1,0 +1,8 @@
+QLabel[qss_properties_label_deviceIcon=true] {
+	color: white;
+	font-weight: bold;
+	font-size: &font_size_0_5&;
+}
+QLabel[qss_properties_label_deviceIcon=true]:disabled {
+	color: grey;
+}

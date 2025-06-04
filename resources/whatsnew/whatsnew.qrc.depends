@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/whatsnew/">
+    <file>V2.0.0/adc_plugin.html</file>
+    <file>V2.0.0/dac_plugin.html</file>
+    <file>V2.0.0/pqm.html</file>
+    <file>V2.0.0/regmap.html</file>
+    <file>V2.0.0/swiot.html</file>
+  </qresource>
+</RCC>

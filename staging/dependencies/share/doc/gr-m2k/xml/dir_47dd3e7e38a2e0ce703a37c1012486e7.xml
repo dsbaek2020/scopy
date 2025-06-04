@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_47dd3e7e38a2e0ce703a37c1012486e7" kind="dir">
+    <compoundname>drivers</compoundname>
+    <innerfile refid="adf4350_8h">adf4350.h</innerfile>
+    <innerfile refid="spi_8h">spi.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/drivers/"/>
+  </compounddef>
+</doxygen>

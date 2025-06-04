@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1m2k" kind="namespace" language="C++">
+    <compoundname>gr::m2k</compoundname>
+    <innerclass refid="classgr_1_1m2k_1_1adf4350__sink" prot="public">gr::m2k::adf4350_sink</innerclass>
+    <innerclass refid="classgr_1_1m2k_1_1adf4350__sink__impl" prot="public">gr::m2k::adf4350_sink_impl</innerclass>
+    <innerclass refid="classgr_1_1m2k_1_1analog__in__converter" prot="public">gr::m2k::analog_in_converter</innerclass>
+    <innerclass refid="classgr_1_1m2k_1_1analog__in__converter__impl" prot="public">gr::m2k::analog_in_converter_impl</innerclass>
+    <innerclass refid="classgr_1_1m2k_1_1analog__in__source" prot="public">gr::m2k::analog_in_source</innerclass>
+    <innerclass refid="classgr_1_1m2k_1_1analog__in__source__impl" prot="public">gr::m2k::analog_in_source_impl</innerclass>
+    <innerclass refid="classgr_1_1m2k_1_1analog__out__converter" prot="public">gr::m2k::analog_out_converter</innerclass>
+    <innerclass refid="classgr_1_1m2k_1_1analog__out__converter__impl" prot="public">gr::m2k::analog_out_converter_impl</innerclass>
+    <innerclass refid="classgr_1_1m2k_1_1analog__out__sink" prot="public">gr::m2k::analog_out_sink</innerclass>
+    <innerclass refid="classgr_1_1m2k_1_1analog__out__sink__impl" prot="public">gr::m2k::analog_out_sink_impl</innerclass>
+    <innerclass refid="classgr_1_1m2k_1_1digital__in__source" prot="public">gr::m2k::digital_in_source</innerclass>
+    <innerclass refid="classgr_1_1m2k_1_1digital__in__source__impl" prot="public">gr::m2k::digital_in_source_impl</innerclass>
+    <innerclass refid="classgr_1_1m2k_1_1mixed__signal__source" prot="public">gr::m2k::mixed_signal_source</innerclass>
+    <innerclass refid="classgr_1_1m2k_1_1mixed__signal__source__impl" prot="public">gr::m2k::mixed_signal_source_impl</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacegr_1_1m2k_1abcfe586d909e9c1147bb307fdfe6bba8" prot="public" static="yes" mutable="no">
+        <type>std::map&lt; std::string, libm2k::context::M2k * &gt;</type>
+        <definition>std::map&lt;std::string, libm2k::context::M2k *&gt; gr::m2k::s_contexts</definition>
+        <argsstring></argsstring>
+        <name>s_contexts</name>
+        <qualifiedname>gr::m2k::s_contexts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="22" column="19" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1m2k_1a44d56b2b0f66df01d4308131639d8855" prot="public" static="yes" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex gr::m2k::s_ctx_mutex</definition>
+        <argsstring></argsstring>
+        <name>s_ctx_mutex</name>
+        <qualifiedname>gr::m2k::s_ctx_mutex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" line="23" column="21" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/analog_in_source_impl.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/adf4350_sink.h" line="15" column="3"/>
+  </compounddef>
+</doxygen>

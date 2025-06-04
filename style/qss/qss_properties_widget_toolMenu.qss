@@ -1,0 +1,7 @@
+*[qss_properties_widget_toolMenu=true] {
+	height: &unit_3&;
+	width: &unit_3&;
+	background-image: url(:/gui/icons/&icon_theme_folder&/icons/menu.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}

@@ -1,0 +1,13 @@
+QPushButton[qss_properties_button_stopButton=true] {
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+QPushButton[qss_properties_button_stopButton=true]:enabled {
+ background-image: url(:/gui/icons/&icon_theme_folder&/icons/play_stop.svg);
+}
+QPushButton[qss_properties_button_stopButton=true][disabled=true][enabled=false] {
+ background-image: url(:/gui/icons/&icon_theme_folder&/icons/play_stop.svg);
+}
+QPushButton[qss_properties_button_stopButton=true]:checked {
+ background-image: url(:/gui/icons/play_green.svg);
+}

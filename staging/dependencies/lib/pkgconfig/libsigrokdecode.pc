@@ -1,0 +1,18 @@
+prefix=/Users/baegdaeseong/scopy/staging/dependencies
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+pkgdatadir=${datadir}/libsigrokdecode
+decodersdir=${pkgdatadir}/decoders
+
+Name: libsigrokdecode
+Description: Protocol decoder library of the sigrok logic analyzer software
+URL: http://www.sigrok.org
+Requires: glib-2.0
+Requires.private: python-3.12-embed
+Version: 0.6.0-git-71f4514
+Libs: -L${libdir} -lsigrokdecode
+Libs.private: 
+Cflags: -I${includedir}

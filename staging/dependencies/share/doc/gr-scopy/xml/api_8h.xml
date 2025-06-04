@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="goertzel__scopy_8h" local="no">goertzel_scopy.h</includedby>
+    <includedby refid="goertzel__scopy__fc_8h" local="no">goertzel_scopy_fc.h</includedby>
+    <includedby refid="math_8h" local="no">math.h</includedby>
+    <includedby refid="modulo__const__ff_8h" local="no">modulo_const_ff.h</includedby>
+    <includedby refid="modulo__ff_8h" local="no">modulo_ff.h</includedby>
+    <includedby refid="power__ff_8h" local="no">power_ff.h</includedby>
+    <includedby refid="t__source_8h" local="no">t_source.h</includedby>
+    <includedby refid="trapezoidal_8h" local="no">trapezoidal.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>goertzel_scopy.h</label>
+        <link refid="goertzel__scopy_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>goertzel_scopy_fc.h</label>
+        <link refid="goertzel__scopy__fc_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>math.h</label>
+        <link refid="math_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>modulo_const_ff.h</label>
+        <link refid="modulo__const__ff_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>modulo_ff.h</label>
+        <link refid="modulo__ff_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>power_ff.h</label>
+        <link refid="power__ff_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>t_source.h</label>
+        <link refid="t__source_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>trapezoidal.h</label>
+        <link refid="trapezoidal_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>goertzel_scopy_fc_impl.h</label>
+        <link refid="goertzel__scopy__fc__impl_8h"/>
+      </node>
+      <node id="6">
+        <label>iio_math_impl.h</label>
+        <link refid="iio__math__impl_8h"/>
+      </node>
+      <node id="8">
+        <label>iio_modulo_const_ff_impl.h</label>
+        <link refid="iio__modulo__const__ff__impl_8h"/>
+      </node>
+      <node id="11">
+        <label>iio_modulo_ff_impl.h</label>
+        <link refid="iio__modulo__ff__impl_8h"/>
+      </node>
+      <node id="14">
+        <label>iio_power_ff_impl.h</label>
+        <link refid="iio__power__ff__impl_8h"/>
+      </node>
+      <node id="9">
+        <label>modulo_const_ff_impl.h</label>
+        <link refid="modulo__const__ff__impl_8h"/>
+      </node>
+      <node id="12">
+        <label>modulo_ff_impl.h</label>
+        <link refid="modulo__ff__impl_8h"/>
+      </node>
+      <node id="15">
+        <label>power_ff_impl.h</label>
+        <link refid="power__ff__impl_8h"/>
+      </node>
+      <node id="17">
+        <label>t_source_impl.h</label>
+        <link refid="t__source__impl_8h"/>
+      </node>
+      <node id="19">
+        <label>trapezoidal_impl.h</label>
+        <link refid="trapezoidal__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a1a3eda3b84dd98fb90d234f633eee46e" prot="public" static="no">
+        <name>SCOPY_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/api.h" line="31" column="12" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/api.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/api.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,23 @@
+*[qss_properties_widget_deviceIcon=true] {
+	border: 1px solid &interactive_subtle_disabled&;
+    color: &content_inverse&;
+    font-weight: bold;
+    border-radius: &radius_1&;
+}
+*[qss_properties_widget_deviceIcon=true]:hover {
+    background-color: &content_silent&;
+    color: &content_inverse&;
+}
+*[qss_properties_widget_deviceIcon=true]:pressed {
+    background-color: &content_silent&;
+    color: &content_inverse&;
+}
+
+*[qss_properties_widget_deviceIcon="selected"] {
+	background-color: &interactive_subtle_idle&;
+	border-radius: 4px;
+}
+
+*[qss_properties_widget_deviceIcon="idle"] {
+	background-color: transparent;
+}

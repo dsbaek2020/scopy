@@ -18,6 +18,11 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 #
 
+if(Qt${QT_VERSION_MAJOR} VERSION_GREATER_EQUAL 6)
+  message(STATUS "Skipping Qt5 test plugin because Qt6 is in use")
+  return()
+endif()
+
 cmake_minimum_required(VERSION 3.9)
 
 include(ScopyTest)

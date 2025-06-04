@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_4716929ded6ae52f61e429100fa68988" kind="dir">
+    <compoundname>docstrings</compoundname>
+    <innerfile refid="goertzel__scopy__fc__pydoc__template_8h">goertzel_scopy_fc_pydoc_template.h</innerfile>
+    <innerfile refid="modulo__const__ff__pydoc__template_8h">modulo_const_ff_pydoc_template.h</innerfile>
+    <innerfile refid="modulo__ff__pydoc__template_8h">modulo_ff_pydoc_template.h</innerfile>
+    <innerfile refid="power__ff__pydoc__template_8h">power_ff_pydoc_template.h</innerfile>
+    <innerfile refid="t__source__pydoc__template_8h">t_source_pydoc_template.h</innerfile>
+    <innerfile refid="trapezoidal__pydoc__template_8h">trapezoidal_pydoc_template.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/python/scopy/bindings/docstrings/"/>
+  </compounddef>
+</doxygen>

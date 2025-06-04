@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_63d9821c49d8c458d225779c44740a3b" kind="dir">
+    <compoundname>docstrings</compoundname>
+    <innerfile refid="adf4350__sink__pydoc__template_8h">adf4350_sink_pydoc_template.h</innerfile>
+    <innerfile refid="analog__in__converter__pydoc__template_8h">analog_in_converter_pydoc_template.h</innerfile>
+    <innerfile refid="analog__in__source__pydoc__template_8h">analog_in_source_pydoc_template.h</innerfile>
+    <innerfile refid="analog__out__converter__pydoc__template_8h">analog_out_converter_pydoc_template.h</innerfile>
+    <innerfile refid="analog__out__sink__pydoc__template_8h">analog_out_sink_pydoc_template.h</innerfile>
+    <innerfile refid="digital__in__source__pydoc__template_8h">digital_in_source_pydoc_template.h</innerfile>
+    <innerfile refid="mixed__signal__source__pydoc__template_8h">mixed_signal_source_pydoc_template.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+QPushButton[qss_properties_button_blueGrayButton=true] {
+	border-radius: &radius_1&;
+	border-style: outset;
+	height: &unit_4&;
+	background-color: &background_primary&;
+	color: &content_default&;
+	font-weight: bold;
+	font-size: &font_size&;
+	qproperty-iconSize: &unit_4&px;
+}
+
+QPushButton[qss_properties_button_blueGrayButton=true]:checked {
+	background-color: &interactive_primary_idle&;
+	color: &content_inverse&;
+}
+
+QPushButton[qss_properties_button_blueGrayButton=true]:pressed {
+	background-color: &interactive_primary_idle&;
+	color: &content_inverse&;
+}

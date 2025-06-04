@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1m2k_1_1mixed__signal__source" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::m2k::mixed_signal_source</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1m2k_1_1mixed__signal__source__impl" prot="public" virt="non-virtual">gr::m2k::mixed_signal_source_impl</derivedcompoundref>
+    <includes refid="mixed__signal__source_8h" local="no">mixed_signal_source.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1m2k_1_1mixed__signal__source_1a9ea253220fe0add02c039877eccd9ab2" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1m2k_1_1mixed__signal__source" kindref="compound">mixed_signal_source</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;mixed_signal_source&gt; gr::m2k::mixed_signal_source::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::m2k::mixed_signal_source::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/mixed_signal_source.h" line="22" column="28" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/mixed_signal_source.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source_1a2afddffede16cb4aa26ac09174a37d40" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1m2k_1_1mixed__signal__source_1a9ea253220fe0add02c039877eccd9ab2" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::m2k::mixed_signal_source::make</definition>
+        <argsstring>(libm2k::context::M2k *context, int buffer_size, double data_rate=0, int kb=64)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::m2k::mixed_signal_source::make</qualifiedname>
+        <param>
+          <type>libm2k::context::M2k *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buffer_size</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>data_rate</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kb</declname>
+          <defval>64</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/mixed_signal_source.h" line="24" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source_1ab43d56f8819cde611d2057c19cbbe018" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1m2k_1_1mixed__signal__source_1a9ea253220fe0add02c039877eccd9ab2" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::m2k::mixed_signal_source::make_from</definition>
+        <argsstring>(libm2k::context::M2k *context, int buffer_size, double data_rate=0, int kb=64)</argsstring>
+        <name>make_from</name>
+        <qualifiedname>gr::m2k::mixed_signal_source::make_from</qualifiedname>
+        <param>
+          <type>libm2k::context::M2k *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buffer_size</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>data_rate</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kb</declname>
+          <defval>64</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/mixed_signal_source.h" line="25" column="15"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source_1aed13719c379ef89aedf35b967308763d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::m2k::mixed_signal_source::set_timeout_ms</definition>
+        <argsstring>(unsigned int timeout)=0</argsstring>
+        <name>set_timeout_ms</name>
+        <qualifiedname>gr::m2k::mixed_signal_source::set_timeout_ms</qualifiedname>
+        <reimplementedby refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a2d7db250cf443c19dede06b5e924cd8b">set_timeout_ms</reimplementedby>
+        <param>
+          <type>unsigned int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/mixed_signal_source.h" line="27" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source_1ad167fd92609c8c860e81815b6d4f768b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::m2k::mixed_signal_source::set_data_rate</definition>
+        <argsstring>(double rate)=0</argsstring>
+        <name>set_data_rate</name>
+        <qualifiedname>gr::m2k::mixed_signal_source::set_data_rate</qualifiedname>
+        <reimplementedby refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a6baa312c592e125f933da79c34cb1f24">set_data_rate</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/mixed_signal_source.h" line="28" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source_1a7b75b12d10af3bff218b6843a4b43be3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::m2k::mixed_signal_source::set_buffer_size</definition>
+        <argsstring>(int buffer_size)=0</argsstring>
+        <name>set_buffer_size</name>
+        <qualifiedname>gr::m2k::mixed_signal_source::set_buffer_size</qualifiedname>
+        <reimplementedby refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1ac4072bb756d17db00d10194498a1f4f0">set_buffer_size</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>buffer_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/mixed_signal_source.h" line="29" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::m2k::mixed_signal_source</label>
+        <link refid="classgr_1_1m2k_1_1mixed__signal__source"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::m2k::mixed_signal_source_impl</label>
+        <link refid="classgr_1_1m2k_1_1mixed__signal__source__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::m2k::mixed_signal_source</label>
+        <link refid="classgr_1_1m2k_1_1mixed__signal__source"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/mixed_signal_source.h" line="20" column="3" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/include/gnuradio/m2k/mixed_signal_source.h" bodystart="20" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source_1a2afddffede16cb4aa26ac09174a37d40" prot="public" virt="non-virtual"><scope>gr::m2k::mixed_signal_source</scope><name>make</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source_1ab43d56f8819cde611d2057c19cbbe018" prot="public" virt="non-virtual"><scope>gr::m2k::mixed_signal_source</scope><name>make_from</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source_1a7b75b12d10af3bff218b6843a4b43be3" prot="public" virt="pure-virtual"><scope>gr::m2k::mixed_signal_source</scope><name>set_buffer_size</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source_1ad167fd92609c8c860e81815b6d4f768b" prot="public" virt="pure-virtual"><scope>gr::m2k::mixed_signal_source</scope><name>set_data_rate</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source_1aed13719c379ef89aedf35b967308763d" prot="public" virt="pure-virtual"><scope>gr::m2k::mixed_signal_source</scope><name>set_timeout_ms</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source_1a9ea253220fe0add02c039877eccd9ab2" prot="public" virt="non-virtual"><scope>gr::m2k::mixed_signal_source</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

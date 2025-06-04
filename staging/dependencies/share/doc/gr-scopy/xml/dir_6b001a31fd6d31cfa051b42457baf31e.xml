@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_6b001a31fd6d31cfa051b42457baf31e" kind="dir">
+    <compoundname>scopy</compoundname>
+    <innerdir refid="dir_a7aa5da5df183ca63dfe1300b580d6fc">bindings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/python/scopy/"/>
+  </compounddef>
+</doxygen>

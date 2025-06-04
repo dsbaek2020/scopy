@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="adf4350__sink__pydoc__template_8h" kind="file" language="C++">
+    <compoundname>adf4350_sink_pydoc_template.h</compoundname>
+    <includes refid="pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>adf4350_sink_pydoc_template.h</label>
+        <link refid="adf4350__sink__pydoc__template_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="adf4350__sink__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,m2k, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/adf4350_sink_pydoc_template.h" line="10" column="11" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/adf4350_sink_pydoc_template.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="adf4350__sink__pydoc__template_8h_1ac2e2c776cbe8342c74ecc78ef47e6c14" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_adf4350_sink</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_adf4350_sink</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/adf4350_sink_pydoc_template.h" line="19" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/adf4350_sink_pydoc_template.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="adf4350__sink__pydoc__template_8h_1a484f73d5e3372cca153f7f4b4225503f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_adf4350_sink_adf4350_sink</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_adf4350_sink_adf4350_sink</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/adf4350_sink_pydoc_template.h" line="22" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/adf4350_sink_pydoc_template.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="adf4350__sink__pydoc__template_8h_1ac7a9d86ed3f13ba4db7c7212e63a8cd9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_m2k_adf4350_sink_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_m2k_adf4350_sink_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/adf4350_sink_pydoc_template.h" line="25" column="20" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/adf4350_sink_pydoc_template.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/python/m2k/bindings/docstrings/adf4350_sink_pydoc_template.h"/>
+  </compounddef>
+</doxygen>

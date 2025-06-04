@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1m2k_1_1mixed__signal__source__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::m2k::mixed_signal_source_impl</compoundname>
+    <basecompoundref refid="classgr_1_1m2k_1_1mixed__signal__source" prot="public" virt="non-virtual">gr::m2k::mixed_signal_source</basecompoundref>
+    <includes refid="mixed__signal__source__impl_8h" local="no">mixed_signal_source_impl.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a3985ac8180792b2a864a446e54b85f68" prot="private" static="no" mutable="no">
+        <type>libm2k::context::M2k *</type>
+        <definition>libm2k::context::M2k* gr::m2k::mixed_signal_source_impl::d_m2k_context</definition>
+        <argsstring></argsstring>
+        <name>d_m2k_context</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_m2k_context</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="47" column="26" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a6aa00620d1e16d252782e3ebc9b75227" prot="private" static="no" mutable="no">
+        <type>libm2k::analog::M2kAnalogIn *</type>
+        <definition>libm2k::analog::M2kAnalogIn* gr::m2k::mixed_signal_source_impl::d_analog_in</definition>
+        <argsstring></argsstring>
+        <name>d_analog_in</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_analog_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="48" column="33" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a773a37bf34504850955003d8e7c8db43" prot="private" static="no" mutable="no">
+        <type>libm2k::digital::M2kDigital *</type>
+        <definition>libm2k::digital::M2kDigital* gr::m2k::mixed_signal_source_impl::d_digital_in</definition>
+        <argsstring></argsstring>
+        <name>d_digital_in</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_digital_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="49" column="33" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1adfb092779c0595280e2f052017ede09c" prot="private" static="no" mutable="no">
+        <type>const short *</type>
+        <definition>const short* gr::m2k::mixed_signal_source_impl::d_analog_raw</definition>
+        <argsstring></argsstring>
+        <name>d_analog_raw</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_analog_raw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="51" column="17" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a5a88b7191357ee09ae9a69ade7816dcf" prot="private" static="no" mutable="no">
+        <type>const unsigned short *</type>
+        <definition>const unsigned short* gr::m2k::mixed_signal_source_impl::d_digital_raw</definition>
+        <argsstring></argsstring>
+        <name>d_digital_raw</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_digital_raw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="52" column="26" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1aadd4ce0d4cce0b694a0a42835ec7e117" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::m2k::mixed_signal_source_impl::d_timeout</definition>
+        <argsstring></argsstring>
+        <name>d_timeout</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_timeout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="54" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a7c5a6fe22a0c0008f90e6f40a9ec8ba7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::m2k::mixed_signal_source_impl::d_buffer_size</definition>
+        <argsstring></argsstring>
+        <name>d_buffer_size</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_buffer_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="55" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a17861e11aca4fada083509f7be0f2d2c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::m2k::mixed_signal_source_impl::d_items_in_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_items_in_buffer</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_items_in_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="56" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a4bcbf0eff6a3ec5b0e4ccae71c6be6c2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::m2k::mixed_signal_source_impl::d_current_index</definition>
+        <argsstring></argsstring>
+        <name>d_current_index</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_current_index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="57" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a2c8081304dc89358a9efcab2c75139d4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::m2k::mixed_signal_source_impl::d_data_rate</definition>
+        <argsstring></argsstring>
+        <name>d_data_rate</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_data_rate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="58" column="12" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a4eab0a862d4135aa4dc7d73ec55e9e2d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::m2k::mixed_signal_source_impl::d_kernel_buffers</definition>
+        <argsstring></argsstring>
+        <name>d_kernel_buffers</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_kernel_buffers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="60" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a91e972a52755fa61389204061251dcc9" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::m2k::mixed_signal_source_impl::d_port_id</definition>
+        <argsstring></argsstring>
+        <name>d_port_id</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_port_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="62" column="16" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a237ff135494b7856b3b3500c04233962" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex gr::m2k::mixed_signal_source_impl::d_m2k_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_m2k_mutex</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_m2k_mutex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="64" column="16" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a774446757189fa9fc0cacd9882431ca5" prot="private" static="no" mutable="no">
+        <type>std::condition_variable</type>
+        <definition>std::condition_variable gr::m2k::mixed_signal_source_impl::d_m2k_cond</definition>
+        <argsstring></argsstring>
+        <name>d_m2k_cond</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_m2k_cond</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="65" column="29" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a638d31b9ce0736ee6a11ca88e10c60d6" prot="private" static="no" mutable="no">
+        <type>std::condition_variable</type>
+        <definition>std::condition_variable gr::m2k::mixed_signal_source_impl::d_m2k_cond2</definition>
+        <argsstring></argsstring>
+        <name>d_m2k_cond2</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_m2k_cond2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="65" column="40" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a72c4135cdc826e0f5a9b1057dd1a5612" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::m2k::mixed_signal_source_impl::d_please_refill_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_please_refill_buffer</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_please_refill_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="66" column="10" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a43b81be707b38f6442bdcead7e478c97" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::m2k::mixed_signal_source_impl::d_thread_stopped</definition>
+        <argsstring></argsstring>
+        <name>d_thread_stopped</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_thread_stopped</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="66" column="33" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a0c156be759113f05817fc6f35f1ad2e2" prot="private" static="no" mutable="no">
+        <type>std::thread</type>
+        <definition>std::thread gr::m2k::mixed_signal_source_impl::d_refill_thd</definition>
+        <argsstring></argsstring>
+        <name>d_refill_thd</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_refill_thd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="67" column="17" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1aedaf2050aab58fe89da2bf4915f3c9a5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::m2k::mixed_signal_source_impl::d_current_captured_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_current_captured_buffer</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::d_current_captured_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="69" column="9" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a10a9e475e5bae4e2be647d89a86563d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::m2k::mixed_signal_source_impl::mixed_signal_source_impl</definition>
+        <argsstring>(libm2k::context::M2k *context, int buffer_size, double data_rate, int kb)</argsstring>
+        <name>mixed_signal_source_impl</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::mixed_signal_source_impl</qualifiedname>
+        <param>
+          <type>libm2k::context::M2k *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buffer_size</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>data_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="27" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1ae169da1f314c83a39d66ceeab860f24e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::m2k::mixed_signal_source_impl::~mixed_signal_source_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~mixed_signal_source_impl</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::~mixed_signal_source_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="28" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a2b7292d5059945da908a2b74983570d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::m2k::mixed_signal_source_impl::start</definition>
+        <argsstring>() override</argsstring>
+        <name>start</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="30" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1aec21e5ef5a250bc2a198bf1938787af6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::m2k::mixed_signal_source_impl::stop</definition>
+        <argsstring>() override</argsstring>
+        <name>stop</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::stop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="31" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a757150af02087e2f91eb72cedba03641" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::m2k::mixed_signal_source_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items) override</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="33" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a2d7db250cf443c19dede06b5e924cd8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::m2k::mixed_signal_source_impl::set_timeout_ms</definition>
+        <argsstring>(unsigned int timeout) override</argsstring>
+        <name>set_timeout_ms</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::set_timeout_ms</qualifiedname>
+        <reimplements refid="classgr_1_1m2k_1_1mixed__signal__source_1aed13719c379ef89aedf35b967308763d">set_timeout_ms</reimplements>
+        <param>
+          <type>unsigned int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="38" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1ac4072bb756d17db00d10194498a1f4f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::m2k::mixed_signal_source_impl::set_buffer_size</definition>
+        <argsstring>(int buffer_size) override</argsstring>
+        <name>set_buffer_size</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::set_buffer_size</qualifiedname>
+        <reimplements refid="classgr_1_1m2k_1_1mixed__signal__source_1a7b75b12d10af3bff218b6843a4b43be3">set_buffer_size</reimplements>
+        <param>
+          <type>int</type>
+          <declname>buffer_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="39" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a6baa312c592e125f933da79c34cb1f24" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::m2k::mixed_signal_source_impl::set_data_rate</definition>
+        <argsstring>(double rate) override</argsstring>
+        <name>set_data_rate</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::set_data_rate</qualifiedname>
+        <reimplements refid="classgr_1_1m2k_1_1mixed__signal__source_1ad167fd92609c8c860e81815b6d4f768b">set_data_rate</reimplements>
+        <param>
+          <type>double</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="40" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a31ebac2266b2e7841fbe3ca06ddce41e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::m2k::mixed_signal_source_impl::restart</definition>
+        <argsstring>()</argsstring>
+        <name>restart</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::restart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="43" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1m2k_1_1mixed__signal__source__impl_1a6581c02e84cba97772e821faaee655f3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::m2k::mixed_signal_source_impl::refill_buffer</definition>
+        <argsstring>()</argsstring>
+        <name>refill_buffer</name>
+        <qualifiedname>gr::m2k::mixed_signal_source_impl::refill_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="44" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::m2k::mixed_signal_source</label>
+        <link refid="classgr_1_1m2k_1_1mixed__signal__source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::m2k::mixed_signal_source_impl</label>
+        <link refid="classgr_1_1m2k_1_1mixed__signal__source__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::m2k::mixed_signal_source</label>
+        <link refid="classgr_1_1m2k_1_1mixed__signal__source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::m2k::mixed_signal_source_impl</label>
+        <link refid="classgr_1_1m2k_1_1mixed__signal__source__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" line="24" column="5" bodyfile="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/mixed_signal_source_impl.h" bodystart="25" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a6aa00620d1e16d252782e3ebc9b75227" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_analog_in</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1adfb092779c0595280e2f052017ede09c" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_analog_raw</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a7c5a6fe22a0c0008f90e6f40a9ec8ba7" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_buffer_size</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1aedaf2050aab58fe89da2bf4915f3c9a5" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_current_captured_buffer</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a4bcbf0eff6a3ec5b0e4ccae71c6be6c2" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_current_index</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a2c8081304dc89358a9efcab2c75139d4" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_data_rate</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a773a37bf34504850955003d8e7c8db43" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_digital_in</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a5a88b7191357ee09ae9a69ade7816dcf" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_digital_raw</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a17861e11aca4fada083509f7be0f2d2c" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_items_in_buffer</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a4eab0a862d4135aa4dc7d73ec55e9e2d" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_kernel_buffers</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a774446757189fa9fc0cacd9882431ca5" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_m2k_cond</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a638d31b9ce0736ee6a11ca88e10c60d6" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_m2k_cond2</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a3985ac8180792b2a864a446e54b85f68" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_m2k_context</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a237ff135494b7856b3b3500c04233962" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_m2k_mutex</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a72c4135cdc826e0f5a9b1057dd1a5612" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_please_refill_buffer</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a91e972a52755fa61389204061251dcc9" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_port_id</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a0c156be759113f05817fc6f35f1ad2e2" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_refill_thd</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a43b81be707b38f6442bdcead7e478c97" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_thread_stopped</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1aadd4ce0d4cce0b694a0a42835ec7e117" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>d_timeout</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source_1a2afddffede16cb4aa26ac09174a37d40" prot="public" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source_1ab43d56f8819cde611d2057c19cbbe018" prot="public" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>make_from</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a10a9e475e5bae4e2be647d89a86563d9" prot="public" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>mixed_signal_source_impl</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a6581c02e84cba97772e821faaee655f3" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>refill_buffer</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a31ebac2266b2e7841fbe3ca06ddce41e" prot="private" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>restart</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1ac4072bb756d17db00d10194498a1f4f0" prot="public" virt="virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>set_buffer_size</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a6baa312c592e125f933da79c34cb1f24" prot="public" virt="virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>set_data_rate</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a2d7db250cf443c19dede06b5e924cd8b" prot="public" virt="virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>set_timeout_ms</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source_1a9ea253220fe0add02c039877eccd9ab2" prot="public" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a2b7292d5059945da908a2b74983570d2" prot="public" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>start</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1aec21e5ef5a250bc2a198bf1938787af6" prot="public" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>stop</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a757150af02087e2f91eb72cedba03641" prot="public" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1ae169da1f314c83a39d66ceeab860f24e" prot="public" virt="non-virtual"><scope>gr::m2k::mixed_signal_source_impl</scope><name>~mixed_signal_source_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

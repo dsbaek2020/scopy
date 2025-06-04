@@ -1,0 +1,9 @@
+QHeaderView::section[qss_properties_widget_tableViewWidget=true] {
+	border: 1px solid &content_default&;
+	background-color: &background_primary&;
+}
+
+QTableWidget::item[qss_properties_widget_tableViewWidget=true] {
+	border-right: 1px dashed &content_default&;
+	border-bottom: 1px dashed &content_default&;
+}

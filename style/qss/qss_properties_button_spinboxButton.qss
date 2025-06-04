@@ -1,0 +1,23 @@
+QPushButton[qss_properties_button_spinboxButton=true] {
+    border-radius: &radius_1&;
+    background-color: &interactive_secondary_idle&;
+    color: &content_default&;
+}
+QPushButton[qss_properties_button_spinboxButton=true]:hover {
+    background-color: &interactive_secondary_hover&;
+    color: &content_inverse&;
+}
+
+QPushButton[qss_properties_button_spinboxButton=true]:pressed {
+    background-color: &interactive_secondary_pressed&;
+    color: &content_inverse&;
+}
+
+QPushButton[qss_properties_button_spinboxButton=true]:checked {
+    background-color: &interactive_secondary_pressed&;
+    color: &content_inverse&;
+}
+QPushButton[qss_properties_button_spinboxButton=true]:disabled {
+    background-color: &interactive_secondary_disabled&;
+    color: &content_inverse&;
+}

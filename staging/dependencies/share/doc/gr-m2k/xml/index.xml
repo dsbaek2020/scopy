@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.14.0" xml:lang="en-US">
+  <compound refid="structadf4350__dev" kind="struct"><name>adf4350_dev</name>
+    <member refid="structadf4350__dev_1aef72859e57da670b87837fb5681bb9bf" kind="variable"><name>spi_desc</name></member>
+    <member refid="structadf4350__dev_1a9c35c04d7012c8ca6fe6b07c4c0bc3c5" kind="variable"><name>pdata</name></member>
+    <member refid="structadf4350__dev_1ac14b974d2d7b91607819f1cbc12b23cc" kind="variable"><name>clkin</name></member>
+    <member refid="structadf4350__dev_1af02a83969faaeb7137a79f54d30d2293" kind="variable"><name>chspc</name></member>
+    <member refid="structadf4350__dev_1a5850e50a4499572dea06a19f730fe488" kind="variable"><name>fpfd</name></member>
+    <member refid="structadf4350__dev_1a6391f243206cbbc98afaf9c7bb8f51d9" kind="variable"><name>min_out_freq</name></member>
+    <member refid="structadf4350__dev_1ad11dd2dc54d7ceecebe35bf5dea42340" kind="variable"><name>r0_fract</name></member>
+    <member refid="structadf4350__dev_1a21b71f56bda5d13b5281a16e52facd94" kind="variable"><name>r0_int</name></member>
+    <member refid="structadf4350__dev_1acd345b5b4e5b9501be8b1172e6dc1c22" kind="variable"><name>r1_mod</name></member>
+    <member refid="structadf4350__dev_1addb3b07c5c4b5d1a65837651ae327780" kind="variable"><name>r4_rf_div_sel</name></member>
+    <member refid="structadf4350__dev_1aceae81166e1e572e59d52cf4fbfb3ac6" kind="variable"><name>regs</name></member>
+    <member refid="structadf4350__dev_1aa482bc5595a8b2d4871e3d7e20855802" kind="variable"><name>regs_hw</name></member>
+    <member refid="structadf4350__dev_1a7c12ca3355efebcbec1ccd0ca6f439a8" kind="variable"><name>val</name></member>
+  </compound>
+  <compound refid="structadf4350__init__param" kind="struct"><name>adf4350_init_param</name>
+    <member refid="structadf4350__init__param_1a269d778adb221f1fd5bd14b7b60e129c" kind="variable"><name>spi_init</name></member>
+    <member refid="structadf4350__init__param_1a325fa13f53bf85764ea07641504752ed" kind="variable"><name>clkin</name></member>
+    <member refid="structadf4350__init__param_1a55e71814c48b6b7518883dfa98afffcf" kind="variable"><name>channel_spacing</name></member>
+    <member refid="structadf4350__init__param_1afc10ce33117d18e4b3c89f662e7b2152" kind="variable"><name>power_up_frequency</name></member>
+    <member refid="structadf4350__init__param_1a507eb36980806b8bbe9fce6d5d1c6c87" kind="variable"><name>reference_div_factor</name></member>
+    <member refid="structadf4350__init__param_1a98b4236b2381e7cc0a3be29c1c74fc2b" kind="variable"><name>reference_doubler_enable</name></member>
+    <member refid="structadf4350__init__param_1a96b948b31e32f2d0568ba97e08c8512b" kind="variable"><name>reference_div2_enable</name></member>
+    <member refid="structadf4350__init__param_1a0b9159b803b67f8cbaae59c93a3a900c" kind="variable"><name>phase_detector_polarity_positive_enable</name></member>
+    <member refid="structadf4350__init__param_1a07cc27627273340895f8e3d836b76926" kind="variable"><name>lock_detect_precision_6ns_enable</name></member>
+    <member refid="structadf4350__init__param_1adcfe8ba219436e441c0d91801491c7d6" kind="variable"><name>lock_detect_function_integer_n_enable</name></member>
+    <member refid="structadf4350__init__param_1ad94903a98f68d63241c9697aff6af10c" kind="variable"><name>charge_pump_current</name></member>
+    <member refid="structadf4350__init__param_1a46ce91df0cc0e441e005f69b8d94189b" kind="variable"><name>muxout_select</name></member>
+    <member refid="structadf4350__init__param_1a148a77e05fceb37155a20d42e29f2d21" kind="variable"><name>low_spur_mode_enable</name></member>
+    <member refid="structadf4350__init__param_1a3e312b6d458de23a696a9ddd451badd5" kind="variable"><name>cycle_slip_reduction_enable</name></member>
+    <member refid="structadf4350__init__param_1a27cdafe3b9308dd151ab63622f64b470" kind="variable"><name>charge_cancellation_enable</name></member>
+    <member refid="structadf4350__init__param_1aced6d1a089aadef4402f965d4035952e" kind="variable"><name>anti_backlash_3ns_enable</name></member>
+    <member refid="structadf4350__init__param_1affc21a0ce3a6aebf00599e8c35aaecbd" kind="variable"><name>band_select_clock_mode_high_enable</name></member>
+    <member refid="structadf4350__init__param_1a7417b9f9e81c5087122ceee6971abecb" kind="variable"><name>clk_divider_12bit</name></member>
+    <member refid="structadf4350__init__param_1a0b536edb77191b1925cbcb93204fb0a0" kind="variable"><name>clk_divider_mode</name></member>
+    <member refid="structadf4350__init__param_1aae8da2ef76f4afa4b8212b3e25754666" kind="variable"><name>aux_output_enable</name></member>
+    <member refid="structadf4350__init__param_1a2f82c74058a6382420874121726e0a22" kind="variable"><name>aux_output_fundamental_enable</name></member>
+    <member refid="structadf4350__init__param_1a668d5e4eec1984744a29beaa5eded56d" kind="variable"><name>mute_till_lock_enable</name></member>
+    <member refid="structadf4350__init__param_1ac409fe66fcba25524ecb3df3b97abe11" kind="variable"><name>output_power</name></member>
+    <member refid="structadf4350__init__param_1af7ce86c8b1bb95ec40d24de6a8263b5f" kind="variable"><name>aux_output_power</name></member>
+  </compound>
+  <compound refid="structadf4350__platform__data" kind="struct"><name>adf4350_platform_data</name>
+    <member refid="structadf4350__platform__data_1aebaf0b913a88b3248d9e012c099b2c3c" kind="variable"><name>clkin</name></member>
+    <member refid="structadf4350__platform__data_1a40c1e9abb91d1bc12a6315f751f93786" kind="variable"><name>channel_spacing</name></member>
+    <member refid="structadf4350__platform__data_1a2f187beedeae94f468481f8f44ca6441" kind="variable"><name>power_up_frequency</name></member>
+    <member refid="structadf4350__platform__data_1a29706b933ac0520c92cf8a9ffa070393" kind="variable"><name>ref_div_factor</name></member>
+    <member refid="structadf4350__platform__data_1a9c19b73adfda85beefb59f0c2ffca788" kind="variable"><name>ref_doubler_en</name></member>
+    <member refid="structadf4350__platform__data_1aed6ad8fe5a2473b095f355e4d9c30adf" kind="variable"><name>ref_div2_en</name></member>
+    <member refid="structadf4350__platform__data_1a0790fe3f0929ca48401cbf0285dd5005" kind="variable"><name>r2_user_settings</name></member>
+    <member refid="structadf4350__platform__data_1a0d1184ffe39a998c95cca109680ebf44" kind="variable"><name>r3_user_settings</name></member>
+    <member refid="structadf4350__platform__data_1a44975489fd577a97bc73d878a57d36cf" kind="variable"><name>r4_user_settings</name></member>
+    <member refid="structadf4350__platform__data_1af1ddc509235d12db895c25c47c66f1f3" kind="variable"><name>gpio_lock_detect</name></member>
+  </compound>
+  <compound refid="classgr_1_1m2k_1_1adf4350__sink" kind="class"><name>gr::m2k::adf4350_sink</name>
+    <member refid="classgr_1_1m2k_1_1adf4350__sink_1a0bc007388c1e7ab6b2a1935b5b3d50c4" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1m2k_1_1adf4350__sink_1a37cb999dfa5e73c93cc9336b959a4fad" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1m2k_1_1adf4350__sink__impl" kind="class"><name>gr::m2k::adf4350_sink_impl</name>
+    <member refid="classgr_1_1m2k_1_1adf4350__sink__impl_1acb48fb164981a367f661a4c137837aa9" kind="variable"><name>d_uri</name></member>
+    <member refid="classgr_1_1m2k_1_1adf4350__sink__impl_1a805ee08cac891a1b88ff2b7aca454afc" kind="variable"><name>d_adf4350_device</name></member>
+    <member refid="classgr_1_1m2k_1_1adf4350__sink__impl_1a2fb3cefab5d5ae923e4dead1fc7b3fe9" kind="function"><name>adf4350_sink_impl</name></member>
+    <member refid="classgr_1_1m2k_1_1adf4350__sink__impl_1af4e06637926aee9c965d5981f6d83e89" kind="function"><name>~adf4350_sink_impl</name></member>
+    <member refid="classgr_1_1m2k_1_1adf4350__sink__impl_1a21e0b421e126ebab3014737c4872563e" kind="function"><name>write_attribute</name></member>
+  </compound>
+  <compound refid="classgr_1_1m2k_1_1analog__in__converter" kind="class"><name>gr::m2k::analog_in_converter</name>
+    <member refid="classgr_1_1m2k_1_1analog__in__converter_1abbc0c022026159df0217c0d43c162b3b" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__converter_1a69704f8dd19875d1604fa02ab4cbf381" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__converter_1a1194ff04eb3d4d4962fd5abae54349dc" kind="function"><name>make_from</name></member>
+  </compound>
+  <compound refid="classgr_1_1m2k_1_1analog__in__converter__impl" kind="class"><name>gr::m2k::analog_in_converter_impl</name>
+    <member refid="classgr_1_1m2k_1_1analog__in__converter__impl_1ac1c372b2240dbddd295a36c3cbc95011" kind="variable"><name>d_analog_in</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__converter__impl_1a6c927d90dd909a9483a48d3ad55a1291" kind="function"><name>analog_in_converter_impl</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__converter__impl_1a2d342ceab3551bfe6ac87bfc17857f6e" kind="function"><name>~analog_in_converter_impl</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__converter__impl_1a1fd0e3ac7c589cd909b2abc34bb4a88c" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1m2k_1_1analog__in__source" kind="class"><name>gr::m2k::analog_in_source</name>
+    <member refid="classgr_1_1m2k_1_1analog__in__source_1acf1ebaaa0fa421fbb29a69b06c66c092" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source_1a41058e92220068d7224e01c5bb5e62ba" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source_1a52c2fff64bdcc01e814bb2c87065fe48" kind="function"><name>make_from</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source_1a37a63f41f4c154a31152932e4ae634ef" kind="function"><name>set_params</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source_1aa74d54e4c53e6081a1d2f7787f54c074" kind="function"><name>set_data_rate</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source_1a9ab00b0577cb1624b0e32cee1863551a" kind="function"><name>set_trigger</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source_1a6979332b9553673068468900e03e50d1" kind="function"><name>set_timeout_ms</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source_1a5329ba72cf990d3b058879c5a941aa65" kind="function"><name>set_buffer_size</name></member>
+  </compound>
+  <compound refid="classgr_1_1m2k_1_1analog__in__source__impl" kind="class"><name>gr::m2k::analog_in_source_impl</name>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a4a343c9e80779dbf4764bc49e90cdfcd" kind="variable"><name>d_analog_in</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a2a62ed9f15890a86229a878a6c3172fe" kind="variable"><name>d_uri</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a712c95d707e456d0c1179808f3851548" kind="variable"><name>d_channels</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a86938328ee44a27c0710a84884a0d142" kind="variable"><name>d_timeout</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a1ccb00fab1afcefd81d171e1dfcb5ca0" kind="variable"><name>d_deinit</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a5cdce3169b59f170861c1d533b4c74d0" kind="variable"><name>d_buffer_size</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a0d6383cc9c6348e1549c6ae01ed63ee0" kind="variable"><name>d_sample_index</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a2f0d0180840a20bf9231a29782a2bffe" kind="variable"><name>d_items_in_buffer</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a35ac2501df5e1c78724716b7c043b72a" kind="variable"><name>d_raw_samples</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a02b70a0b45d7a35c1a6e03e57984654e" kind="variable"><name>d_stream_voltage_values</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a3e8b1c5ad69ac58c4e8fe3782fcf2221" kind="variable"><name>d_data_rate</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a18dd69cb363413a69946da9ee13c13ee" kind="variable"><name>d_port_id</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1afc4937a6eaecff749be1d573b2073490" kind="variable"><name>d_mutex</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a40640229782d341a1e63f5f6552daee9" kind="variable"><name>d_cond_wait</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a64f288f90909bd33a7c9190daf60e558" kind="variable"><name>d_refill_thread</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a41d50e87652cb6e38c261a3660c1dc22" kind="variable"><name>d_empty_buffer</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1ab78fc3f95a6ccbace3614661fc05fd19" kind="variable"><name>d_thread_stopped</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a8e35cd33993a8f55da4fda0c0a2e9012" kind="function"><name>analog_in_source_impl</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1ad7fee6359bc511dd898b31f5e2529873" kind="function"><name>~analog_in_source_impl</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1af254419f7c046bdb2b80a81c3f8696b2" kind="function"><name>refill_buffer</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a3660d3ed631357512f2512303b2e1d34" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1acda2afbc6472ef6da371e12fe7758f25" kind="function"><name>start</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a6f69742964856f884fff18ca80668994" kind="function"><name>stop</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1ac22cea6dc12ac62100cbbd9700ef3528" kind="function"><name>set_params</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1ad4323cbbd61010c855d50ef8b960cf2f" kind="function"><name>set_trigger</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a7e316cbb13ec23f72b8380fbb04a578a" kind="function"><name>set_timeout_ms</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a3a2f65ac16d3a83d6bb25d68cec0ce91" kind="function"><name>set_data_rate</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a73a2ac2ebf93c00cdf944c4c22b9a203" kind="function"><name>set_buffer_size</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a873a6b0be3aba4cd44313217a7fc6516" kind="function"><name>get_context</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a7220bc7d27e7dec41480d6ac62dcf944" kind="function"><name>add_context</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__in__source__impl_1a1a3b54ef16087b20b483f47461d4667d" kind="function"><name>remove_contexts</name></member>
+  </compound>
+  <compound refid="classgr_1_1m2k_1_1analog__out__converter" kind="class"><name>gr::m2k::analog_out_converter</name>
+    <member refid="classgr_1_1m2k_1_1analog__out__converter_1a40b184a76a13bb0765f4b28b44e81d46" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__converter_1a9007f52d718ae171616bd25336f36a63" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__converter_1a845f3cb9fd961a3503ad2bac90b7006c" kind="function"><name>make_from</name></member>
+  </compound>
+  <compound refid="classgr_1_1m2k_1_1analog__out__converter__impl" kind="class"><name>gr::m2k::analog_out_converter_impl</name>
+    <member refid="classgr_1_1m2k_1_1analog__out__converter__impl_1afc6ca32efffa61c83dcae6f23cea8ff4" kind="variable"><name>d_analog_out</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__converter__impl_1a57fd257d2328ab917a67b9f5248061d8" kind="function"><name>analog_out_converter_impl</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__converter__impl_1af8fc702fe528842deaf4f378cfbf2d11" kind="function"><name>~analog_out_converter_impl</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__converter__impl_1acc7d1dadaeb825584c0518ef8b858217" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1m2k_1_1analog__out__sink" kind="class"><name>gr::m2k::analog_out_sink</name>
+    <member refid="classgr_1_1m2k_1_1analog__out__sink_1aa35007b087f9146053066d164fc2e8bf" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__sink_1ab0f8620d28ddcc88d44c71b7686bc7c6" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__sink_1a37f3b7c8cda884d70d8df210c01bfa4e" kind="function"><name>set_params</name></member>
+  </compound>
+  <compound refid="classgr_1_1m2k_1_1analog__out__sink__impl" kind="class"><name>gr::m2k::analog_out_sink_impl</name>
+    <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a124e6aedf66fb0758dc175f6ed475724" kind="variable"><name>d_analog_out</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a3d6b1b9048d163c7d099457f2a9cbbfe" kind="variable"><name>d_uri</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a679100bd278b0835ba096b1046d42119" kind="variable"><name>d_buffer_size</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a94a04153184c36fef76a9454d0f95af6" kind="variable"><name>d_stream_voltage_values</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a463c0319b34e283f2b1db2a266ed8008" kind="variable"><name>d_cyclic_buffer</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a250a227479cf868392d05cc5e71cec01" kind="variable"><name>d_first_iteration</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1ae93ffebc93645be0024fbd0971e01a10" kind="function"><name>analog_out_sink_impl</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a1c0f1afa34aae39fe31eba2acc2389cc" kind="function"><name>~analog_out_sink_impl</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1ac9fcabe1a9d2a5dec1a15c96c2ba1d8b" kind="function"><name>set_params</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a53bd3221aaac4714dcf03573765c800a" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1m2k_1_1analog__out__sink__impl_1a2c0ea5a175e0d1352537abbfc6524265" kind="function"><name>forecast</name></member>
+  </compound>
+  <compound refid="classgr_1_1m2k_1_1digital__in__source" kind="class"><name>gr::m2k::digital_in_source</name>
+    <member refid="classgr_1_1m2k_1_1digital__in__source_1a383908577344208ecf0ea95785567e65" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source_1a6bf0ab7c6455c19ce57260da728ca822" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source_1ae5f8033bb18159474352877c049f4bd0" kind="function"><name>make_from</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source_1a05f606a3b6869176158779f4cad6ce7e" kind="function"><name>set_params</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source_1a8ee05bb0a036d432ac23072ff1376698" kind="function"><name>set_data_rate</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source_1a82e42c411431c43d24bc841173f69a48" kind="function"><name>set_timeout_ms</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source_1a05d8edc8dc840e1262df8161eaf65903" kind="function"><name>set_buffer_size</name></member>
+  </compound>
+  <compound refid="classgr_1_1m2k_1_1digital__in__source__impl" kind="class"><name>gr::m2k::digital_in_source_impl</name>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1afe85ba7d15cd5d621fe3f95886e80dac" kind="variable"><name>d_digital</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a9af28c059776d047bf4f212e63052916" kind="variable"><name>d_uri</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a937342099ef8b290f4fe736013391694" kind="variable"><name>d_channel</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a028cfdd3e1a5025a277870ce09a4dc87" kind="variable"><name>d_timeout</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a32adde3596adb7e5fd76b553f6c4f015" kind="variable"><name>d_deinit</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1afa0e2abb2389fcfb405535fc9d9a5e01" kind="variable"><name>d_buffer_size</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1abd178f73dc02f68f2384e310ea55117f" kind="variable"><name>d_sample_index</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a99c9af3496ce7586541fa6af883c63af" kind="variable"><name>d_items_in_buffer</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1af29aaff60b3a0820aff41ed5cda53068" kind="variable"><name>d_raw_samples</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a1f1604952fdde46784ad804ed042da8a" kind="variable"><name>d_data_rate</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a22a8ad542c631c610015220e63aa87f5" kind="variable"><name>d_port_id</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a315ed87f18c886702eb93f3e4cf583d5" kind="variable"><name>d_mutex</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1ab29012ced73ffb6ef7cdf6600c1a7a8d" kind="variable"><name>d_cond_wait</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a27165a3ecedce8a70674413252c9768e" kind="variable"><name>d_refill_thread</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1aee59815a5232d350993a2c90e341b372" kind="variable"><name>d_empty_buffer</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a77a8b376ff2e7db9042c229fd7e53ed0" kind="variable"><name>d_thread_stopped</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1af92670edc7bd3b3cce42ee65b270526c" kind="function"><name>digital_in_source_impl</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a9b9bf0e4753131624416afca66a7aa93" kind="function"><name>~digital_in_source_impl</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1af24c066e584a482f054cb1c8971ac9b2" kind="function"><name>refill_buffer</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a81ccf253c34a4d8576737bc9217216d7" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a6c635e933fce1ee7d3ba9ebbfd68242f" kind="function"><name>start</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a5b07cfbaceecc96126351c446f90df4f" kind="function"><name>stop</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a2524176dc33511ca65f1b798bc088541" kind="function"><name>set_params</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a750afcec22e920ba3b1dd257598948f6" kind="function"><name>set_data_rate</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1ac707588b3d78536341f864a92ae20321" kind="function"><name>set_timeout_ms</name></member>
+    <member refid="classgr_1_1m2k_1_1digital__in__source__impl_1a31ede129cfc3aa24c932e96ae6cf4bcc" kind="function"><name>set_buffer_size</name></member>
+  </compound>
+  <compound refid="classgr_1_1m2k_1_1mixed__signal__source" kind="class"><name>gr::m2k::mixed_signal_source</name>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source_1a9ea253220fe0add02c039877eccd9ab2" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source_1a2afddffede16cb4aa26ac09174a37d40" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source_1ab43d56f8819cde611d2057c19cbbe018" kind="function"><name>make_from</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source_1aed13719c379ef89aedf35b967308763d" kind="function"><name>set_timeout_ms</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source_1ad167fd92609c8c860e81815b6d4f768b" kind="function"><name>set_data_rate</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source_1a7b75b12d10af3bff218b6843a4b43be3" kind="function"><name>set_buffer_size</name></member>
+  </compound>
+  <compound refid="classgr_1_1m2k_1_1mixed__signal__source__impl" kind="class"><name>gr::m2k::mixed_signal_source_impl</name>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a3985ac8180792b2a864a446e54b85f68" kind="variable"><name>d_m2k_context</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a6aa00620d1e16d252782e3ebc9b75227" kind="variable"><name>d_analog_in</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a773a37bf34504850955003d8e7c8db43" kind="variable"><name>d_digital_in</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1adfb092779c0595280e2f052017ede09c" kind="variable"><name>d_analog_raw</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a5a88b7191357ee09ae9a69ade7816dcf" kind="variable"><name>d_digital_raw</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1aadd4ce0d4cce0b694a0a42835ec7e117" kind="variable"><name>d_timeout</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a7c5a6fe22a0c0008f90e6f40a9ec8ba7" kind="variable"><name>d_buffer_size</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a17861e11aca4fada083509f7be0f2d2c" kind="variable"><name>d_items_in_buffer</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a4bcbf0eff6a3ec5b0e4ccae71c6be6c2" kind="variable"><name>d_current_index</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a2c8081304dc89358a9efcab2c75139d4" kind="variable"><name>d_data_rate</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a4eab0a862d4135aa4dc7d73ec55e9e2d" kind="variable"><name>d_kernel_buffers</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a91e972a52755fa61389204061251dcc9" kind="variable"><name>d_port_id</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a237ff135494b7856b3b3500c04233962" kind="variable"><name>d_m2k_mutex</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a774446757189fa9fc0cacd9882431ca5" kind="variable"><name>d_m2k_cond</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a638d31b9ce0736ee6a11ca88e10c60d6" kind="variable"><name>d_m2k_cond2</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a72c4135cdc826e0f5a9b1057dd1a5612" kind="variable"><name>d_please_refill_buffer</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a43b81be707b38f6442bdcead7e478c97" kind="variable"><name>d_thread_stopped</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a0c156be759113f05817fc6f35f1ad2e2" kind="variable"><name>d_refill_thd</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1aedaf2050aab58fe89da2bf4915f3c9a5" kind="variable"><name>d_current_captured_buffer</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a10a9e475e5bae4e2be647d89a86563d9" kind="function"><name>mixed_signal_source_impl</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1ae169da1f314c83a39d66ceeab860f24e" kind="function"><name>~mixed_signal_source_impl</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a2b7292d5059945da908a2b74983570d2" kind="function"><name>start</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1aec21e5ef5a250bc2a198bf1938787af6" kind="function"><name>stop</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a757150af02087e2f91eb72cedba03641" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a2d7db250cf443c19dede06b5e924cd8b" kind="function"><name>set_timeout_ms</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1ac4072bb756d17db00d10194498a1f4f0" kind="function"><name>set_buffer_size</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a6baa312c592e125f933da79c34cb1f24" kind="function"><name>set_data_rate</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a31ebac2266b2e7841fbe3ca06ddce41e" kind="function"><name>restart</name></member>
+    <member refid="classgr_1_1m2k_1_1mixed__signal__source__impl_1a6581c02e84cba97772e821faaee655f3" kind="function"><name>refill_buffer</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1m2k" kind="namespace"><name>gr::m2k</name>
+    <member refid="namespacegr_1_1m2k_1abcfe586d909e9c1147bb307fdfe6bba8" kind="variable"><name>s_contexts</name></member>
+    <member refid="namespacegr_1_1m2k_1a44d56b2b0f66df01d4308131639d8855" kind="variable"><name>s_ctx_mutex</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="pydoc__macros_8h" kind="file"><name>pydoc_macros.h</name>
+    <member refid="pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kind="define"><name>__EXPAND</name></member>
+    <member refid="pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" kind="define"><name>__COUNT</name></member>
+    <member refid="pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" kind="define"><name>__VA_SIZE</name></member>
+    <member refid="pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" kind="define"><name>__CAT1</name></member>
+    <member refid="pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" kind="define"><name>__CAT2</name></member>
+    <member refid="pydoc__macros_8h_1a43c147206df4346db5e9d6445aab28ae" kind="define"><name>__DOC1</name></member>
+    <member refid="pydoc__macros_8h_1a53738db606593bc1554371d718695fed" kind="define"><name>__DOC2</name></member>
+    <member refid="pydoc__macros_8h_1a21baf08c04d32485764f227c32b5bf5d" kind="define"><name>__DOC3</name></member>
+    <member refid="pydoc__macros_8h_1a9463ba0ad86bcb4c59b5aecf8a37174c" kind="define"><name>__DOC4</name></member>
+    <member refid="pydoc__macros_8h_1a942579d548421ddb2906af7094e5789c" kind="define"><name>__DOC5</name></member>
+    <member refid="pydoc__macros_8h_1a31ea356761360e78d16525aa69d2dae6" kind="define"><name>__DOC6</name></member>
+    <member refid="pydoc__macros_8h_1a6f1e731f1c6d2893ff1bf98582a7de6e" kind="define"><name>__DOC7</name></member>
+    <member refid="pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kind="define"><name>DOC</name></member>
+  </compound>
+  <compound refid="adf4350__sink_8h" kind="file"><name>adf4350_sink.h</name>
+  </compound>
+  <compound refid="analog__in__converter_8h" kind="file"><name>analog_in_converter.h</name>
+  </compound>
+  <compound refid="analog__in__source_8h" kind="file"><name>analog_in_source.h</name>
+  </compound>
+  <compound refid="analog__out__converter_8h" kind="file"><name>analog_out_converter.h</name>
+  </compound>
+  <compound refid="analog__out__sink_8h" kind="file"><name>analog_out_sink.h</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1af827f32b40d60938ee7fa1c73cbb9d29" kind="define"><name>M2K_API</name></member>
+  </compound>
+  <compound refid="digital__in__source_8h" kind="file"><name>digital_in_source.h</name>
+  </compound>
+  <compound refid="mixed__signal__source_8h" kind="file"><name>mixed_signal_source.h</name>
+  </compound>
+  <compound refid="adf4350__sink__impl_8h" kind="file"><name>adf4350_sink_impl.h</name>
+  </compound>
+  <compound refid="analog__in__converter__impl_8h" kind="file"><name>analog_in_converter_impl.h</name>
+  </compound>
+  <compound refid="analog__in__source__impl_8h" kind="file"><name>analog_in_source_impl.h</name>
+  </compound>
+  <compound refid="analog__out__converter__impl_8h" kind="file"><name>analog_out_converter_impl.h</name>
+  </compound>
+  <compound refid="analog__out__sink__impl_8h" kind="file"><name>analog_out_sink_impl.h</name>
+  </compound>
+  <compound refid="digital__in__source__impl_8h" kind="file"><name>digital_in_source_impl.h</name>
+  </compound>
+  <compound refid="adf4350_8h" kind="file"><name>adf4350.h</name>
+    <member refid="adf4350_8h_1a1ee0fdd15430d72af3e1b9e9f6cb6567" kind="define"><name>ADF4350_RX_CHANNEL</name></member>
+    <member refid="adf4350_8h_1a7cfa99841b4d4765ec9a4bd77c5459d5" kind="define"><name>ADF4350_TX_CHANNEL</name></member>
+    <member refid="adf4350_8h_1a508dbc0da8ee385d6e74b68d05feb926" kind="define"><name>ADF4350_REG0</name></member>
+    <member refid="adf4350_8h_1ab006e8347e69b44599174f5ffffd6080" kind="define"><name>ADF4350_REG1</name></member>
+    <member refid="adf4350_8h_1abc22d3a3f19513fdd3ac1364a6a0ca29" kind="define"><name>ADF4350_REG2</name></member>
+    <member refid="adf4350_8h_1ab06b1d74fcd1d3f10167b9e6a7431e92" kind="define"><name>ADF4350_REG3</name></member>
+    <member refid="adf4350_8h_1a5aa6b46058bd31bedb9ff47370cbcc65" kind="define"><name>ADF4350_REG4</name></member>
+    <member refid="adf4350_8h_1a4864fc6ba3607b648c7b37e9c9b6c599" kind="define"><name>ADF4350_REG5</name></member>
+    <member refid="adf4350_8h_1a569c0743a251cc87ae2009d5f794875e" kind="define"><name>ADF4350_REG0_FRACT</name></member>
+    <member refid="adf4350_8h_1af20e6f7a84cade971260ab8b244a1b4f" kind="define"><name>ADF4350_REG0_INT</name></member>
+    <member refid="adf4350_8h_1a03f072298cfc57e20edc76147f60380a" kind="define"><name>ADF4350_REG1_MOD</name></member>
+    <member refid="adf4350_8h_1a8e4fea629bed8f21043347719d2173f6" kind="define"><name>ADF4350_REG1_PHASE</name></member>
+    <member refid="adf4350_8h_1a84febe1218c228098095878c0355f518" kind="define"><name>ADF4350_REG1_PRESCALER</name></member>
+    <member refid="adf4350_8h_1a49b3ff0315d9160d205d3012c096801d" kind="define"><name>ADF4350_REG2_COUNTER_RESET_EN</name></member>
+    <member refid="adf4350_8h_1a54259c130ddc07b95db4bc2e09e10c5d" kind="define"><name>ADF4350_REG2_CP_THREESTATE_EN</name></member>
+    <member refid="adf4350_8h_1a175fe3c08216203003dcc646a86b91e4" kind="define"><name>ADF4350_REG2_POWER_DOWN_EN</name></member>
+    <member refid="adf4350_8h_1adecb93529beda02dba89fb947835ef9e" kind="define"><name>ADF4350_REG2_PD_POLARITY_POS</name></member>
+    <member refid="adf4350_8h_1add51434fa2902aaf5b56ce0a2aae3883" kind="define"><name>ADF4350_REG2_LDP_6ns</name></member>
+    <member refid="adf4350_8h_1aafd954267d1f9c52bb1311c608561b37" kind="define"><name>ADF4350_REG2_LDP_10ns</name></member>
+    <member refid="adf4350_8h_1a2d9bd3d4ceebd4040cd7322bb87d0ea2" kind="define"><name>ADF4350_REG2_LDF_FRACT_N</name></member>
+    <member refid="adf4350_8h_1ab51bc705859232eb3ba2ec6af2458404" kind="define"><name>ADF4350_REG2_LDF_INT_N</name></member>
+    <member refid="adf4350_8h_1a8419addbe5cfc954eb3e9ba5e7899bef" kind="define"><name>ADF4350_REG2_CHARGE_PUMP_CURR_uA</name></member>
+    <member refid="adf4350_8h_1afdde428e0b4b34d06371ffdfdd22b999" kind="define"><name>ADF4350_REG2_DOUBLE_BUFF_EN</name></member>
+    <member refid="adf4350_8h_1a804618ce847dd4b2d89406b4ee5f8d31" kind="define"><name>ADF4350_REG2_10BIT_R_CNT</name></member>
+    <member refid="adf4350_8h_1ade3c90c433bae0b658eb0f294e26e3d0" kind="define"><name>ADF4350_REG2_RDIV2_EN</name></member>
+    <member refid="adf4350_8h_1ae31bf15005674cc9e80b0f916fdeb626" kind="define"><name>ADF4350_REG2_RMULT2_EN</name></member>
+    <member refid="adf4350_8h_1a50e0313741c60c5e95ea57d17816fdb2" kind="define"><name>ADF4350_REG2_MUXOUT</name></member>
+    <member refid="adf4350_8h_1adbc45bfa98c29ea9f9c62c5c30668f00" kind="define"><name>ADF4350_REG2_NOISE_MODE</name></member>
+    <member refid="adf4350_8h_1a60dc9dcc2832cb4961131e2bb10738a1" kind="define"><name>ADF4350_REG3_12BIT_CLKDIV</name></member>
+    <member refid="adf4350_8h_1aaea8368714850f554d6a04cbd44c1228" kind="define"><name>ADF4350_REG3_12BIT_CLKDIV_MODE</name></member>
+    <member refid="adf4350_8h_1a4cb7e32b3e56f7b506fa482246063fbe" kind="define"><name>ADF4350_REG3_12BIT_CSR_EN</name></member>
+    <member refid="adf4350_8h_1a7a2179d166369fefa317028614009230" kind="define"><name>ADF4351_REG3_CHARGE_CANCELLATION_EN</name></member>
+    <member refid="adf4350_8h_1a3ae6f4a94733140d87662ec040c45fda" kind="define"><name>ADF4351_REG3_ANTI_BACKLASH_3ns_EN</name></member>
+    <member refid="adf4350_8h_1af25f0a2debc71c398a52f26776e63a9d" kind="define"><name>ADF4351_REG3_BAND_SEL_CLOCK_MODE_HIGH</name></member>
+    <member refid="adf4350_8h_1a2a5588b06538ae9e1a043c51074feb79" kind="define"><name>ADF4350_REG4_OUTPUT_PWR</name></member>
+    <member refid="adf4350_8h_1ae6962be411013278abbc40c658a6da38" kind="define"><name>ADF4350_REG4_RF_OUT_EN</name></member>
+    <member refid="adf4350_8h_1aed9a93b2d67d1dd5796535e7adc59783" kind="define"><name>ADF4350_REG4_AUX_OUTPUT_PWR</name></member>
+    <member refid="adf4350_8h_1a4193d36e7667d1dcf827451b8c5fd8d7" kind="define"><name>ADF4350_REG4_AUX_OUTPUT_EN</name></member>
+    <member refid="adf4350_8h_1af3494f4dc1b1fbbca482f140754d67e1" kind="define"><name>ADF4350_REG4_AUX_OUTPUT_FUND</name></member>
+    <member refid="adf4350_8h_1a99f972a7b71ab5f04f6c9152c90375a8" kind="define"><name>ADF4350_REG4_AUX_OUTPUT_DIV</name></member>
+    <member refid="adf4350_8h_1a76081f8499e177acf5dda36e604b4b7a" kind="define"><name>ADF4350_REG4_MUTE_TILL_LOCK_EN</name></member>
+    <member refid="adf4350_8h_1a2f34766e1a4920522c15483318ecb498" kind="define"><name>ADF4350_REG4_VCO_PWRDOWN_EN</name></member>
+    <member refid="adf4350_8h_1a98f05c5cc0797b8fb447f465bb11563d" kind="define"><name>ADF4350_REG4_8BIT_BAND_SEL_CLKDIV</name></member>
+    <member refid="adf4350_8h_1a0b5aa6dacfa9ed3dd6de3fceee2c134e" kind="define"><name>ADF4350_REG4_RF_DIV_SEL</name></member>
+    <member refid="adf4350_8h_1a2486ddad9538f6a034fd883f753534a5" kind="define"><name>ADF4350_REG4_FEEDBACK_DIVIDED</name></member>
+    <member refid="adf4350_8h_1acf04354688dbd1b79058343fe0def534" kind="define"><name>ADF4350_REG4_FEEDBACK_FUND</name></member>
+    <member refid="adf4350_8h_1a23737b0f0bcfb33746b68615fb154df8" kind="define"><name>ADF4350_REG5_LD_PIN_MODE_LOW</name></member>
+    <member refid="adf4350_8h_1a1760d24acb187aa1ad80ac4f6f4c6c82" kind="define"><name>ADF4350_REG5_LD_PIN_MODE_DIGITAL</name></member>
+    <member refid="adf4350_8h_1aaac65289edcbb506c1751bd44eac451f" kind="define"><name>ADF4350_REG5_LD_PIN_MODE_HIGH</name></member>
+    <member refid="adf4350_8h_1a1c14fa9424490c6504f0487102e3a92f" kind="define"><name>ADF4350_MAX_OUT_FREQ</name></member>
+    <member refid="adf4350_8h_1ab3e5cdcdb3086278052fdb1668bc3875" kind="define"><name>ADF4350_MIN_OUT_FREQ</name></member>
+    <member refid="adf4350_8h_1a413bdc13eddc01f4666605e638289939" kind="define"><name>ADF4350_MIN_VCO_FREQ</name></member>
+    <member refid="adf4350_8h_1ae8a25c4b228817058e39b83e44d07fc8" kind="define"><name>ADF4350_MAX_FREQ_45_PRESC</name></member>
+    <member refid="adf4350_8h_1a90a1babd916510518aef07ec7b5451a0" kind="define"><name>ADF4350_MAX_FREQ_PFD</name></member>
+    <member refid="adf4350_8h_1a89792d7ae8e91c725ee7faa5ea66aca1" kind="define"><name>ADF4350_MAX_BANDSEL_CLK</name></member>
+    <member refid="adf4350_8h_1ae8ca998a0e141c5eea026d43bee045a6" kind="define"><name>ADF4350_MAX_FREQ_REFIN</name></member>
+    <member refid="adf4350_8h_1a1b368b9c3b8361e5d9b1ef373bb82f31" kind="define"><name>ADF4350_MAX_MODULUS</name></member>
+    <member refid="adf4350_8h_1a07a41b1e473f6984ba0695c8ad0c69d9" kind="define"><name>ADF4350_MAX_R_CNT</name></member>
+    <member refid="adf4350_8h_1a734d328a485aa08ca8dfd42241997f51" kind="function"><name>adf4350_setup</name></member>
+    <member refid="adf4350_8h_1abc8243a27c640dbebd2fa73ab7eabe2e" kind="function"><name>adf4350_write</name></member>
+    <member refid="adf4350_8h_1a8c919c6b19796b92b775d6727856ef46" kind="function"><name>adf4350_out_altvoltage0_frequency</name></member>
+    <member refid="adf4350_8h_1afa2f05108be7deec8c0365d4669521d3" kind="function"><name>adf4350_out_altvoltage0_frequency_resolution</name></member>
+    <member refid="adf4350_8h_1a5b6bfaa6164b0be92dd1403a25e4111d" kind="function"><name>adf4350_out_altvoltage0_refin_frequency</name></member>
+    <member refid="adf4350_8h_1a271f1050395c7b02bf8dd6624895ea58" kind="function"><name>adf4350_out_altvoltage0_powerdown</name></member>
+  </compound>
+  <compound refid="spi_8h" kind="file"><name>spi.h</name>
+  </compound>
+  <compound refid="mixed__signal__source__impl_8h" kind="file"><name>mixed_signal_source_impl.h</name>
+  </compound>
+  <compound refid="adf4350__sink__pydoc__template_8h" kind="file"><name>adf4350_sink_pydoc_template.h</name>
+    <member refid="adf4350__sink__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="adf4350__sink__pydoc__template_8h_1ac2e2c776cbe8342c74ecc78ef47e6c14" kind="variable"><name>__doc_gr_m2k_adf4350_sink</name></member>
+    <member refid="adf4350__sink__pydoc__template_8h_1a484f73d5e3372cca153f7f4b4225503f" kind="variable"><name>__doc_gr_m2k_adf4350_sink_adf4350_sink</name></member>
+    <member refid="adf4350__sink__pydoc__template_8h_1ac7a9d86ed3f13ba4db7c7212e63a8cd9" kind="variable"><name>__doc_gr_m2k_adf4350_sink_make</name></member>
+  </compound>
+  <compound refid="analog__in__converter__pydoc__template_8h" kind="file"><name>analog_in_converter_pydoc_template.h</name>
+    <member refid="analog__in__converter__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="analog__in__converter__pydoc__template_8h_1a00075c9b2bd193738ed5ccc460e50048" kind="variable"><name>__doc_gr_m2k_analog_in_converter</name></member>
+    <member refid="analog__in__converter__pydoc__template_8h_1a8e404342e9ed541b7178e2ffa65a463e" kind="variable"><name>__doc_gr_m2k_analog_in_converter_analog_in_converter</name></member>
+    <member refid="analog__in__converter__pydoc__template_8h_1a86b6d8b7d0b5befeecb66853770b6afe" kind="variable"><name>__doc_gr_m2k_analog_in_converter_make</name></member>
+    <member refid="analog__in__converter__pydoc__template_8h_1ae4cfaf40a657ec8376b8b17bea8d4deb" kind="variable"><name>__doc_gr_m2k_analog_in_converter_make_from</name></member>
+  </compound>
+  <compound refid="analog__in__source__pydoc__template_8h" kind="file"><name>analog_in_source_pydoc_template.h</name>
+    <member refid="analog__in__source__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="analog__in__source__pydoc__template_8h_1a1dce647c509abfb9731ed317cf6ba825" kind="variable"><name>__doc_gr_m2k_analog_in_source</name></member>
+    <member refid="analog__in__source__pydoc__template_8h_1a782d5634ba64769619cce8cce4f609f5" kind="variable"><name>__doc_gr_m2k_analog_in_source_analog_in_source_0</name></member>
+    <member refid="analog__in__source__pydoc__template_8h_1a696d13195944ed0689fc4d9504749576" kind="variable"><name>__doc_gr_m2k_analog_in_source_analog_in_source_1</name></member>
+    <member refid="analog__in__source__pydoc__template_8h_1a6c51cc68e3aedef687b77ebac302a167" kind="variable"><name>__doc_gr_m2k_analog_in_source_make</name></member>
+    <member refid="analog__in__source__pydoc__template_8h_1aeb05f7cc9b2144e206bc3710bef06cc9" kind="variable"><name>__doc_gr_m2k_analog_in_source_make_from</name></member>
+    <member refid="analog__in__source__pydoc__template_8h_1a0eb23d2402e8022894363b22e13c58f0" kind="variable"><name>__doc_gr_m2k_analog_in_source_set_params</name></member>
+    <member refid="analog__in__source__pydoc__template_8h_1aa00297df184128461b60bd652d73ad8a" kind="variable"><name>__doc_gr_m2k_analog_in_source_set_data_rate</name></member>
+    <member refid="analog__in__source__pydoc__template_8h_1a4620a42d2a6dd8d64cf4fada9c5a7039" kind="variable"><name>__doc_gr_m2k_analog_in_source_set_trigger</name></member>
+    <member refid="analog__in__source__pydoc__template_8h_1adf317e4e9b2d7254ddb82eae1fccb424" kind="variable"><name>__doc_gr_m2k_analog_in_source_set_timeout_ms</name></member>
+    <member refid="analog__in__source__pydoc__template_8h_1abce26d40ff817628c1ff7fff2d26f056" kind="variable"><name>__doc_gr_m2k_analog_in_source_set_buffer_size</name></member>
+  </compound>
+  <compound refid="analog__out__converter__pydoc__template_8h" kind="file"><name>analog_out_converter_pydoc_template.h</name>
+    <member refid="analog__out__converter__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="analog__out__converter__pydoc__template_8h_1a25d9ed34a6f9346ec36b62cdc35cbc88" kind="variable"><name>__doc_gr_m2k_analog_out_converter</name></member>
+    <member refid="analog__out__converter__pydoc__template_8h_1a9f5edee476975ab0ab369c59692d6b0b" kind="variable"><name>__doc_gr_m2k_analog_out_converter_analog_out_converter</name></member>
+    <member refid="analog__out__converter__pydoc__template_8h_1a4218604d314e819562751d39fc5c70fb" kind="variable"><name>__doc_gr_m2k_analog_out_converter_make</name></member>
+    <member refid="analog__out__converter__pydoc__template_8h_1a363834970e25ad4468f5edc897f3ddd8" kind="variable"><name>__doc_gr_m2k_analog_out_converter_make_from</name></member>
+  </compound>
+  <compound refid="analog__out__sink__pydoc__template_8h" kind="file"><name>analog_out_sink_pydoc_template.h</name>
+    <member refid="analog__out__sink__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="analog__out__sink__pydoc__template_8h_1a562805bb332715ceaae626ea5c96dbf2" kind="variable"><name>__doc_gr_m2k_analog_out_sink</name></member>
+    <member refid="analog__out__sink__pydoc__template_8h_1a5c65e75ce48f5b49c7daf4ac4e00c9cd" kind="variable"><name>__doc_gr_m2k_analog_out_sink_analog_out_sink_0</name></member>
+    <member refid="analog__out__sink__pydoc__template_8h_1a6b0349c9c5e9b2b23a28b488ae3bb364" kind="variable"><name>__doc_gr_m2k_analog_out_sink_analog_out_sink_1</name></member>
+    <member refid="analog__out__sink__pydoc__template_8h_1a577141223078ae6d8dcc4e61c715ae59" kind="variable"><name>__doc_gr_m2k_analog_out_sink_make</name></member>
+    <member refid="analog__out__sink__pydoc__template_8h_1a69e487ff29fdb41498eccf6cf6dd24f6" kind="variable"><name>__doc_gr_m2k_analog_out_sink_set_params</name></member>
+  </compound>
+  <compound refid="digital__in__source__pydoc__template_8h" kind="file"><name>digital_in_source_pydoc_template.h</name>
+    <member refid="digital__in__source__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="digital__in__source__pydoc__template_8h_1aba35b843f31688cf39f863f65ad81960" kind="variable"><name>__doc_gr_m2k_digital_in_source</name></member>
+    <member refid="digital__in__source__pydoc__template_8h_1aa6b983eacc6143a0b999f4b6196cb1fe" kind="variable"><name>__doc_gr_m2k_digital_in_source_digital_in_source_0</name></member>
+    <member refid="digital__in__source__pydoc__template_8h_1ab1b70f6f6b4c9c9577bc235f213910a0" kind="variable"><name>__doc_gr_m2k_digital_in_source_digital_in_source_1</name></member>
+    <member refid="digital__in__source__pydoc__template_8h_1af188c7b7b49ecc46177968c4ec1a5bbd" kind="variable"><name>__doc_gr_m2k_digital_in_source_make</name></member>
+    <member refid="digital__in__source__pydoc__template_8h_1a97a1fe9dc5339149d62d7b936f357068" kind="variable"><name>__doc_gr_m2k_digital_in_source_make_from</name></member>
+    <member refid="digital__in__source__pydoc__template_8h_1a0d7fc142746b93fa1943f88899fa85cf" kind="variable"><name>__doc_gr_m2k_digital_in_source_set_params</name></member>
+    <member refid="digital__in__source__pydoc__template_8h_1adc0f4193fc77aef7894de9db56937f31" kind="variable"><name>__doc_gr_m2k_digital_in_source_set_data_rate</name></member>
+    <member refid="digital__in__source__pydoc__template_8h_1a376a4933e5427a1aba7d6cba950bdf12" kind="variable"><name>__doc_gr_m2k_digital_in_source_set_timeout_ms</name></member>
+    <member refid="digital__in__source__pydoc__template_8h_1aca3d9ad921f4fe314d859a985634a1dd" kind="variable"><name>__doc_gr_m2k_digital_in_source_set_buffer_size</name></member>
+  </compound>
+  <compound refid="mixed__signal__source__pydoc__template_8h" kind="file"><name>mixed_signal_source_pydoc_template.h</name>
+    <member refid="mixed__signal__source__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="mixed__signal__source__pydoc__template_8h_1a480069cba5814851cc1fa14cd09eeac1" kind="variable"><name>__doc_gr_m2k_mixed_signal_source</name></member>
+    <member refid="mixed__signal__source__pydoc__template_8h_1aa755ffb810b889db9b1106b55dcf8b2b" kind="variable"><name>__doc_gr_m2k_mixed_signal_source_mixed_signal_source_0</name></member>
+    <member refid="mixed__signal__source__pydoc__template_8h_1a0e57550f44f69774d70539af7f41a072" kind="variable"><name>__doc_gr_m2k_mixed_signal_source_mixed_signal_source_1</name></member>
+    <member refid="mixed__signal__source__pydoc__template_8h_1a5551b2f86cf2e09921cd749a4d3e0e5c" kind="variable"><name>__doc_gr_m2k_mixed_signal_source_make</name></member>
+    <member refid="mixed__signal__source__pydoc__template_8h_1a83b1df1e8e6e818b919594149ee661e0" kind="variable"><name>__doc_gr_m2k_mixed_signal_source_make_from</name></member>
+    <member refid="mixed__signal__source__pydoc__template_8h_1a8de1799d332b08ad5d54abe9f9e37cac" kind="variable"><name>__doc_gr_m2k_mixed_signal_source_set_timeout_ms</name></member>
+    <member refid="mixed__signal__source__pydoc__template_8h_1ac93b3b28f288f4328440f405922f5c09" kind="variable"><name>__doc_gr_m2k_mixed_signal_source_set_data_rate</name></member>
+    <member refid="mixed__signal__source__pydoc__template_8h_1a942799a16960d047209552309a32608f" kind="variable"><name>__doc_gr_m2k_mixed_signal_source_set_buffer_size</name></member>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_405d7366043b451e48b95acbc34d5ed6" kind="dir"><name>bindings</name>
+  </compound>
+  <compound refid="dir_49e56c817e5e54854c35e136979f97ca" kind="dir"><name>docs</name>
+  </compound>
+  <compound refid="dir_63d9821c49d8c458d225779c44740a3b" kind="dir"><name>docstrings</name>
+  </compound>
+  <compound refid="dir_359d2bec989c9a8deeeb9aee335c1c76" kind="dir"><name>doxygen</name>
+  </compound>
+  <compound refid="dir_47dd3e7e38a2e0ce703a37c1012486e7" kind="dir"><name>drivers</name>
+  </compound>
+  <compound refid="dir_902d6fe55786be073ae6681293cdb979" kind="dir"><name>gnuradio</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_cd591287db04f63f6ee07ed29ac044ca" kind="dir"><name>m2k</name>
+  </compound>
+  <compound refid="dir_f892381fc0c7256e773cb2ebfb8d615d" kind="dir"><name>m2k</name>
+  </compound>
+  <compound refid="dir_f2cd86917185299abf5a1f0679072f3c" kind="dir"><name>other</name>
+  </compound>
+  <compound refid="dir_7837fde3ab9c1fb2fc5be7b717af8d79" kind="dir"><name>python</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

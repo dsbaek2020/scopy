@@ -5,14 +5,16 @@ STAGING_AREA_DEPS=$STAGING_AREA/dependencies
 REPO_SRC=$(git rev-parse --show-toplevel)
 BUILDDIR=$REPO_SRC/build
 JOBS=-j8
-QT_FORMULAE=qt@5
-QT_PATH="$(brew --prefix ${QT_FORMULAE})/bin"
+#QT_FORMULAE=qt@5
+QT_FORMULAE=qt      # 기존 qt@5 → qt
+
+QT_PATH="/Users/baegdaeseong/Qt/6.9.0/macos/bin"
 export PATH="${QT_PATH}:$PATH"
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH;$STAGING_AREA_DEPS;$STAGING_AREA_DEPS/lib"
 
 
 LIBSERIALPORT_BRANCH=master
-LIBIIO_VERSION=v0.26
+LIBIIO_VERSION=v0.24
 LIBAD9361_BRANCH=main
 LIBM2K_BRANCH=main
 GNURADIO_BRANCH=scopy2-maint-3.10

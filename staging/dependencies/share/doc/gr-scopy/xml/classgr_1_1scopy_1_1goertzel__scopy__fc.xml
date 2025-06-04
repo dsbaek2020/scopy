@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classgr_1_1scopy_1_1goertzel__scopy__fc" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::scopy::goertzel_scopy_fc</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_decimator</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl" prot="public" virt="non-virtual">gr::scopy::goertzel_scopy_fc_impl</derivedcompoundref>
+    <includes refid="goertzel__scopy__fc_8h" local="no">goertzel_scopy_fc.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1scopy_1_1goertzel__scopy__fc_1af10728666a232eb5e331c0bd654af14a" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1scopy_1_1goertzel__scopy__fc" kindref="compound">goertzel_scopy_fc</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;goertzel_scopy_fc&gt; gr::scopy::goertzel_scopy_fc::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::scopy::goertzel_scopy_fc::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/goertzel_scopy_fc.h" line="697" column="27" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/goertzel_scopy_fc.h" bodystart="697" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1scopy_1_1goertzel__scopy__fc_1aa074b9109933d7e7b159c52108eab131" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1af10728666a232eb5e331c0bd654af14a" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::scopy::goertzel_scopy_fc::make</definition>
+        <argsstring>(int rate, int len, float freq)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::scopy::goertzel_scopy_fc::make</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/goertzel_scopy_fc.h" line="699" column="15"/>
+        <references refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a9d76aadcf02db88256509f1b34d025cb">freq</references>
+        <references refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a7f16f3a79a2af0feaf0c9ab0e23629fd">len</references>
+        <references refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a6a9e4936c2100abd1e34d98752cb090d">rate</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1scopy_1_1goertzel__scopy__fc_1ac46c9d6b8cfaa292a8801ac1aa116f96" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::scopy::goertzel_scopy_fc::set_freq</definition>
+        <argsstring>(float freq)=0</argsstring>
+        <name>set_freq</name>
+        <qualifiedname>gr::scopy::goertzel_scopy_fc::set_freq</qualifiedname>
+        <reimplementedby refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1a96cdf0541d42791bc241a928471b9976">set_freq</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/goertzel_scopy_fc.h" line="701" column="16"/>
+        <references refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a9d76aadcf02db88256509f1b34d025cb">freq</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1scopy_1_1goertzel__scopy__fc_1af820f8511261648b1a170c4c1956f2fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::scopy::goertzel_scopy_fc::set_rate</definition>
+        <argsstring>(int rate)=0</argsstring>
+        <name>set_rate</name>
+        <qualifiedname>gr::scopy::goertzel_scopy_fc::set_rate</qualifiedname>
+        <reimplementedby refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1ab61ab66d43303f1f78b54731f8f6be6b">set_rate</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/goertzel_scopy_fc.h" line="703" column="16"/>
+        <references refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a6a9e4936c2100abd1e34d98752cb090d">rate</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1scopy_1_1goertzel__scopy__fc_1a999063267d511604d35e649818244f2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::scopy::goertzel_scopy_fc::set_len</definition>
+        <argsstring>(int len)=0</argsstring>
+        <name>set_len</name>
+        <qualifiedname>gr::scopy::goertzel_scopy_fc::set_len</qualifiedname>
+        <reimplementedby refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1aaaf778aee887ead858501208dfdeb7a9">set_len</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/goertzel_scopy_fc.h" line="705" column="16"/>
+        <references refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a7f16f3a79a2af0feaf0c9ab0e23629fd">len</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1scopy_1_1goertzel__scopy__fc_1a9d76aadcf02db88256509f1b34d025cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::scopy::goertzel_scopy_fc::freq</definition>
+        <argsstring>()=0</argsstring>
+        <name>freq</name>
+        <qualifiedname>gr::scopy::goertzel_scopy_fc::freq</qualifiedname>
+        <reimplementedby refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1a1e01edc0c127d295da26868de9765038">freq</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/goertzel_scopy_fc.h" line="707" column="17"/>
+        <referencedby refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1aa074b9109933d7e7b159c52108eab131">make</referencedby>
+        <referencedby refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1ac46c9d6b8cfaa292a8801ac1aa116f96">set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1scopy_1_1goertzel__scopy__fc_1a6a9e4936c2100abd1e34d98752cb090d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int gr::scopy::goertzel_scopy_fc::rate</definition>
+        <argsstring>()=0</argsstring>
+        <name>rate</name>
+        <qualifiedname>gr::scopy::goertzel_scopy_fc::rate</qualifiedname>
+        <reimplementedby refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1ac5b2ab7abf06b12a4d40ac401ba8f480">rate</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/goertzel_scopy_fc.h" line="709" column="15"/>
+        <referencedby refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1aa074b9109933d7e7b159c52108eab131">make</referencedby>
+        <referencedby refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1af820f8511261648b1a170c4c1956f2fa">set_rate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1scopy_1_1goertzel__scopy__fc_1a7f16f3a79a2af0feaf0c9ab0e23629fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int gr::scopy::goertzel_scopy_fc::len</definition>
+        <argsstring>()=0</argsstring>
+        <name>len</name>
+        <qualifiedname>gr::scopy::goertzel_scopy_fc::len</qualifiedname>
+        <reimplementedby refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl_1a3a1410232d3c71ee40c485e036675317">len</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/goertzel_scopy_fc.h" line="711" column="15"/>
+        <referencedby refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1aa074b9109933d7e7b159c52108eab131">make</referencedby>
+        <referencedby refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a999063267d511604d35e649818244f2f">set_len</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Goertzel single-bin DFT calculation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::scopy::goertzel_scopy_fc</label>
+        <link refid="classgr_1_1scopy_1_1goertzel__scopy__fc"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::scopy::goertzel_scopy_fc_impl</label>
+        <link refid="classgr_1_1scopy_1_1goertzel__scopy__fc__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sync_decimator</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::scopy::goertzel_scopy_fc</label>
+        <link refid="classgr_1_1scopy_1_1goertzel__scopy__fc"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sync_decimator</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/goertzel_scopy_fc.h" line="692" column="1" bodyfile="/Users/baegdaeseong/scopy/staging/gr-scopy/include/gnuradio/scopy/goertzel_scopy_fc.h" bodystart="693" bodyend="712"/>
+    <listofallmembers>
+      <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a9d76aadcf02db88256509f1b34d025cb" prot="public" virt="pure-virtual"><scope>gr::scopy::goertzel_scopy_fc</scope><name>freq</name></member>
+      <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a7f16f3a79a2af0feaf0c9ab0e23629fd" prot="public" virt="pure-virtual"><scope>gr::scopy::goertzel_scopy_fc</scope><name>len</name></member>
+      <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1aa074b9109933d7e7b159c52108eab131" prot="public" virt="non-virtual"><scope>gr::scopy::goertzel_scopy_fc</scope><name>make</name></member>
+      <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a6a9e4936c2100abd1e34d98752cb090d" prot="public" virt="pure-virtual"><scope>gr::scopy::goertzel_scopy_fc</scope><name>rate</name></member>
+      <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1ac46c9d6b8cfaa292a8801ac1aa116f96" prot="public" virt="pure-virtual"><scope>gr::scopy::goertzel_scopy_fc</scope><name>set_freq</name></member>
+      <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1a999063267d511604d35e649818244f2f" prot="public" virt="pure-virtual"><scope>gr::scopy::goertzel_scopy_fc</scope><name>set_len</name></member>
+      <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1af820f8511261648b1a170c4c1956f2fa" prot="public" virt="pure-virtual"><scope>gr::scopy::goertzel_scopy_fc</scope><name>set_rate</name></member>
+      <member refid="classgr_1_1scopy_1_1goertzel__scopy__fc_1af10728666a232eb5e331c0bd654af14a" prot="public" virt="non-virtual"><scope>gr::scopy::goertzel_scopy_fc</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

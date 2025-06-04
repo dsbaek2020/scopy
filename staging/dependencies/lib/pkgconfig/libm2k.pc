@@ -1,0 +1,12 @@
+prefix=/Users/baegdaeseong/scopy/staging/dependencies
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libm2k
+Description: Library for interfacing ADALM2000 devices
+Version: 
+
+Requires:
+Libs: -L${libdir} -lm2k
+Cflags: -I${includedir}

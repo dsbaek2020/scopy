@@ -1,22 +1,4 @@
-#
-# Copyright (c) 2024 Analog Devices Inc.
-#
-# This file is part of Scopy
-# (see https://www.github.com/analogdevicesinc/scopy).
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program. If not, see <https://www.gnu.org/licenses/>.
-#
+# gr-util/CMakeLists.txt (patched) 
 
 cmake_minimum_required(VERSION 3.9)
 
@@ -24,8 +6,6 @@ set(SCOPY_MODULE gr-util)
 project(scopy-${SCOPY_MODULE} VERSION 0.1 LANGUAGES CXX)
 
 include(GenerateExportHeader)
-
-# TODO: split stylesheet/resources and add here TODO: export header files correctly
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -45,55 +25,56 @@ file(GLOB HEADER_LIST include/${SCOPY_MODULE}/*.h include/${SCOPY_MODULE}/*.hpp)
 file(GLOB UI_LIST ui/*.ui)
 
 if(ENABLE_TESTING)
-	add_subdirectory(test)
+  add_subdirectory(test)
 endif()
 
 set(PROJECT_SOURCES ${SRC_LIST} ${HEADER_LIST} ${UI_LIST})
 
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core REQUIRED)
 
-find_package(
-	Gnuradio "3.10" REQUIRED
-	COMPONENTS runtime
-		   analog
-		   blocks
-		   fft
-		   filter
-		   volk
-		   pmt
-		   iio
-)
-find_package(gnuradio-scopy REQUIRED PATH_SUFFIXES scopy)
+if(ENABLE_GRSCOPY)
+  find_package(Gnuradio "3.10" REQUIRED
+    COMPONENTS runtime analog blocks fft filter volk pmt iio gnuradio-scopy)
+
+  find_package(gnuradio-scopy REQUIRED PATH_SUFFIXES scopy)
+endif()
 
 add_library(${PROJECT_NAME} SHARED ${PROJECT_SOURCES})
 
 generate_export_header(
-	${PROJECT_NAME} EXPORT_FILE_NAME ${CMAKE_CURRENT_SOURCE_DIR}/include/${SCOPY_MODULE}/${PROJECT_NAME}_export.h
+  ${PROJECT_NAME} EXPORT_FILE_NAME ${CMAKE_CURRENT_SOURCE_DIR}/include/${SCOPY_MODULE}/${PROJECT_NAME}_export.h
 )
 
 target_include_directories(${PROJECT_NAME} INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_include_directories(
-	${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include/${SCOPY_MODULE} ${IIO_INCLUDE_DIRS} scopy-gui
-				scopy-iio-widgets
+  ${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include/${SCOPY_MODULE} ${IIO_INCLUDE_DIRS} scopy-gui
+    scopy-iio-widgets
 )
 
 target_link_libraries(
-	${PROJECT_NAME}
-	PUBLIC Qt${QT_VERSION_MAJOR}::Core
-	       scopy-iioutil
-	       scopy-gui
-	       scopy-iio-widgets
-	       gnuradio::gnuradio-runtime
-	       gnuradio::gnuradio-analog
-	       gnuradio::gnuradio-blocks
-	       gnuradio::gnuradio-fft
-	       gnuradio::gnuradio-filter
-	       gnuradio::gnuradio-pmt
-	       gnuradio::gnuradio-iio
-	       gnuradio::gnuradio-scopy
+  ${PROJECT_NAME}
+  PUBLIC Qt${QT_VERSION_MAJOR}::Core
+         scopy-iioutil
+         scopy-gui
+         scopy-iio-widgets
 )
 
+if(ENABLE_GRSCOPY)
+  target_link_libraries(
+    ${PROJECT_NAME} PUBLIC
+      gnuradio::gnuradio-runtime
+      gnuradio::gnuradio-analog
+      gnuradio::gnuradio-blocks
+      gnuradio::gnuradio-fft
+      gnuradio::gnuradio-filter
+      gnuradio::gnuradio-pmt
+      gnuradio::gnuradio-iio
+      gnuradio::gnuradio-scopy
+  )
+endif()
+
 install(TARGETS ${PROJECT_NAME} LIBRARY DESTINATION ${SCOPY_DLL_INSTALL_PATH} COMPONENT ${SCOPY_PDK}
-	RUNTIME DESTINATION ${SCOPY_DLL_INSTALL_PATH}
+  RUNTIME DESTINATION ${SCOPY_DLL_INSTALL_PATH}
 )
 install(DIRECTORY include/ DESTINATION include COMPONENT ${SCOPY_PDK})
+

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerdir refid="dir_47dd3e7e38a2e0ce703a37c1012486e7">drivers</innerdir>
+    <innerfile refid="adf4350__sink__impl_8h">adf4350_sink_impl.h</innerfile>
+    <innerfile refid="analog__in__converter__impl_8h">analog_in_converter_impl.h</innerfile>
+    <innerfile refid="analog__in__source__impl_8h">analog_in_source_impl.h</innerfile>
+    <innerfile refid="analog__out__converter__impl_8h">analog_out_converter_impl.h</innerfile>
+    <innerfile refid="analog__out__sink__impl_8h">analog_out_sink_impl.h</innerfile>
+    <innerfile refid="digital__in__source__impl_8h">digital_in_source_impl.h</innerfile>
+    <innerfile refid="mixed__signal__source__impl_8h">mixed_signal_source_impl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/baegdaeseong/scopy/staging/gr-m2k/lib/"/>
+  </compounddef>
+</doxygen>

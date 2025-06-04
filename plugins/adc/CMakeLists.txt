@@ -18,6 +18,11 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 #
 
+if(NOT Qt5Widgets_FOUND)
+  message(STATUS "Qt5Widgets not found: skipping test directory")
+  return()
+endif()
+
 cmake_minimum_required(VERSION 3.9)
 
 set(SCOPY_MODULE adc)

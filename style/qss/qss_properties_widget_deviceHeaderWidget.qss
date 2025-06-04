@@ -1,0 +1,14 @@
+QWidget[qss_properties_widget_deviceHeaderWidget="idle"] {
+	background-color: transparent;
+	color: &content_default&;
+}
+
+QWidget[qss_properties_widget_deviceHeaderWidget="idle"]:hover {
+	background-color: &content_silent&;
+	color: &content_default&;
+}
+
+QWidget[qss_properties_widget_deviceHeaderWidget="selected"] {
+	background-color: &interactive_subtle_disabled&;
+	color: &content_default&;
+}
