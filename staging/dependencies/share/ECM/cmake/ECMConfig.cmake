@@ -30,7 +30,7 @@ set(ECM_MODULE_DIR "${PACKAGE_PREFIX_DIR}/share/ECM/modules/")
 
 set(ECM_KDE_MODULE_DIR "${PACKAGE_PREFIX_DIR}/share/ECM/kde-modules/")
 
-set(ECM_PREFIX "${PACKAGE_PREFIX_DIR}")
+set(ECM_PREFIX "/Users/baegdaeseong/scopy/staging/dependencies")
 
 set(ECM_MODULE_PATH "${ECM_MODULE_DIR}" "${ECM_FIND_MODULE_DIR}" "${ECM_KDE_MODULE_DIR}")
 

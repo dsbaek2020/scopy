@@ -13,9 +13,6 @@
 KDEInstallDirs6
 ---------------
 
-THIS IS CURRENTLY ONLY AN ALPHA VERSION, FOR FRAMEWORKS USAGE ONLY,
-AND TO BE MODIFIED INCREMENTALLY. PLEASE DO NOT USE IN APPLICATIONS YET.
-
 Define KDE standard installation directories for Qt6/KF6 based software.
 
 Note that none of the variables defined by this module provide any
@@ -50,11 +47,11 @@ where ``<dir>`` is one of (default values in parentheses):
 ``CMAKEPACKAGEDIR``
     CMake packages, including config files (``LIBDIR/cmake``)
 ``QTPLUGINDIR``
-    Qt plugins (``LIBDIR/plugins`` or qmake-qt5's ``QT_INSTALL_PLUGINS``)
+    Qt plugins (``LIBDIR/plugins`` or qtpaths's ``QT_INSTALL_PLUGINS``)
 ``PLUGINDIR``
     Plugins (``QTPLUGINDIR``) [``PLUGIN_INSTALL_DIR``]
 ``QMLDIR``
-    QtQuick2 imports (``LIBDIR/qml`` or qmake-qt5's ``QT_INSTALL_QML``)
+    QtQuick2 imports (``LIBDIR/qml`` or qtpaths's ``QT_INSTALL_QML``)
 ``INCLUDEDIR``
     C and C++ header files (``include``)
 ``LOCALSTATEDIR``
@@ -62,7 +59,8 @@ where ``<dir>`` is one of (default values in parentheses):
 ``SHAREDSTATEDIR``
     modifiable architecture-independent data (``com``)
 ``DATAROOTDIR``
-    read-only architecture-independent data root (``share``)
+    read-only architecture-independent data root (``BINDIR/data`` on
+    Windows, ``share`` otherwise)
 ``DATADIR``
     read-only architecture-independent data (``DATAROOTDIR``)
 ``DOCBUNDLEDIR``
@@ -72,10 +70,6 @@ where ``<dir>`` is one of (default values in parentheses):
     kconfig description files (``DATAROOTDIR/config.kcfg``)
 ``KCONFUPDATEDIR``
     kconf_update scripts (``DATAROOTDIR/kconf_update``)
-``KSERVICESDIR``
-    services for KDE Frameworks 6 (``DATAROOTDIR/kservices6``)
-``KSERVICETYPESDIR``
-    service types for KDE Frameworks 6 (``DATAROOTDIR/kservicetypes6``)
 ``KXMLGUIDIR``
     kxmlgui .rc files (``DATAROOTDIR/kxmlgui5``)
 ``KAPPTEMPLATESDIR``
@@ -103,7 +97,7 @@ where ``<dir>`` is one of (default values in parentheses):
 ``METAINFODIR``
     AppStream component metadata files (``DATAROOTDIR/metainfo``)
 ``QTQCHDIR``
-    documentation bundles in QCH format for Qt-extending libraries (``DATAROOTDIR/doc/qch`` or qmake-qt5's ``QT_INSTALL_DOCS``)
+    documentation bundles in QCH format for Qt-extending libraries (``DATAROOTDIR/doc/qch`` or qtpaths's ``QT_INSTALL_DOCS``)
 ``QCHDIR``
     documentation bundles in QCH format (``DATAROOTDIR/doc/qch``)
 ``MANDIR``
@@ -265,10 +259,6 @@ endif()
 
 
 # KDE Framework-specific things
-_define_relative(KSERVICESDIR DATAROOTDIR "kservices6"
-    "services for KDE Frameworks 6")
-_define_relative(KSERVICETYPESDIR DATAROOTDIR "kservicetypes6"
-    "service types for KDE Frameworks 6")
 _define_relative(KNOTIFYRCDIR DATAROOTDIR "knotifications6"
     "knotify description files")
 # TODO MOVE TO KXMLGUI
@@ -288,22 +278,26 @@ _define_relative(LOGGINGCATEGORIESDIR DATAROOTDIR "qlogging-categories6"
 # This can then also be used for packaging with cpack.
 set(KDE_INSTALL_TARGETS_DEFAULT_ARGS  RUNTIME DESTINATION "${CMAKE_INSTALL_BINDIR}"
                                       LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}"
-                                      ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}" COMPONENT Devel
+                                      ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}"
+                                      OBJECTS DESTINATION "${CMAKE_INSTALL_LIBDIR}"
+                                      COMPONENT Devel
 )
 if(APPLE)
     set(KDE_INSTALL_TARGETS_DEFAULT_ARGS  ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
-                                          BUNDLE DESTINATION "${BUNDLE_INSTALL_DIR}" )
+                                          BUNDLE DESTINATION "${KDE_INSTALL_BUNDLEDIR}" )
 endif()
 
 set(KF_INSTALL_TARGETS_DEFAULT_ARGS RUNTIME DESTINATION "${CMAKE_INSTALL_BINDIR}"
                                     LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}"
-                                    ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}" COMPONENT Devel
+                                    ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}"
+                                    OBJECTS DESTINATION "${CMAKE_INSTALL_LIBDIR}"
+                                    COMPONENT Devel
 )
 
-# on the Mac support an extra install directory for application bundles
+# on macOS support an extra install directory for application bundles
 if(APPLE)
     set(KF_INSTALL_TARGETS_DEFAULT_ARGS  ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
-                                          BUNDLE DESTINATION "${BUNDLE_INSTALL_DIR}" )
+                                          BUNDLE DESTINATION "${KDE_INSTALL_BUNDLEDIR}" )
 endif()
 
 include(${CMAKE_CURRENT_LIST_DIR}/KDESetupPrefixScript.cmake)

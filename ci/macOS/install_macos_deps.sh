@@ -37,29 +37,32 @@ install_packages() {
     pip3 install --break-system-packages mako
 }
 
-export_paths(){
+export_paths() {
     QT_PATH="/Users/baegdaeseong/Qt/6.9.0/macos/bin"
-    
-    export PATH="/usr/local/bin:$PATH"
-    export PATH="/opt/homebrew/opt/bison/bin:$PATH"      # ← Homebrew 최신 bison 경로로 수정
-    export PATH="${QT_PATH}:$PATH"
-    
-    export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/local/opt/libzip/lib/pkgconfig"
+
+    # 기본 PATH 우선순위 설정
+    export PATH="/usr/local/bin:/opt/homebrew/opt/bison/bin:${QT_PATH}:$PATH"
+
+    # pkg-config 경로 설정
+    export PKG_CONFIG_PATH="/usr/local/opt/libzip/lib/pkgconfig"
     export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/local/opt/libffi/lib/pkgconfig"
     export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$STAGING_AREA_DEPS/lib/pkgconfig"
-    
+
+    # Qt 및 CMake 명령어 탐색
     QMAKE="$(command -v qmake)"
     CMAKE_BIN="$(command -v cmake)"
-    CMAKE_OPTS="-DCMAKE_PREFIX_PATH=$STAGING_AREA_DEPS -DCMAKE_INSTALL_PREFIX=$STAGING_AREA_DEPS -DCMAKE_POLICY_VERSION_MINIMUM=3.5"
-    CMAKE="$CMAKE_BIN ${CMAKE_OPTS[*]}"
 
-    echo -- USING CMAKE COMMAND:
-    echo $CMAKE
-    echo -- USING QT: $QT_PATH
-    echo -- USING QMAKE: $QMAKE
-    echo -- PATH: $PATH
-    echo -- PKG_CONFIG_PATH: $PKG_CONFIG_PATH
+    # CMake 정책 및 설치 경로 포함한 명령어 전체 조립
+    export CMAKE="$CMAKE_BIN -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_PREFIX_PATH=$STAGING_AREA_DEPS -DCMAKE_INSTALL_PREFIX=$STAGING_AREA_DEPS"
+
+    echo "-- USING CMAKE COMMAND:"
+    echo "   $CMAKE"
+    echo "-- USING QT: $QT_PATH"
+    echo "-- USING QMAKE: $QMAKE"
+    echo "-- PATH: $PATH"
+    echo "-- PKG_CONFIG_PATH: $PKG_CONFIG_PATH"
 }
+
 
 
 clone() {
@@ -79,6 +82,8 @@ clone() {
     git clone --recursive https://github.com/KDAB/KDDockWidgets.git -b $KDDOCK_BRANCH KDDockWidgets
     git clone --recursive https://github.com/KDE/extra-cmake-modules.git -b $ECM_BRANCH extra-cmake-modules
     git clone --recursive https://github.com/KDE/karchive.git -b $KARCHIVE_BRANCH karchive
+
+
     popd
 }
 
@@ -100,8 +105,14 @@ build_with_cmake() {
     git clean -xdf
     mkdir -p $BUILD_FOLDER
     cd $BUILD_FOLDER
-    
-    CMAKE=$(command -v cmake)   # ✅ 이 줄만 추가!
+
+    # ✅ CMAKE가 비어 있거나 정의되지 않은 경우에만 기본값 설정
+    if [ -z "$CMAKE" ]; then
+        echo "⚠️  \$CMAKE not defined, falling back to plain cmake without policy/version control"
+        CMAKE=$(command -v cmake)
+    else
+        echo "✅ Using CMAKE as defined: $CMAKE"
+    fi
 
     ARCH_OPTS="-DCMAKE_OSX_ARCHITECTURES=arm64"
 
@@ -117,6 +128,7 @@ build_with_cmake() {
     make $JOBS
     CURRENT_BUILD_CMAKE_OPTS=""
 }
+
 
 build_libserialport(){
     CURRENT_BUILD=libserialport
@@ -359,25 +371,25 @@ build_karchive () {
 
 
 build_deps(){
-    #build_libserialport
-    #build_libiio
-    #build_libad9361
-    #build_libm2k
-    #build_gnuradio
-    #build_grscopy
-    #build_grm2k
-    #build_qwt
-    #build_libsigrokdecode
-    #build_libtinyiiod
-    #build_kddock
-    #build_ecm
+    build_libserialport
+    build_libiio
+    build_libad9361
+    build_libm2k
+    build_gnuradio
+    build_grscopy
+    build_grm2k
+    build_qwt
+    build_libsigrokdecode
+    build_libtinyiiod
+    build_kddock
+    build_ecm
     build_karchive
 }
 
-#install_packages
-#export_paths
-#clone
-#generate_status_file
+install_packages
+export_paths
+clone
+generate_status_file
 build_deps
 
 

@@ -10,11 +10,16 @@
 # Prefix script setup code shared between KDEInstallDirsX.cmake, not public API.
 #
 
-configure_file(${CMAKE_CURRENT_LIST_DIR}/prefix.sh.in ${CMAKE_CURRENT_BINARY_DIR}/prefix.sh @ONLY)
+if (CMAKE_CROSSCOMPILING)
+    # we can't run anything when cross-compiling, so no need to even bother with a prefix script in this case
+    return()
+endif()
+
+configure_file(${CMAKE_CURRENT_LIST_DIR}/prefix.sh.cmake ${CMAKE_CURRENT_BINARY_DIR}/prefix.sh @ONLY)
 
 find_program(FISH_EXECUTABLE fish)
 if(FISH_EXECUTABLE)
-    configure_file(${CMAKE_CURRENT_LIST_DIR}/prefix.sh.fish.in ${CMAKE_CURRENT_BINARY_DIR}/prefix.sh.fish @ONLY)
+    configure_file(${CMAKE_CURRENT_LIST_DIR}/prefix.sh.fish.cmake ${CMAKE_CURRENT_BINARY_DIR}/prefix.sh.fish @ONLY)
 endif()
 
 option(KDE_INSTALL_PREFIX_SCRIPT "Installs ${CMAKE_INSTALL_PREFIX}/prefix.sh that sets up the necessary environment variables" OFF)

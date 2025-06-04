@@ -54,7 +54,7 @@ if (ANDROID_EXTRA_LIBS)
 endif()
 
 set(extraplugins)
-foreach(folder "plugins" "share" "lib/qml") #now we check for folders with extra stuff
+foreach(folder "plugins" "share" "lib/qml" "translations") #now we check for folders with extra stuff
     set(plugin "${EXPORT_DIR}/${folder}")
     if(EXISTS "${plugin}")
         list(APPEND extraplugins "${plugin}")
@@ -80,7 +80,9 @@ if(extraplugins)
 endif()
 
 file(READ "${INPUT_FILE}" CONTENTS)
-file(READ "stl" stl_contents)
+if(EXISTS "stl") # only provided for legacy pre-Clang toolchains
+    file(READ "stl" stl_contents)
+endif()
 
 file(READ "ranlib" ranlib_contents)
 string(REGEX MATCH ".+/toolchains/llvm/prebuilt/.+/bin/(.+)-ranlib" USE_LLVM ${ranlib_contents})
