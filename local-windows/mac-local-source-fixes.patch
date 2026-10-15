@@ -1,0 +1,51 @@
+diff --git a/core/CMakeLists.txt b/core/CMakeLists.txt
+index b1353a1f..0100a3f3 100644
+--- a/core/CMakeLists.txt
++++ b/core/CMakeLists.txt
+@@ -72,7 +72,7 @@ if(${WITH_PYTHON})
+ 		message(STATUS "Using default Python EXECUTABLE")
+ 	endif()
+ 
+-	if(CMAKE_SYSTEM_PROCESSOR MATCHES arm OR CMAKE_SYSTEM_PROCESSOR MATCHES aarch64)
++	if(CMAKE_CROSSCOMPILING AND (CMAKE_SYSTEM_PROCESSOR MATCHES arm OR CMAKE_SYSTEM_PROCESSOR MATCHES aarch64))
+ 		find_package(Python3 REQUIRED COMPONENTS Development)
+ 	else()
+ 		find_package(Python3 REQUIRED COMPONENTS Interpreter Development)
+diff --git a/main.cpp b/main.cpp
+index 2610abf5..955ffe5e 100644
+--- a/main.cpp
++++ b/main.cpp
+@@ -98,6 +98,11 @@ void printRuntimeEnvironmentInfo()
+ 
+ int main(int argc, char *argv[])
+ {
++#ifdef __APPLE__
++	// Python decoder imports must not change the signed application bundle.
++	qputenv("PYTHONDONTWRITEBYTECODE", "1");
++#endif
++
+ #ifdef __APPLE__
+ 	// this forces a newer version of OpenGL to work with Qt3DExtras
+ 	QSurfaceFormat fmt;
+diff --git a/packages/m2k/plugins/m2k/m2k-gui/CMakeLists.txt b/packages/m2k/plugins/m2k/m2k-gui/CMakeLists.txt
+index acfbcb1d..761a9591 100644
+--- a/packages/m2k/plugins/m2k/m2k-gui/CMakeLists.txt
++++ b/packages/m2k/plugins/m2k/m2k-gui/CMakeLists.txt
+@@ -87,6 +87,7 @@ endif()
+ set(PROJECT_SOURCES ${SRC_LIST} ${HEADER_LIST} ${UI_LIST})
+ 
+ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets Xml Svg REQUIRED)
++find_package(Volk REQUIRED)
+ option(SCOPY_ENABLE_GR_GUI "Build gnuradio addons for scopy-gui" ON)
+ option(SCOPY_ENABLE_SIGROK_GUI "Build sigrok addons for scopy-gui" ON)
+ 
+@@ -136,7 +137,8 @@ target_include_directories(
+ 
+ target_link_libraries(
+ 	${PROJECT_NAME}
+-	PUBLIC Qt${QT_VERSION_MAJOR}::Widgets
++	PUBLIC Volk::volk
++	       Qt${QT_VERSION_MAJOR}::Widgets
+ 	       Qt${QT_VERSION_MAJOR}::Xml
+ 	       Qt${QT_VERSION_MAJOR}::Svg
+ 	       ${QWT_LIBRARIES}

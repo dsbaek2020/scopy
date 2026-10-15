@@ -1,0 +1,10 @@
+Scopy v2.2.1 Windows Codex handoff
+
+Read WINDOWS_CODEX_HANDOFF.md first.
+Published branch target:
+https://github.com/dsbaek2020/scopy/tree/codex/v2.2.1-macos-m4-windows-handoff
+
+The branch and source ZIP already contain the three local source fixes.
+Apply mac-local-source-fixes.patch only to a fresh official v2.2.1 checkout.
+Windows dependencies, Qt Creator Kit and GDB still need preparation there.
+No Windows build/runtime verification has been performed on this Mac.

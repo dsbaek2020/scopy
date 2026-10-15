@@ -99,6 +99,11 @@ void printRuntimeEnvironmentInfo()
 int main(int argc, char *argv[])
 {
 #ifdef __APPLE__
+	// Python decoder imports must not change the signed application bundle.
+	qputenv("PYTHONDONTWRITEBYTECODE", "1");
+#endif
+
+#ifdef __APPLE__
 	// this forces a newer version of OpenGL to work with Qt3DExtras
 	QSurfaceFormat fmt;
 	fmt.setProfile(QSurfaceFormat::CoreProfile);

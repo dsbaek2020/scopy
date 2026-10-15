@@ -1,0 +1,18 @@
+{
+  "base_commit": "299d9f150fd8ecb722701d5f615a74877878e4b0",
+  "windows_execution_verified": false,
+  "personal_fork": "dsbaek2020/scopy",
+  "fork_parent": "analogdevicesinc/scopy",
+  "overlaid_source_files": [
+    "core/CMakeLists.txt",
+    "main.cpp",
+    "packages/m2k/plugins/m2k/m2k-gui/CMakeLists.txt"
+  ],
+  "primary_handoff": "local-windows/WINDOWS_CODEX_HANDOFF.md",
+  "source_snapshot_already_patched": true,
+  "patch_for_fresh_upstream_clone_only": "local-windows/mac-local-source-fixes.patch",
+  "requested_workflow": "Qt Creator Run/Debug on Windows; preparation by Windows Codex",
+  "windows_build_and_ide_setup_complete": false,
+  "published_branch": "codex/v2.2.1-macos-m4-windows-handoff",
+  "source_fix_state": "already applied in the branch and source snapshot"
+}

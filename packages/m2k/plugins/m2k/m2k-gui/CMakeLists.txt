@@ -87,6 +87,7 @@ endif()
 set(PROJECT_SOURCES ${SRC_LIST} ${HEADER_LIST} ${UI_LIST})
 
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets Xml Svg REQUIRED)
+find_package(Volk REQUIRED)
 option(SCOPY_ENABLE_GR_GUI "Build gnuradio addons for scopy-gui" ON)
 option(SCOPY_ENABLE_SIGROK_GUI "Build sigrok addons for scopy-gui" ON)
 
@@ -136,7 +137,8 @@ target_include_directories(
 
 target_link_libraries(
 	${PROJECT_NAME}
-	PUBLIC Qt${QT_VERSION_MAJOR}::Widgets
+	PUBLIC Volk::volk
+	       Qt${QT_VERSION_MAJOR}::Widgets
 	       Qt${QT_VERSION_MAJOR}::Xml
 	       Qt${QT_VERSION_MAJOR}::Svg
 	       ${QWT_LIBRARIES}

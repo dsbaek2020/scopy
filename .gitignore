@@ -76,3 +76,18 @@ compile_commands.json
 .venv/*
 artifacts/*
 build-*
+# Machine-local Scopy build outputs and diagnostic snapshots
+/CMakeUserPresets.json
+/staging/
+/dist/
+/local-macos/logs/
+/local-macos/*.done
+/local-macos/__pycache__/
+/local-macos/settings-backup/
+/local-macos/first-run-app/
+/local-macos/original-projects.json
+/local-macos/runtime-validation.json
+/local-macos/qtcreator-validation.json
+/local-macos/bundle-verification.json
+# The upstream build* rule otherwise hides this reproducibility script.
+!/local-macos/build.py

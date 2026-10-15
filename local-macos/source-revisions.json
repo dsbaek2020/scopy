@@ -1,0 +1,81 @@
+{
+  "libserialport": {
+    "repository": "sigrokproject/libserialport",
+    "branch": "master",
+    "commit": "21b3dfe5f68c205be4086469335fd2fc2ce11ed2"
+  },
+  "libiio": {
+    "repository": "analogdevicesinc/libiio",
+    "branch": "v0.26",
+    "commit": "a0eca0d2bf10326506fb762f0eec14255b27bef5"
+  },
+  "libad9361": {
+    "repository": "analogdevicesinc/libad9361-iio",
+    "branch": "main",
+    "commit": "486e0ad4da422760a8338a8582caf5783691c808"
+  },
+  "libm2k": {
+    "repository": "analogdevicesinc/libm2k",
+    "branch": "main",
+    "commit": "6a31b3745aee6f544e63b2196a6171f92c2f43a2"
+  },
+  "gnuradio": {
+    "repository": "analogdevicesinc/gnuradio",
+    "branch": "scopy2-maint-3.10",
+    "commit": "696841710f0ba38687af0873e4475860bd82da99"
+  },
+  "gr-scopy": {
+    "repository": "analogdevicesinc/gr-scopy",
+    "branch": "3.10",
+    "commit": "a69ccb22578621a69acc187fc0d006b5a030a744"
+  },
+  "gr-m2k": {
+    "repository": "analogdevicesinc/gr-m2k",
+    "branch": "main",
+    "commit": "5dfacf945d6c598e682605609e4005bf422a5d5e"
+  },
+  "qwt": {
+    "repository": "cseci/qwt",
+    "branch": "qwt-multiaxes-updated",
+    "commit": "34c2c7e45ef7fafb15a9126f0aa71d2c7ad1efcd"
+  },
+  "libsigrokdecode": {
+    "repository": "sigrokproject/libsigrokdecode",
+    "branch": "master",
+    "commit": "71f451443029322d57376214c330b518efd84f88"
+  },
+  "libtinyiiod": {
+    "repository": "analogdevicesinc/libtinyiiod",
+    "branch": "master",
+    "commit": "956bce332b166144bf86664db155af3c1c49287a"
+  },
+  "KDDockWidgets": {
+    "repository": "KDAB/KDDockWidgets",
+    "branch": "2.1",
+    "commit": "e5b0c2f39ff7c347d9f54c5223fb3062e4d69b22"
+  },
+  "extra-cmake-modules": {
+    "repository": "KDE/extra-cmake-modules",
+    "branch": "kf5",
+    "commit": "6edcc353e964247e26e16f34b6965e002966a893"
+  },
+  "karchive": {
+    "repository": "KDE/karchive",
+    "branch": "kf5",
+    "commit": "e73ea6369d2db372f55e2e02be0b0b2263a28406"
+  },
+  "genalyzer": {
+    "repository": "analogdevicesinc/genalyzer",
+    "branch": "main",
+    "commit": "78315eeba4dcfbda42215107ee8320d7ce29ca93"
+  },
+  "iio-emu": {
+    "repository": "analogdevicesinc/iio-emu",
+    "branch": "main",
+    "commit": "cbc0c0419767a30321b627581fbe6f62f1ce4e80"
+  },
+  "scopy": {
+    "tag": "v2.2.1",
+    "commit": "299d9f150fd8ecb722701d5f615a74877878e4b0"
+  }
+}
